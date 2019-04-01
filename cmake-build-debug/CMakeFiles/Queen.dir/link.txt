@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Queen.dir/Codeforces/Round-549-Div2-1143-C-Queen.cpp.o  -o Queen 
