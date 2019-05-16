@@ -1,4 +1,5 @@
 /home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/Queen.dir
+/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/Beatles.dir
+/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/cryptoOffline1.dir
 /home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/ProblemSolving.dir
+/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/Lucky.dir

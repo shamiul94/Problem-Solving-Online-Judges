@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/cryptoOffline1.dir/Offline/cryptoOffline.cpp.o  -o cryptoOffline1 

@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Queen">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/Queen" prefix_auto="0" extension_auto="0"/>
+			<Target title="Beatles">
+				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/Beatles" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -44,14 +44,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 Queen"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 Beatles"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Queen/fast">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/Queen" prefix_auto="0" extension_auto="0"/>
+			<Target title="Beatles/fast">
+				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/Beatles" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -67,7 +67,53 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 Queen/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 Beatles/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cryptoOffline1">
+				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/cryptoOffline1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 cryptoOffline1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cryptoOffline1/fast">
+				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/cryptoOffline1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 cryptoOffline1/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -83,8 +129,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ProblemSolving">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/ProblemSolving" prefix_auto="0" extension_auto="0"/>
+			<Target title="Lucky">
+				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/Lucky" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -100,14 +146,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProblemSolving"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lucky"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ProblemSolving/fast">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/ProblemSolving" prefix_auto="0" extension_auto="0"/>
+			<Target title="Lucky/fast">
+				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/Lucky" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -123,19 +169,26 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProblemSolving/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lucky/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/Round-549-Div2-1143-C-Queen.cpp">
-			<Option target="Queen"/>
-			<Option target="ProblemSolving"/>
+		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/Round-549-Div2-1143-D-The Beatles.cpp">
+			<Option target="Beatles"/>
 		</Unit>
-		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/main.cpp">
-			<Option target="ProblemSolving"/>
+		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/LightOJ/1276 - Very Lucky Numbers.cpp">
+			<Option target="Beatles"/>
+			<Option target="Lucky"/>
+		</Unit>
+		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Offline/cryptoHeader.h">
+			<Option target="Beatles"/>
+		</Unit>
+		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Offline/cryptoOffline.cpp">
+			<Option target="Beatles"/>
+			<Option target="cryptoOffline1"/>
 		</Unit>
 		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

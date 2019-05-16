@@ -60,76 +60,113 @@ CMAKE_SOURCE_DIR = "/home/shamiul93/Documents/Problem Solving Online Judges"
 CMAKE_BINARY_DIR = "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/Queen.dir
+# Target rules for target CMakeFiles/Beatles.dir
 
 # All Build rule for target.
-CMakeFiles/Queen.dir/all:
-	$(MAKE) -f CMakeFiles/Queen.dir/build.make CMakeFiles/Queen.dir/depend
-	$(MAKE) -f CMakeFiles/Queen.dir/build.make CMakeFiles/Queen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=4,5 "Built target Queen"
-.PHONY : CMakeFiles/Queen.dir/all
+CMakeFiles/Beatles.dir/all:
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/depend
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4 "Built target Beatles"
+.PHONY : CMakeFiles/Beatles.dir/all
 
 # Include target in all.
-all: CMakeFiles/Queen.dir/all
+all: CMakeFiles/Beatles.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Queen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Queen.dir/all
+CMakeFiles/Beatles.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Beatles.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Queen.dir/rule
+.PHONY : CMakeFiles/Beatles.dir/rule
 
 # Convenience name for target.
-Queen: CMakeFiles/Queen.dir/rule
+Beatles: CMakeFiles/Beatles.dir/rule
 
-.PHONY : Queen
-
-# clean rule for target.
-CMakeFiles/Queen.dir/clean:
-	$(MAKE) -f CMakeFiles/Queen.dir/build.make CMakeFiles/Queen.dir/clean
-.PHONY : CMakeFiles/Queen.dir/clean
+.PHONY : Beatles
 
 # clean rule for target.
-clean: CMakeFiles/Queen.dir/clean
+CMakeFiles/Beatles.dir/clean:
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/clean
+.PHONY : CMakeFiles/Beatles.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Beatles.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ProblemSolving.dir
+# Target rules for target CMakeFiles/cryptoOffline1.dir
 
 # All Build rule for target.
-CMakeFiles/ProblemSolving.dir/all:
-	$(MAKE) -f CMakeFiles/ProblemSolving.dir/build.make CMakeFiles/ProblemSolving.dir/depend
-	$(MAKE) -f CMakeFiles/ProblemSolving.dir/build.make CMakeFiles/ProblemSolving.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target ProblemSolving"
-.PHONY : CMakeFiles/ProblemSolving.dir/all
+CMakeFiles/cryptoOffline1.dir/all:
+	$(MAKE) -f CMakeFiles/cryptoOffline1.dir/build.make CMakeFiles/cryptoOffline1.dir/depend
+	$(MAKE) -f CMakeFiles/cryptoOffline1.dir/build.make CMakeFiles/cryptoOffline1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=7,8 "Built target cryptoOffline1"
+.PHONY : CMakeFiles/cryptoOffline1.dir/all
 
 # Include target in all.
-all: CMakeFiles/ProblemSolving.dir/all
+all: CMakeFiles/cryptoOffline1.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ProblemSolving.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ProblemSolving.dir/all
+CMakeFiles/cryptoOffline1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cryptoOffline1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/ProblemSolving.dir/rule
+.PHONY : CMakeFiles/cryptoOffline1.dir/rule
 
 # Convenience name for target.
-ProblemSolving: CMakeFiles/ProblemSolving.dir/rule
+cryptoOffline1: CMakeFiles/cryptoOffline1.dir/rule
 
-.PHONY : ProblemSolving
-
-# clean rule for target.
-CMakeFiles/ProblemSolving.dir/clean:
-	$(MAKE) -f CMakeFiles/ProblemSolving.dir/build.make CMakeFiles/ProblemSolving.dir/clean
-.PHONY : CMakeFiles/ProblemSolving.dir/clean
+.PHONY : cryptoOffline1
 
 # clean rule for target.
-clean: CMakeFiles/ProblemSolving.dir/clean
+CMakeFiles/cryptoOffline1.dir/clean:
+	$(MAKE) -f CMakeFiles/cryptoOffline1.dir/build.make CMakeFiles/cryptoOffline1.dir/clean
+.PHONY : CMakeFiles/cryptoOffline1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/cryptoOffline1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Lucky.dir
+
+# All Build rule for target.
+CMakeFiles/Lucky.dir/all:
+	$(MAKE) -f CMakeFiles/Lucky.dir/build.make CMakeFiles/Lucky.dir/depend
+	$(MAKE) -f CMakeFiles/Lucky.dir/build.make CMakeFiles/Lucky.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=5,6 "Built target Lucky"
+.PHONY : CMakeFiles/Lucky.dir/all
+
+# Include target in all.
+all: CMakeFiles/Lucky.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Lucky.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Lucky.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Lucky.dir/rule
+
+# Convenience name for target.
+Lucky: CMakeFiles/Lucky.dir/rule
+
+.PHONY : Lucky
+
+# clean rule for target.
+CMakeFiles/Lucky.dir/clean:
+	$(MAKE) -f CMakeFiles/Lucky.dir/build.make CMakeFiles/Lucky.dir/clean
+.PHONY : CMakeFiles/Lucky.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Lucky.dir/clean
 
 .PHONY : clean
 

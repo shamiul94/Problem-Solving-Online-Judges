@@ -111,87 +111,130 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Queen
+# Target rules for targets named Beatles
 
 # Build rule for target.
-Queen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Queen
-.PHONY : Queen
+Beatles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Beatles
+.PHONY : Beatles
 
 # fast build rule for target.
-Queen/fast:
-	$(MAKE) -f CMakeFiles/Queen.dir/build.make CMakeFiles/Queen.dir/build
-.PHONY : Queen/fast
+Beatles/fast:
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/build
+.PHONY : Beatles/fast
 
 #=============================================================================
-# Target rules for targets named ProblemSolving
+# Target rules for targets named cryptoOffline1
 
 # Build rule for target.
-ProblemSolving: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ProblemSolving
-.PHONY : ProblemSolving
+cryptoOffline1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cryptoOffline1
+.PHONY : cryptoOffline1
 
 # fast build rule for target.
-ProblemSolving/fast:
-	$(MAKE) -f CMakeFiles/ProblemSolving.dir/build.make CMakeFiles/ProblemSolving.dir/build
-.PHONY : ProblemSolving/fast
+cryptoOffline1/fast:
+	$(MAKE) -f CMakeFiles/cryptoOffline1.dir/build.make CMakeFiles/cryptoOffline1.dir/build
+.PHONY : cryptoOffline1/fast
 
-Codeforces/Round-549-Div2-1143-C-Queen.o: Codeforces/Round-549-Div2-1143-C-Queen.cpp.o
+#=============================================================================
+# Target rules for targets named Lucky
 
-.PHONY : Codeforces/Round-549-Div2-1143-C-Queen.o
+# Build rule for target.
+Lucky: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lucky
+.PHONY : Lucky
 
-# target to build an object file
-Codeforces/Round-549-Div2-1143-C-Queen.cpp.o:
-	$(MAKE) -f CMakeFiles/Queen.dir/build.make CMakeFiles/Queen.dir/Codeforces/Round-549-Div2-1143-C-Queen.cpp.o
-	$(MAKE) -f CMakeFiles/ProblemSolving.dir/build.make CMakeFiles/ProblemSolving.dir/Codeforces/Round-549-Div2-1143-C-Queen.cpp.o
-.PHONY : Codeforces/Round-549-Div2-1143-C-Queen.cpp.o
+# fast build rule for target.
+Lucky/fast:
+	$(MAKE) -f CMakeFiles/Lucky.dir/build.make CMakeFiles/Lucky.dir/build
+.PHONY : Lucky/fast
 
-Codeforces/Round-549-Div2-1143-C-Queen.i: Codeforces/Round-549-Div2-1143-C-Queen.cpp.i
+Codeforces/Round-549-Div2-1143-D-The_Beatles.o: Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.o
 
-.PHONY : Codeforces/Round-549-Div2-1143-C-Queen.i
-
-# target to preprocess a source file
-Codeforces/Round-549-Div2-1143-C-Queen.cpp.i:
-	$(MAKE) -f CMakeFiles/Queen.dir/build.make CMakeFiles/Queen.dir/Codeforces/Round-549-Div2-1143-C-Queen.cpp.i
-	$(MAKE) -f CMakeFiles/ProblemSolving.dir/build.make CMakeFiles/ProblemSolving.dir/Codeforces/Round-549-Div2-1143-C-Queen.cpp.i
-.PHONY : Codeforces/Round-549-Div2-1143-C-Queen.cpp.i
-
-Codeforces/Round-549-Div2-1143-C-Queen.s: Codeforces/Round-549-Div2-1143-C-Queen.cpp.s
-
-.PHONY : Codeforces/Round-549-Div2-1143-C-Queen.s
-
-# target to generate assembly for a file
-Codeforces/Round-549-Div2-1143-C-Queen.cpp.s:
-	$(MAKE) -f CMakeFiles/Queen.dir/build.make CMakeFiles/Queen.dir/Codeforces/Round-549-Div2-1143-C-Queen.cpp.s
-	$(MAKE) -f CMakeFiles/ProblemSolving.dir/build.make CMakeFiles/ProblemSolving.dir/Codeforces/Round-549-Div2-1143-C-Queen.cpp.s
-.PHONY : Codeforces/Round-549-Div2-1143-C-Queen.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : Codeforces/Round-549-Div2-1143-D-The_Beatles.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/ProblemSolving.dir/build.make CMakeFiles/ProblemSolving.dir/main.cpp.o
-.PHONY : main.cpp.o
+Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.o:
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.o
+.PHONY : Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.o
 
-main.i: main.cpp.i
+Codeforces/Round-549-Div2-1143-D-The_Beatles.i: Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.i
 
-.PHONY : main.i
+.PHONY : Codeforces/Round-549-Div2-1143-D-The_Beatles.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/ProblemSolving.dir/build.make CMakeFiles/ProblemSolving.dir/main.cpp.i
-.PHONY : main.cpp.i
+Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.i:
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.i
+.PHONY : Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.i
 
-main.s: main.cpp.s
+Codeforces/Round-549-Div2-1143-D-The_Beatles.s: Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.s
 
-.PHONY : main.s
+.PHONY : Codeforces/Round-549-Div2-1143-D-The_Beatles.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/ProblemSolving.dir/build.make CMakeFiles/ProblemSolving.dir/main.cpp.s
-.PHONY : main.cpp.s
+Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.s:
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.s
+.PHONY : Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.s
+
+LightOJ/1276_-_Very_Lucky_Numbers.o: LightOJ/1276_-_Very_Lucky_Numbers.cpp.o
+
+.PHONY : LightOJ/1276_-_Very_Lucky_Numbers.o
+
+# target to build an object file
+LightOJ/1276_-_Very_Lucky_Numbers.cpp.o:
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.o
+	$(MAKE) -f CMakeFiles/Lucky.dir/build.make CMakeFiles/Lucky.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.o
+.PHONY : LightOJ/1276_-_Very_Lucky_Numbers.cpp.o
+
+LightOJ/1276_-_Very_Lucky_Numbers.i: LightOJ/1276_-_Very_Lucky_Numbers.cpp.i
+
+.PHONY : LightOJ/1276_-_Very_Lucky_Numbers.i
+
+# target to preprocess a source file
+LightOJ/1276_-_Very_Lucky_Numbers.cpp.i:
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.i
+	$(MAKE) -f CMakeFiles/Lucky.dir/build.make CMakeFiles/Lucky.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.i
+.PHONY : LightOJ/1276_-_Very_Lucky_Numbers.cpp.i
+
+LightOJ/1276_-_Very_Lucky_Numbers.s: LightOJ/1276_-_Very_Lucky_Numbers.cpp.s
+
+.PHONY : LightOJ/1276_-_Very_Lucky_Numbers.s
+
+# target to generate assembly for a file
+LightOJ/1276_-_Very_Lucky_Numbers.cpp.s:
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.s
+	$(MAKE) -f CMakeFiles/Lucky.dir/build.make CMakeFiles/Lucky.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.s
+.PHONY : LightOJ/1276_-_Very_Lucky_Numbers.cpp.s
+
+Offline/cryptoOffline.o: Offline/cryptoOffline.cpp.o
+
+.PHONY : Offline/cryptoOffline.o
+
+# target to build an object file
+Offline/cryptoOffline.cpp.o:
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Offline/cryptoOffline.cpp.o
+	$(MAKE) -f CMakeFiles/cryptoOffline1.dir/build.make CMakeFiles/cryptoOffline1.dir/Offline/cryptoOffline.cpp.o
+.PHONY : Offline/cryptoOffline.cpp.o
+
+Offline/cryptoOffline.i: Offline/cryptoOffline.cpp.i
+
+.PHONY : Offline/cryptoOffline.i
+
+# target to preprocess a source file
+Offline/cryptoOffline.cpp.i:
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Offline/cryptoOffline.cpp.i
+	$(MAKE) -f CMakeFiles/cryptoOffline1.dir/build.make CMakeFiles/cryptoOffline1.dir/Offline/cryptoOffline.cpp.i
+.PHONY : Offline/cryptoOffline.cpp.i
+
+Offline/cryptoOffline.s: Offline/cryptoOffline.cpp.s
+
+.PHONY : Offline/cryptoOffline.s
+
+# target to generate assembly for a file
+Offline/cryptoOffline.cpp.s:
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Offline/cryptoOffline.cpp.s
+	$(MAKE) -f CMakeFiles/cryptoOffline1.dir/build.make CMakeFiles/cryptoOffline1.dir/Offline/cryptoOffline.cpp.s
+.PHONY : Offline/cryptoOffline.cpp.s
 
 # Help Target
 help:
@@ -200,15 +243,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Queen"
+	@echo "... Beatles"
+	@echo "... cryptoOffline1"
 	@echo "... edit_cache"
-	@echo "... ProblemSolving"
-	@echo "... Codeforces/Round-549-Div2-1143-C-Queen.o"
-	@echo "... Codeforces/Round-549-Div2-1143-C-Queen.i"
-	@echo "... Codeforces/Round-549-Div2-1143-C-Queen.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Lucky"
+	@echo "... Codeforces/Round-549-Div2-1143-D-The_Beatles.o"
+	@echo "... Codeforces/Round-549-Div2-1143-D-The_Beatles.i"
+	@echo "... Codeforces/Round-549-Div2-1143-D-The_Beatles.s"
+	@echo "... LightOJ/1276_-_Very_Lucky_Numbers.o"
+	@echo "... LightOJ/1276_-_Very_Lucky_Numbers.i"
+	@echo "... LightOJ/1276_-_Very_Lucky_Numbers.s"
+	@echo "... Offline/cryptoOffline.o"
+	@echo "... Offline/cryptoOffline.i"
+	@echo "... Offline/cryptoOffline.s"
 .PHONY : help
 
 
