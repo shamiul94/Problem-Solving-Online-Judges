@@ -1,8 +1,15 @@
 /**
 @author - Rumman BUET CSE'15
-Problem -
-Idea -
-Concept -
+Problem - 1276
+Idea - Binary search. recursion. tough one. kechal lagse.
+Concept - basically, 4 or 7 diye banano jaay emon joto number ase, era 'lucky' number.
+ eder banaisi generateLucky() diye. eta simple recursion.
+ ebar ei lucky der diye nijeder moddhe gun kore joto vabe number banano jaay, tara hobe 'very lucky'
+ number. ei gulare ber korsi generateVeryLucky() diye.
+
+ @Trick - 1. very lucky number negative ashte pare (ll er range exceed korle)
+            2. era MAX er cheye boro hoite pare. tokhn ar continue korar dorkar nai
+            3. *******era duplicate hoite pare. ki b**l re vai? ei jinish aage kheyal kori nai.
 */
 
 #include <bits/stdc++.h>
