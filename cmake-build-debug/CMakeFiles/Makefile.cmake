@@ -47,5 +47,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Beatles.dir/DependInfo.cmake"
   "CMakeFiles/cryptoOffline1.dir/DependInfo.cmake"
-  "CMakeFiles/Lucky.dir/DependInfo.cmake"
+  "CMakeFiles/LOJ-1276.dir/DependInfo.cmake"
+  "CMakeFiles/LOJ-1307.dir/DependInfo.cmake"
   )

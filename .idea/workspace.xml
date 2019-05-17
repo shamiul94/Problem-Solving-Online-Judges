@@ -2,9 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="ProblemSolving" targetName="LOJ-1276" />
       <config projectName="ProblemSolving" targetName="Beatles" />
       <config projectName="ProblemSolving" targetName="cryptoOffline1" />
-      <config projectName="ProblemSolving" targetName="Lucky" />
+      <config projectName="ProblemSolving" targetName="LOJ-1307" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -14,7 +15,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/LightOJ/1276 - Very Lucky Numbers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LightOJ/1276 - Very Lucky Numbers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My Template.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/My Template.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Beatles.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Beatles.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Beatles.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Beatles.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Beatles.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Beatles.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Beatles.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Beatles.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Beatles.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Beatles.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lucky.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lucky.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cryptoOffline1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cryptoOffline1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lucky" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lucky" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProblemSolving.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProblemSolving.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/out.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,29 +46,29 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cryptoOffline.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Offline/cryptoOffline.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="96" selection-start-line="96" selection-end-line="105" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1276 - Very Lucky Numbers.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LightOJ/1276 - Very Lucky Numbers.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="My Template.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/My Template.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2352">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="240">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1307-Counting Triangles.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LightOJ/1307-Counting Triangles.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1276 - Very Lucky Numbers.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LightOJ/1276 - Very Lucky Numbers.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -57,17 +76,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cryptoHeader.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Offline/cryptoHeader.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="120">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -75,8 +85,8 @@
       <file leaf-file-name="in.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/in.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -84,8 +94,8 @@
       <file leaf-file-name="out.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/out.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" lean-forward="true" selection-end-line="6" />
+            <state relative-caret-position="48">
+              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -106,11 +116,12 @@
       <list>
         <option value="$PROJECT_DIR$/Codeforces/Round-549-Div2-1143-D-The Beatles.cpp" />
         <option value="$PROJECT_DIR$/Offline/cryptoOffline.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/cmake-build-debug/out.txt" />
+        <option value="$PROJECT_DIR$/LightOJ/1276 - Very Lucky Numbers.cpp" />
         <option value="$PROJECT_DIR$/My Template.cpp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/in.txt" />
-        <option value="$PROJECT_DIR$/LightOJ/1276 - Very Lucky Numbers.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/LightOJ/1307-Counting Triangles.cpp" />
       </list>
     </option>
   </component>
@@ -179,16 +190,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lucky">
+  <component name="RunManager" selected="Application.LOJ-1307">
     <configuration name="Beatles" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProblemSolving" TARGET_NAME="Beatles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="Lucky" />
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="Lucky" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="Lucky" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProblemSolving" TARGET_NAME="Lucky" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="Lucky" />
+    <configuration name="LOJ-1276" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProblemSolving" TARGET_NAME="LOJ-1276" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="LOJ-1276" />
+    <configuration name="LOJ-1307" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProblemSolving" TARGET_NAME="LOJ-1307" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="LOJ-1307" />
     <configuration name="cryptoOffline1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProblemSolving" TARGET_NAME="cryptoOffline1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="Lucky" />
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.Beatles" />
       <item itemvalue="Application.cryptoOffline1" />
-      <item itemvalue="Application.Lucky" />
+      <item itemvalue="Application.LOJ-1276" />
+      <item itemvalue="Application.LOJ-1307" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -204,24 +217,24 @@
       <workItem from="1554097657527" duration="2658000" />
       <workItem from="1557550886955" duration="560000" />
       <workItem from="1557551481123" duration="3930000" />
-      <workItem from="1557994181976" duration="7235000" />
+      <workItem from="1557994181976" duration="12468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14383000" />
+    <option name="totallyTimeSpent" value="19616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="-11" width="1323" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14231643" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10976533" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32973805" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.32973805" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22496147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3312789" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -240,6 +253,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Offline/cryptoOffline.cpp">
@@ -315,20 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Offline/cryptoHeader.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Offline/cryptoOffline.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -336,31 +340,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/My Template.cpp">
+    <entry file="file://$PROJECT_DIR$/Offline/cryptoHeader.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2352">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/in.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" lean-forward="true" selection-end-line="6" />
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LightOJ/1276 - Very Lucky Numbers.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="317">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Template.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LightOJ/1307-Counting Triangles.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
         </state>
       </provider>
     </entry>

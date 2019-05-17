@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/LOJ-1276.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.o  -o LOJ-1276 

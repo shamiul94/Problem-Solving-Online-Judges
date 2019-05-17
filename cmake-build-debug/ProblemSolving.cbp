@@ -119,6 +119,52 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="LOJ-1276">
+				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/LOJ-1276" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 LOJ-1276"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LOJ-1276/fast">
+				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/LOJ-1276" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 LOJ-1276/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
 				<Option type="4"/>
@@ -129,8 +175,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Lucky">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/Lucky" prefix_auto="0" extension_auto="0"/>
+			<Target title="LOJ-1307">
+				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/LOJ-1307" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -146,14 +192,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lucky"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 LOJ-1307"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Lucky/fast">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/Lucky" prefix_auto="0" extension_auto="0"/>
+			<Target title="LOJ-1307/fast">
+				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/LOJ-1307" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -169,7 +215,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lucky/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 LOJ-1307/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -181,7 +227,11 @@
 		</Unit>
 		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/LightOJ/1276 - Very Lucky Numbers.cpp">
 			<Option target="Beatles"/>
-			<Option target="Lucky"/>
+			<Option target="LOJ-1276"/>
+		</Unit>
+		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/LightOJ/1307-Counting Triangles.cpp">
+			<Option target="Beatles"/>
+			<Option target="LOJ-1307"/>
 		</Unit>
 		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Offline/cryptoHeader.h">
 			<Option target="Beatles"/>

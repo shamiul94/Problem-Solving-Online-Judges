@@ -1,15 +1,14 @@
 /**
 @author - Rumman BUET CSE'15
-Problem - 
-Idea - 
-Concept - 
+Problem -
+Idea -
+Concept -
 */
 
 #include <bits/stdc++.h>
 
 #define PRINT_CASE(ans)                         printf("Case %lld: %lld\n",t, ans)
-#define SORT_VECTOR(vec)                        sort(vec.begin(), vec.end())
-
+#define SORT_VECTOR(vec)                        sort((vec).begin(), (vec).end())
 
 #define ll                                      long long int
 #define ull                                     unsigned long long
@@ -68,7 +67,7 @@ ll BigMod(ll B, ll P, ll M) {
     return R;
 }
 
-void printVec(vector<char> vec) {
+void printVec(vector<ll> vec) {
     for (int i = 0; i < vec.size(); i++) {
         cout << vec[i] << " ";
     }
@@ -90,14 +89,38 @@ bool check(int N, int pos) {
 
 /************************************** END OF INITIALS ****************************************/
 
+ll N;
+vector<ll> sides;
+
 int main() {
-    ll T, t = 0;
+//    fi;
+//    fo;
+    ll T, t = 0, side;
 
     sll(T);
 
     while (T--) {
         t++;
-        ll ans;
+
+        sides.clear();
+
+        sll(N);
+
+        for (ll i = 0; i < N; i++) {
+            sll(side);
+            sides.push_back(side);
+        }
+        SORT_VECTOR(sides);
+        ll ans = 0;
+        for (ll i = 0; i < N; i++) {
+            for (ll j = i + 1; j < N; j++) {
+                ll a, b, c;
+                a = sides[i];
+                b = sides[j];
+                c = a + b - 1; /*at most*/
+                ans += (upper_bound(sides.begin(), sides.end(), c) - sides.begin() - 1) - j;
+            }
+        }
 
         PRINT_CASE(ans);
     }

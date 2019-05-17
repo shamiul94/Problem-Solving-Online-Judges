@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/triangles.dir/LightOJ/1307-Counting_Triangles.cpp.o  -o triangles 

@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = "/home/shamiul93/Documents/Problem Solving Online Judges/cmak
 CMakeFiles/Beatles.dir/all:
 	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/depend
 	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4 "Built target Beatles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5 "Built target Beatles"
 .PHONY : CMakeFiles/Beatles.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/Beatles.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Beatles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Beatles.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/Beatles.dir/rule
@@ -103,7 +103,7 @@ clean: CMakeFiles/Beatles.dir/clean
 CMakeFiles/cryptoOffline1.dir/all:
 	$(MAKE) -f CMakeFiles/cryptoOffline1.dir/build.make CMakeFiles/cryptoOffline1.dir/depend
 	$(MAKE) -f CMakeFiles/cryptoOffline1.dir/build.make CMakeFiles/cryptoOffline1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=7,8 "Built target cryptoOffline1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=10,11 "Built target cryptoOffline1"
 .PHONY : CMakeFiles/cryptoOffline1.dir/all
 
 # Include target in all.
@@ -134,39 +134,76 @@ clean: CMakeFiles/cryptoOffline1.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Lucky.dir
+# Target rules for target CMakeFiles/LOJ-1276.dir
 
 # All Build rule for target.
-CMakeFiles/Lucky.dir/all:
-	$(MAKE) -f CMakeFiles/Lucky.dir/build.make CMakeFiles/Lucky.dir/depend
-	$(MAKE) -f CMakeFiles/Lucky.dir/build.make CMakeFiles/Lucky.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=5,6 "Built target Lucky"
-.PHONY : CMakeFiles/Lucky.dir/all
+CMakeFiles/LOJ-1276.dir/all:
+	$(MAKE) -f CMakeFiles/LOJ-1276.dir/build.make CMakeFiles/LOJ-1276.dir/depend
+	$(MAKE) -f CMakeFiles/LOJ-1276.dir/build.make CMakeFiles/LOJ-1276.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=6,7 "Built target LOJ-1276"
+.PHONY : CMakeFiles/LOJ-1276.dir/all
 
 # Include target in all.
-all: CMakeFiles/Lucky.dir/all
+all: CMakeFiles/LOJ-1276.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Lucky.dir/rule: cmake_check_build_system
+CMakeFiles/LOJ-1276.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Lucky.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LOJ-1276.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Lucky.dir/rule
+.PHONY : CMakeFiles/LOJ-1276.dir/rule
 
 # Convenience name for target.
-Lucky: CMakeFiles/Lucky.dir/rule
+LOJ-1276: CMakeFiles/LOJ-1276.dir/rule
 
-.PHONY : Lucky
-
-# clean rule for target.
-CMakeFiles/Lucky.dir/clean:
-	$(MAKE) -f CMakeFiles/Lucky.dir/build.make CMakeFiles/Lucky.dir/clean
-.PHONY : CMakeFiles/Lucky.dir/clean
+.PHONY : LOJ-1276
 
 # clean rule for target.
-clean: CMakeFiles/Lucky.dir/clean
+CMakeFiles/LOJ-1276.dir/clean:
+	$(MAKE) -f CMakeFiles/LOJ-1276.dir/build.make CMakeFiles/LOJ-1276.dir/clean
+.PHONY : CMakeFiles/LOJ-1276.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/LOJ-1276.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/LOJ-1307.dir
+
+# All Build rule for target.
+CMakeFiles/LOJ-1307.dir/all:
+	$(MAKE) -f CMakeFiles/LOJ-1307.dir/build.make CMakeFiles/LOJ-1307.dir/depend
+	$(MAKE) -f CMakeFiles/LOJ-1307.dir/build.make CMakeFiles/LOJ-1307.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=8,9 "Built target LOJ-1307"
+.PHONY : CMakeFiles/LOJ-1307.dir/all
+
+# Include target in all.
+all: CMakeFiles/LOJ-1307.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/LOJ-1307.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LOJ-1307.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/LOJ-1307.dir/rule
+
+# Convenience name for target.
+LOJ-1307: CMakeFiles/LOJ-1307.dir/rule
+
+.PHONY : LOJ-1307
+
+# clean rule for target.
+CMakeFiles/LOJ-1307.dir/clean:
+	$(MAKE) -f CMakeFiles/LOJ-1307.dir/build.make CMakeFiles/LOJ-1307.dir/clean
+.PHONY : CMakeFiles/LOJ-1307.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/LOJ-1307.dir/clean
 
 .PHONY : clean
 

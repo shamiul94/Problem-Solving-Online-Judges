@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shamiul93/Documents/Problem Solving Online Judges/LightOJ/1307-Counting Triangles.cpp
+bits/stdc++.h
+-
+
