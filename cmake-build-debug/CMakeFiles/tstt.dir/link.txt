@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tstt.dir/Testing/testing.cpp.o  -o tstt 

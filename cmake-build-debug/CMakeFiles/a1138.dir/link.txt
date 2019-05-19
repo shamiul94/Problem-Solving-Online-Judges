@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   "CMakeFiles/a1138.dir/LightOJ/1138-Trailing_Zeroes_(III).cpp.o"  -o a1138 

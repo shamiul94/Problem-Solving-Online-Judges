@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shamiul93/Documents/Problem Solving Online Judges/Offline/DES.h
+bits/stdc++.h
+-
+
+/home/shamiul93/Documents/Problem Solving Online Judges/Offline/test.cpp
+DES.h
+/home/shamiul93/Documents/Problem Solving Online Judges/Offline/DES.h
+

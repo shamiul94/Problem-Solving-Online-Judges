@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/transpose.dir/Offline/Transposition.cpp.o  -o transpose 

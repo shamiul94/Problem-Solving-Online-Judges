@@ -1,6 +1,3 @@
 /home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/Beatles.dir
-/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/cryptoOffline1.dir
-/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/LOJ-1276.dir
 /home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/LOJ-1307.dir
+/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/a1138.dir

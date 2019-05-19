@@ -153,12 +153,62 @@ CMakeFiles/Beatles.dir/LightOJ/1307-Counting_Triangles.cpp.o.provides: CMakeFile
 CMakeFiles/Beatles.dir/LightOJ/1307-Counting_Triangles.cpp.o.provides.build: CMakeFiles/Beatles.dir/LightOJ/1307-Counting_Triangles.cpp.o
 
 
+CMakeFiles/Beatles.dir/Offline/DES.cpp.o: CMakeFiles/Beatles.dir/flags.make
+CMakeFiles/Beatles.dir/Offline/DES.cpp.o: ../Offline/DES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Beatles.dir/Offline/DES.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Beatles.dir/Offline/DES.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/Offline/DES.cpp"
+
+CMakeFiles/Beatles.dir/Offline/DES.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Beatles.dir/Offline/DES.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/Offline/DES.cpp" > CMakeFiles/Beatles.dir/Offline/DES.cpp.i
+
+CMakeFiles/Beatles.dir/Offline/DES.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Beatles.dir/Offline/DES.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/Offline/DES.cpp" -o CMakeFiles/Beatles.dir/Offline/DES.cpp.s
+
+CMakeFiles/Beatles.dir/Offline/DES.cpp.o.requires:
+
+.PHONY : CMakeFiles/Beatles.dir/Offline/DES.cpp.o.requires
+
+CMakeFiles/Beatles.dir/Offline/DES.cpp.o.provides: CMakeFiles/Beatles.dir/Offline/DES.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Offline/DES.cpp.o.provides.build
+.PHONY : CMakeFiles/Beatles.dir/Offline/DES.cpp.o.provides
+
+CMakeFiles/Beatles.dir/Offline/DES.cpp.o.provides.build: CMakeFiles/Beatles.dir/Offline/DES.cpp.o
+
+
+CMakeFiles/Beatles.dir/Offline/test.cpp.o: CMakeFiles/Beatles.dir/flags.make
+CMakeFiles/Beatles.dir/Offline/test.cpp.o: ../Offline/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Beatles.dir/Offline/test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Beatles.dir/Offline/test.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/Offline/test.cpp"
+
+CMakeFiles/Beatles.dir/Offline/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Beatles.dir/Offline/test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/Offline/test.cpp" > CMakeFiles/Beatles.dir/Offline/test.cpp.i
+
+CMakeFiles/Beatles.dir/Offline/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Beatles.dir/Offline/test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/Offline/test.cpp" -o CMakeFiles/Beatles.dir/Offline/test.cpp.s
+
+CMakeFiles/Beatles.dir/Offline/test.cpp.o.requires:
+
+.PHONY : CMakeFiles/Beatles.dir/Offline/test.cpp.o.requires
+
+CMakeFiles/Beatles.dir/Offline/test.cpp.o.provides: CMakeFiles/Beatles.dir/Offline/test.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Offline/test.cpp.o.provides.build
+.PHONY : CMakeFiles/Beatles.dir/Offline/test.cpp.o.provides
+
+CMakeFiles/Beatles.dir/Offline/test.cpp.o.provides.build: CMakeFiles/Beatles.dir/Offline/test.cpp.o
+
+
 # Object files for target Beatles
 Beatles_OBJECTS = \
 "CMakeFiles/Beatles.dir/Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.o" \
 "CMakeFiles/Beatles.dir/Offline/cryptoOffline.cpp.o" \
 "CMakeFiles/Beatles.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.o" \
-"CMakeFiles/Beatles.dir/LightOJ/1307-Counting_Triangles.cpp.o"
+"CMakeFiles/Beatles.dir/LightOJ/1307-Counting_Triangles.cpp.o" \
+"CMakeFiles/Beatles.dir/Offline/DES.cpp.o" \
+"CMakeFiles/Beatles.dir/Offline/test.cpp.o"
 
 # External object files for target Beatles
 Beatles_EXTERNAL_OBJECTS =
@@ -167,9 +217,11 @@ Beatles: CMakeFiles/Beatles.dir/Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp
 Beatles: CMakeFiles/Beatles.dir/Offline/cryptoOffline.cpp.o
 Beatles: CMakeFiles/Beatles.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.o
 Beatles: CMakeFiles/Beatles.dir/LightOJ/1307-Counting_Triangles.cpp.o
+Beatles: CMakeFiles/Beatles.dir/Offline/DES.cpp.o
+Beatles: CMakeFiles/Beatles.dir/Offline/test.cpp.o
 Beatles: CMakeFiles/Beatles.dir/build.make
 Beatles: CMakeFiles/Beatles.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Beatles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Beatles"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Beatles.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +233,8 @@ CMakeFiles/Beatles.dir/requires: CMakeFiles/Beatles.dir/Codeforces/Round-549-Div
 CMakeFiles/Beatles.dir/requires: CMakeFiles/Beatles.dir/Offline/cryptoOffline.cpp.o.requires
 CMakeFiles/Beatles.dir/requires: CMakeFiles/Beatles.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.o.requires
 CMakeFiles/Beatles.dir/requires: CMakeFiles/Beatles.dir/LightOJ/1307-Counting_Triangles.cpp.o.requires
+CMakeFiles/Beatles.dir/requires: CMakeFiles/Beatles.dir/Offline/DES.cpp.o.requires
+CMakeFiles/Beatles.dir/requires: CMakeFiles/Beatles.dir/Offline/test.cpp.o.requires
 
 .PHONY : CMakeFiles/Beatles.dir/requires
 

@@ -75,17 +75,25 @@ void printVec(vector<char> vec) {
     cout << endl;
 }
 
-
-int Set(int N, int pos) {
-    return N = N | (1 << pos);
+ll Set(ll N, ll pos) {
+    return N = N | ((ll)1 << pos);
 }
 
-int reset(int N, int pos) {
-    return N = N & ~(1 << pos);
+ll reset(ll N, ll pos) {
+    return N = N & ~((ll)1 << pos);
 }
 
-bool check(int N, int pos) {
-    return (bool) (N & (1 << pos));
+ll check(ll N, ll pos) {
+    return (bool) (N & ((ll)1 << pos));
+}
+
+ll setValueBit(ll n, ll pos, ll val) {
+    if (val == 1) {
+        n = Set(n, pos);
+    } else if (val == 0) {
+        n = reset(n, pos);
+    }
+    return n;
 }
 
 /************************************** END OF INITIALS ****************************************/

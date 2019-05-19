@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Beatles.dir/Offline/cryptoOffline.cpp.o"
   "CMakeFiles/Beatles.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.o"
   "CMakeFiles/Beatles.dir/LightOJ/1307-Counting_Triangles.cpp.o"
+  "CMakeFiles/Beatles.dir/Offline/DES.cpp.o"
+  "CMakeFiles/Beatles.dir/Offline/test.cpp.o"
   "Beatles.pdb"
   "Beatles"
 )

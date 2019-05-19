@@ -111,173 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Beatles
+# Target rules for targets named a1138
 
 # Build rule for target.
-Beatles: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Beatles
-.PHONY : Beatles
+a1138: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 a1138
+.PHONY : a1138
 
 # fast build rule for target.
-Beatles/fast:
-	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/build
-.PHONY : Beatles/fast
+a1138/fast:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/build
+.PHONY : a1138/fast
 
-#=============================================================================
-# Target rules for targets named cryptoOffline1
+LightOJ/1138-Trailing_Zeroes_(III).o: LightOJ/1138-Trailing_Zeroes_(III).cpp.o
 
-# Build rule for target.
-cryptoOffline1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cryptoOffline1
-.PHONY : cryptoOffline1
-
-# fast build rule for target.
-cryptoOffline1/fast:
-	$(MAKE) -f CMakeFiles/cryptoOffline1.dir/build.make CMakeFiles/cryptoOffline1.dir/build
-.PHONY : cryptoOffline1/fast
-
-#=============================================================================
-# Target rules for targets named LOJ-1276
-
-# Build rule for target.
-LOJ-1276: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LOJ-1276
-.PHONY : LOJ-1276
-
-# fast build rule for target.
-LOJ-1276/fast:
-	$(MAKE) -f CMakeFiles/LOJ-1276.dir/build.make CMakeFiles/LOJ-1276.dir/build
-.PHONY : LOJ-1276/fast
-
-#=============================================================================
-# Target rules for targets named LOJ-1307
-
-# Build rule for target.
-LOJ-1307: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LOJ-1307
-.PHONY : LOJ-1307
-
-# fast build rule for target.
-LOJ-1307/fast:
-	$(MAKE) -f CMakeFiles/LOJ-1307.dir/build.make CMakeFiles/LOJ-1307.dir/build
-.PHONY : LOJ-1307/fast
-
-Codeforces/Round-549-Div2-1143-D-The_Beatles.o: Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.o
-
-.PHONY : Codeforces/Round-549-Div2-1143-D-The_Beatles.o
+.PHONY : LightOJ/1138-Trailing_Zeroes_(III).o
 
 # target to build an object file
-Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.o:
-	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.o
-.PHONY : Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.o
+LightOJ/1138-Trailing_Zeroes_(III).cpp.o:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make "CMakeFiles/a1138.dir/LightOJ/1138-Trailing_Zeroes_(III).cpp.o"
+.PHONY : LightOJ/1138-Trailing_Zeroes_(III).cpp.o
 
-Codeforces/Round-549-Div2-1143-D-The_Beatles.i: Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.i
+LightOJ/1138-Trailing_Zeroes_(III).i: LightOJ/1138-Trailing_Zeroes_(III).cpp.i
 
-.PHONY : Codeforces/Round-549-Div2-1143-D-The_Beatles.i
-
-# target to preprocess a source file
-Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.i:
-	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.i
-.PHONY : Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.i
-
-Codeforces/Round-549-Div2-1143-D-The_Beatles.s: Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.s
-
-.PHONY : Codeforces/Round-549-Div2-1143-D-The_Beatles.s
-
-# target to generate assembly for a file
-Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.s:
-	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.s
-.PHONY : Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.s
-
-LightOJ/1276_-_Very_Lucky_Numbers.o: LightOJ/1276_-_Very_Lucky_Numbers.cpp.o
-
-.PHONY : LightOJ/1276_-_Very_Lucky_Numbers.o
-
-# target to build an object file
-LightOJ/1276_-_Very_Lucky_Numbers.cpp.o:
-	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.o
-	$(MAKE) -f CMakeFiles/LOJ-1276.dir/build.make CMakeFiles/LOJ-1276.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.o
-.PHONY : LightOJ/1276_-_Very_Lucky_Numbers.cpp.o
-
-LightOJ/1276_-_Very_Lucky_Numbers.i: LightOJ/1276_-_Very_Lucky_Numbers.cpp.i
-
-.PHONY : LightOJ/1276_-_Very_Lucky_Numbers.i
+.PHONY : LightOJ/1138-Trailing_Zeroes_(III).i
 
 # target to preprocess a source file
-LightOJ/1276_-_Very_Lucky_Numbers.cpp.i:
-	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.i
-	$(MAKE) -f CMakeFiles/LOJ-1276.dir/build.make CMakeFiles/LOJ-1276.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.i
-.PHONY : LightOJ/1276_-_Very_Lucky_Numbers.cpp.i
+LightOJ/1138-Trailing_Zeroes_(III).cpp.i:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make "CMakeFiles/a1138.dir/LightOJ/1138-Trailing_Zeroes_(III).cpp.i"
+.PHONY : LightOJ/1138-Trailing_Zeroes_(III).cpp.i
 
-LightOJ/1276_-_Very_Lucky_Numbers.s: LightOJ/1276_-_Very_Lucky_Numbers.cpp.s
+LightOJ/1138-Trailing_Zeroes_(III).s: LightOJ/1138-Trailing_Zeroes_(III).cpp.s
 
-.PHONY : LightOJ/1276_-_Very_Lucky_Numbers.s
-
-# target to generate assembly for a file
-LightOJ/1276_-_Very_Lucky_Numbers.cpp.s:
-	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.s
-	$(MAKE) -f CMakeFiles/LOJ-1276.dir/build.make CMakeFiles/LOJ-1276.dir/LightOJ/1276_-_Very_Lucky_Numbers.cpp.s
-.PHONY : LightOJ/1276_-_Very_Lucky_Numbers.cpp.s
-
-LightOJ/1307-Counting_Triangles.o: LightOJ/1307-Counting_Triangles.cpp.o
-
-.PHONY : LightOJ/1307-Counting_Triangles.o
-
-# target to build an object file
-LightOJ/1307-Counting_Triangles.cpp.o:
-	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/LightOJ/1307-Counting_Triangles.cpp.o
-	$(MAKE) -f CMakeFiles/LOJ-1307.dir/build.make CMakeFiles/LOJ-1307.dir/LightOJ/1307-Counting_Triangles.cpp.o
-.PHONY : LightOJ/1307-Counting_Triangles.cpp.o
-
-LightOJ/1307-Counting_Triangles.i: LightOJ/1307-Counting_Triangles.cpp.i
-
-.PHONY : LightOJ/1307-Counting_Triangles.i
-
-# target to preprocess a source file
-LightOJ/1307-Counting_Triangles.cpp.i:
-	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/LightOJ/1307-Counting_Triangles.cpp.i
-	$(MAKE) -f CMakeFiles/LOJ-1307.dir/build.make CMakeFiles/LOJ-1307.dir/LightOJ/1307-Counting_Triangles.cpp.i
-.PHONY : LightOJ/1307-Counting_Triangles.cpp.i
-
-LightOJ/1307-Counting_Triangles.s: LightOJ/1307-Counting_Triangles.cpp.s
-
-.PHONY : LightOJ/1307-Counting_Triangles.s
+.PHONY : LightOJ/1138-Trailing_Zeroes_(III).s
 
 # target to generate assembly for a file
-LightOJ/1307-Counting_Triangles.cpp.s:
-	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/LightOJ/1307-Counting_Triangles.cpp.s
-	$(MAKE) -f CMakeFiles/LOJ-1307.dir/build.make CMakeFiles/LOJ-1307.dir/LightOJ/1307-Counting_Triangles.cpp.s
-.PHONY : LightOJ/1307-Counting_Triangles.cpp.s
-
-Offline/cryptoOffline.o: Offline/cryptoOffline.cpp.o
-
-.PHONY : Offline/cryptoOffline.o
-
-# target to build an object file
-Offline/cryptoOffline.cpp.o:
-	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Offline/cryptoOffline.cpp.o
-	$(MAKE) -f CMakeFiles/cryptoOffline1.dir/build.make CMakeFiles/cryptoOffline1.dir/Offline/cryptoOffline.cpp.o
-.PHONY : Offline/cryptoOffline.cpp.o
-
-Offline/cryptoOffline.i: Offline/cryptoOffline.cpp.i
-
-.PHONY : Offline/cryptoOffline.i
-
-# target to preprocess a source file
-Offline/cryptoOffline.cpp.i:
-	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Offline/cryptoOffline.cpp.i
-	$(MAKE) -f CMakeFiles/cryptoOffline1.dir/build.make CMakeFiles/cryptoOffline1.dir/Offline/cryptoOffline.cpp.i
-.PHONY : Offline/cryptoOffline.cpp.i
-
-Offline/cryptoOffline.s: Offline/cryptoOffline.cpp.s
-
-.PHONY : Offline/cryptoOffline.s
-
-# target to generate assembly for a file
-Offline/cryptoOffline.cpp.s:
-	$(MAKE) -f CMakeFiles/Beatles.dir/build.make CMakeFiles/Beatles.dir/Offline/cryptoOffline.cpp.s
-	$(MAKE) -f CMakeFiles/cryptoOffline1.dir/build.make CMakeFiles/cryptoOffline1.dir/Offline/cryptoOffline.cpp.s
-.PHONY : Offline/cryptoOffline.cpp.s
+LightOJ/1138-Trailing_Zeroes_(III).cpp.s:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make "CMakeFiles/a1138.dir/LightOJ/1138-Trailing_Zeroes_(III).cpp.s"
+.PHONY : LightOJ/1138-Trailing_Zeroes_(III).cpp.s
 
 # Help Target
 help:
@@ -286,23 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Beatles"
-	@echo "... cryptoOffline1"
-	@echo "... LOJ-1276"
 	@echo "... edit_cache"
-	@echo "... LOJ-1307"
-	@echo "... Codeforces/Round-549-Div2-1143-D-The_Beatles.o"
-	@echo "... Codeforces/Round-549-Div2-1143-D-The_Beatles.i"
-	@echo "... Codeforces/Round-549-Div2-1143-D-The_Beatles.s"
-	@echo "... LightOJ/1276_-_Very_Lucky_Numbers.o"
-	@echo "... LightOJ/1276_-_Very_Lucky_Numbers.i"
-	@echo "... LightOJ/1276_-_Very_Lucky_Numbers.s"
-	@echo "... LightOJ/1307-Counting_Triangles.o"
-	@echo "... LightOJ/1307-Counting_Triangles.i"
-	@echo "... LightOJ/1307-Counting_Triangles.s"
-	@echo "... Offline/cryptoOffline.o"
-	@echo "... Offline/cryptoOffline.i"
-	@echo "... Offline/cryptoOffline.s"
+	@echo "... a1138"
+	@echo "... LightOJ/1138-Trailing_Zeroes_(III).o"
+	@echo "... LightOJ/1138-Trailing_Zeroes_(III).i"
+	@echo "... LightOJ/1138-Trailing_Zeroes_(III).s"
 .PHONY : help
 
 
