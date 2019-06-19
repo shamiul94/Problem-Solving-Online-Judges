@@ -1,48 +1,12 @@
+//
+// Created by shamiul93 on 6/19/19.
+//
+
 #include "bits/stdc++.h"
 
 #define ll long long
 
 using namespace std;
-
-string longestPalindrome(string A) {
-    int len = static_cast<int>(A.length());
-
-    int maxLen = -1;
-    string maxStr;
-
-    for (int i = 0; i < len; i++) {
-
-        int idx, left, right, traverse;
-
-        idx = i;
-        left = idx; // left e ache amar idx er shoman shongkhok
-        right = len - left - 1; // right e ache
-        traverse = min(left, right);
-
-        string tem = "";
-        tem = tem + A[i];
-
-        for (int j = 1; j <= traverse; j++) {
-
-            if (A[i - j] != A[i + j]) {
-                break;
-            } else {
-
-                tem = A[i - j] + tem;
-                tem = tem + A[i + j];
-            }
-        }
-
-        int length = static_cast<int>(tem.length());
-
-        if (maxLen < length) {
-            maxLen = length;
-            maxStr = tem;
-        }
-    }
-
-    return maxStr;
-}
 
 bool checkPossibility(vector<int> &nums) {
     vector<int> v;

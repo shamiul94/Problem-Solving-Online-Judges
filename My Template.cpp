@@ -99,6 +99,7 @@ ll setValueBit(ll n, ll pos, ll val) {
 /************************************** END OF INITIALS ****************************************/
 
 int main() {
+    std::ios::sync_with_stdio(false);
     ll T, t = 0;
 
     sll(T);

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/painful.dir/LightOJ/1021_-_Painful_Bases.cpp.o  -o painful 

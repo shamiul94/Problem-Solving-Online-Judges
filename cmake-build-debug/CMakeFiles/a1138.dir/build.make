@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/shamiul93/Documents/Softwares/clion-2018.1.5/bin/cmake/bin/cmake
+CMAKE_COMMAND = "/media/shamiul93/Software and Media/Necessary Softwares/Softwares/clion-2018.1.5/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = /home/shamiul93/Documents/Softwares/clion-2018.1.5/bin/cmake/bin/cmake -E remove -f
+RM = "/media/shamiul93/Software and Media/Necessary Softwares/Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -81,17 +81,147 @@ CMakeFiles/a1138.dir/LightOJ/1138-Trailing_Zeroes_(III).cpp.o.provides: CMakeFil
 CMakeFiles/a1138.dir/LightOJ/1138-Trailing_Zeroes_(III).cpp.o.provides.build: CMakeFiles/a1138.dir/LightOJ/1138-Trailing_Zeroes_(III).cpp.o
 
 
+CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o: CMakeFiles/a1138.dir/flags.make
+CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o: ../InterviewBit/Add\ One\ To\ Number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/InterviewBit/Add One To Number.cpp"
+
+CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/InterviewBit/Add One To Number.cpp" > CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.i
+
+CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/InterviewBit/Add One To Number.cpp" -o CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.s
+
+CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o.requires:
+
+.PHONY : CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o.requires
+
+CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o.provides: CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o.provides.build
+.PHONY : CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o.provides
+
+CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o.provides.build: CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o
+
+
+CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o: CMakeFiles/a1138.dir/flags.make
+CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o: ../LeetCode/950.\ Reveal\ Cards\ In\ Increasing\ Order.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/950. Reveal Cards In Increasing Order.cpp"
+
+CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/950. Reveal Cards In Increasing Order.cpp" > CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.i
+
+CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/950. Reveal Cards In Increasing Order.cpp" -o CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.s
+
+CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o.requires:
+
+.PHONY : CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o.requires
+
+CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o.provides: CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o.provides.build
+.PHONY : CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o.provides
+
+CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o.provides.build: CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o
+
+
+CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o: CMakeFiles/a1138.dir/flags.make
+CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o: ../LeetCode/969.\ Pancake\ Sorting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/969. Pancake Sorting.cpp"
+
+CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/969. Pancake Sorting.cpp" > CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.i
+
+CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/969. Pancake Sorting.cpp" -o CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.s
+
+CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o.requires:
+
+.PHONY : CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o.requires
+
+CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o.provides: CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o.provides.build
+.PHONY : CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o.provides
+
+CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o.provides.build: CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o
+
+
+CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o: CMakeFiles/a1138.dir/flags.make
+CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o: ../Codechef/CHFPARTY.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/Codechef/CHFPARTY.cpp"
+
+CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/Codechef/CHFPARTY.cpp" > CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.i
+
+CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/Codechef/CHFPARTY.cpp" -o CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.s
+
+CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o.requires:
+
+.PHONY : CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o.requires
+
+CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o.provides: CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o.provides.build
+.PHONY : CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o.provides
+
+CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o.provides.build: CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o
+
+
+CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o: CMakeFiles/a1138.dir/flags.make
+CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o: ../LeetCode/1051.\ Height\ Checker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/1051. Height Checker.cpp"
+
+CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/1051. Height Checker.cpp" > CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.i
+
+CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/1051. Height Checker.cpp" -o CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.s
+
+CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o.requires:
+
+.PHONY : CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o.requires
+
+CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o.provides: CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o.provides.build
+.PHONY : CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o.provides
+
+CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o.provides.build: CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o
+
+
 # Object files for target a1138
 a1138_OBJECTS = \
-"CMakeFiles/a1138.dir/LightOJ/1138-Trailing_Zeroes_(III).cpp.o"
+"CMakeFiles/a1138.dir/LightOJ/1138-Trailing_Zeroes_(III).cpp.o" \
+"CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o" \
+"CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o" \
+"CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o" \
+"CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o" \
+"CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o"
 
 # External object files for target a1138
 a1138_EXTERNAL_OBJECTS =
 
 a1138: CMakeFiles/a1138.dir/LightOJ/1138-Trailing_Zeroes_(III).cpp.o
+a1138: CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o
+a1138: CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o
+a1138: CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o
+a1138: CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o
+a1138: CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o
 a1138: CMakeFiles/a1138.dir/build.make
 a1138: CMakeFiles/a1138.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable a1138"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable a1138"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a1138.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +230,11 @@ CMakeFiles/a1138.dir/build: a1138
 .PHONY : CMakeFiles/a1138.dir/build
 
 CMakeFiles/a1138.dir/requires: CMakeFiles/a1138.dir/LightOJ/1138-Trailing_Zeroes_(III).cpp.o.requires
+CMakeFiles/a1138.dir/requires: CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o.requires
+CMakeFiles/a1138.dir/requires: CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o.requires
+CMakeFiles/a1138.dir/requires: CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o.requires
+CMakeFiles/a1138.dir/requires: CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o.requires
+CMakeFiles/a1138.dir/requires: CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o.requires
 
 .PHONY : CMakeFiles/a1138.dir/requires
 

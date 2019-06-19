@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/shamiul93/Documents/Softwares/clion-2018.1.5/bin/cmake/bin/cmake
+CMAKE_COMMAND = "/media/shamiul93/Software and Media/Necessary Softwares/Softwares/clion-2018.1.5/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = /home/shamiul93/Documents/Softwares/clion-2018.1.5/bin/cmake/bin/cmake -E remove -f
+RM = "/media/shamiul93/Software and Media/Necessary Softwares/Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/home/shamiul93/Documents/Problem Solving Online Judges/cmak
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/shamiul93/Documents/Softwares/clion-2018.1.5/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/media/shamiul93/Software and Media/Necessary Softwares/Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/shamiul93/Documents/Softwares/clion-2018.1.5/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/media/shamiul93/Software and Media/Necessary Softwares/Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,6 +123,207 @@ a1138/fast:
 	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/build
 .PHONY : a1138/fast
 
+#=============================================================================
+# Target rules for targets named des
+
+# Build rule for target.
+des: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 des
+.PHONY : des
+
+# fast build rule for target.
+des/fast:
+	$(MAKE) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/build
+.PHONY : des/fast
+
+#=============================================================================
+# Target rules for targets named painful
+
+# Build rule for target.
+painful: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 painful
+.PHONY : painful
+
+# fast build rule for target.
+painful/fast:
+	$(MAKE) -f CMakeFiles/painful.dir/build.make CMakeFiles/painful.dir/build
+.PHONY : painful/fast
+
+#=============================================================================
+# Target rules for targets named testerr
+
+# Build rule for target.
+testerr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testerr
+.PHONY : testerr
+
+# fast build rule for target.
+testerr/fast:
+	$(MAKE) -f CMakeFiles/testerr.dir/build.make CMakeFiles/testerr.dir/build
+.PHONY : testerr/fast
+
+Codechef/CHFPARTY.o: Codechef/CHFPARTY.cpp.o
+
+.PHONY : Codechef/CHFPARTY.o
+
+# target to build an object file
+Codechef/CHFPARTY.cpp.o:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o
+.PHONY : Codechef/CHFPARTY.cpp.o
+
+Codechef/CHFPARTY.i: Codechef/CHFPARTY.cpp.i
+
+.PHONY : Codechef/CHFPARTY.i
+
+# target to preprocess a source file
+Codechef/CHFPARTY.cpp.i:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.i
+.PHONY : Codechef/CHFPARTY.cpp.i
+
+Codechef/CHFPARTY.s: Codechef/CHFPARTY.cpp.s
+
+.PHONY : Codechef/CHFPARTY.s
+
+# target to generate assembly for a file
+Codechef/CHFPARTY.cpp.s:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.s
+.PHONY : Codechef/CHFPARTY.cpp.s
+
+InterviewBit/Add_One_To_Number.o: InterviewBit/Add_One_To_Number.cpp.o
+
+.PHONY : InterviewBit/Add_One_To_Number.o
+
+# target to build an object file
+InterviewBit/Add_One_To_Number.cpp.o:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.o
+.PHONY : InterviewBit/Add_One_To_Number.cpp.o
+
+InterviewBit/Add_One_To_Number.i: InterviewBit/Add_One_To_Number.cpp.i
+
+.PHONY : InterviewBit/Add_One_To_Number.i
+
+# target to preprocess a source file
+InterviewBit/Add_One_To_Number.cpp.i:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.i
+.PHONY : InterviewBit/Add_One_To_Number.cpp.i
+
+InterviewBit/Add_One_To_Number.s: InterviewBit/Add_One_To_Number.cpp.s
+
+.PHONY : InterviewBit/Add_One_To_Number.s
+
+# target to generate assembly for a file
+InterviewBit/Add_One_To_Number.cpp.s:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/InterviewBit/Add_One_To_Number.cpp.s
+.PHONY : InterviewBit/Add_One_To_Number.cpp.s
+
+LeetCode/1051._Height_Checker.o: LeetCode/1051._Height_Checker.cpp.o
+
+.PHONY : LeetCode/1051._Height_Checker.o
+
+# target to build an object file
+LeetCode/1051._Height_Checker.cpp.o:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o
+.PHONY : LeetCode/1051._Height_Checker.cpp.o
+
+LeetCode/1051._Height_Checker.i: LeetCode/1051._Height_Checker.cpp.i
+
+.PHONY : LeetCode/1051._Height_Checker.i
+
+# target to preprocess a source file
+LeetCode/1051._Height_Checker.cpp.i:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.i
+.PHONY : LeetCode/1051._Height_Checker.cpp.i
+
+LeetCode/1051._Height_Checker.s: LeetCode/1051._Height_Checker.cpp.s
+
+.PHONY : LeetCode/1051._Height_Checker.s
+
+# target to generate assembly for a file
+LeetCode/1051._Height_Checker.cpp.s:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.s
+.PHONY : LeetCode/1051._Height_Checker.cpp.s
+
+LeetCode/950._Reveal_Cards_In_Increasing_Order.o: LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o
+
+.PHONY : LeetCode/950._Reveal_Cards_In_Increasing_Order.o
+
+# target to build an object file
+LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o
+.PHONY : LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o
+
+LeetCode/950._Reveal_Cards_In_Increasing_Order.i: LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.i
+
+.PHONY : LeetCode/950._Reveal_Cards_In_Increasing_Order.i
+
+# target to preprocess a source file
+LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.i:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.i
+.PHONY : LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.i
+
+LeetCode/950._Reveal_Cards_In_Increasing_Order.s: LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.s
+
+.PHONY : LeetCode/950._Reveal_Cards_In_Increasing_Order.s
+
+# target to generate assembly for a file
+LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.s:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.s
+.PHONY : LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.s
+
+LeetCode/969._Pancake_Sorting.o: LeetCode/969._Pancake_Sorting.cpp.o
+
+.PHONY : LeetCode/969._Pancake_Sorting.o
+
+# target to build an object file
+LeetCode/969._Pancake_Sorting.cpp.o:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o
+.PHONY : LeetCode/969._Pancake_Sorting.cpp.o
+
+LeetCode/969._Pancake_Sorting.i: LeetCode/969._Pancake_Sorting.cpp.i
+
+.PHONY : LeetCode/969._Pancake_Sorting.i
+
+# target to preprocess a source file
+LeetCode/969._Pancake_Sorting.cpp.i:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.i
+.PHONY : LeetCode/969._Pancake_Sorting.cpp.i
+
+LeetCode/969._Pancake_Sorting.s: LeetCode/969._Pancake_Sorting.cpp.s
+
+.PHONY : LeetCode/969._Pancake_Sorting.s
+
+# target to generate assembly for a file
+LeetCode/969._Pancake_Sorting.cpp.s:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.s
+.PHONY : LeetCode/969._Pancake_Sorting.cpp.s
+
+LightOJ/1021_-_Painful_Bases.o: LightOJ/1021_-_Painful_Bases.cpp.o
+
+.PHONY : LightOJ/1021_-_Painful_Bases.o
+
+# target to build an object file
+LightOJ/1021_-_Painful_Bases.cpp.o:
+	$(MAKE) -f CMakeFiles/painful.dir/build.make CMakeFiles/painful.dir/LightOJ/1021_-_Painful_Bases.cpp.o
+.PHONY : LightOJ/1021_-_Painful_Bases.cpp.o
+
+LightOJ/1021_-_Painful_Bases.i: LightOJ/1021_-_Painful_Bases.cpp.i
+
+.PHONY : LightOJ/1021_-_Painful_Bases.i
+
+# target to preprocess a source file
+LightOJ/1021_-_Painful_Bases.cpp.i:
+	$(MAKE) -f CMakeFiles/painful.dir/build.make CMakeFiles/painful.dir/LightOJ/1021_-_Painful_Bases.cpp.i
+.PHONY : LightOJ/1021_-_Painful_Bases.cpp.i
+
+LightOJ/1021_-_Painful_Bases.s: LightOJ/1021_-_Painful_Bases.cpp.s
+
+.PHONY : LightOJ/1021_-_Painful_Bases.s
+
+# target to generate assembly for a file
+LightOJ/1021_-_Painful_Bases.cpp.s:
+	$(MAKE) -f CMakeFiles/painful.dir/build.make CMakeFiles/painful.dir/LightOJ/1021_-_Painful_Bases.cpp.s
+.PHONY : LightOJ/1021_-_Painful_Bases.cpp.s
+
 LightOJ/1138-Trailing_Zeroes_(III).o: LightOJ/1138-Trailing_Zeroes_(III).cpp.o
 
 .PHONY : LightOJ/1138-Trailing_Zeroes_(III).o
@@ -150,6 +351,60 @@ LightOJ/1138-Trailing_Zeroes_(III).cpp.s:
 	$(MAKE) -f CMakeFiles/a1138.dir/build.make "CMakeFiles/a1138.dir/LightOJ/1138-Trailing_Zeroes_(III).cpp.s"
 .PHONY : LightOJ/1138-Trailing_Zeroes_(III).cpp.s
 
+Offline/DES.o: Offline/DES.cpp.o
+
+.PHONY : Offline/DES.o
+
+# target to build an object file
+Offline/DES.cpp.o:
+	$(MAKE) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/Offline/DES.cpp.o
+.PHONY : Offline/DES.cpp.o
+
+Offline/DES.i: Offline/DES.cpp.i
+
+.PHONY : Offline/DES.i
+
+# target to preprocess a source file
+Offline/DES.cpp.i:
+	$(MAKE) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/Offline/DES.cpp.i
+.PHONY : Offline/DES.cpp.i
+
+Offline/DES.s: Offline/DES.cpp.s
+
+.PHONY : Offline/DES.s
+
+# target to generate assembly for a file
+Offline/DES.cpp.s:
+	$(MAKE) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/Offline/DES.cpp.s
+.PHONY : Offline/DES.cpp.s
+
+Testing/testing.o: Testing/testing.cpp.o
+
+.PHONY : Testing/testing.o
+
+# target to build an object file
+Testing/testing.cpp.o:
+	$(MAKE) -f CMakeFiles/testerr.dir/build.make CMakeFiles/testerr.dir/Testing/testing.cpp.o
+.PHONY : Testing/testing.cpp.o
+
+Testing/testing.i: Testing/testing.cpp.i
+
+.PHONY : Testing/testing.i
+
+# target to preprocess a source file
+Testing/testing.cpp.i:
+	$(MAKE) -f CMakeFiles/testerr.dir/build.make CMakeFiles/testerr.dir/Testing/testing.cpp.i
+.PHONY : Testing/testing.cpp.i
+
+Testing/testing.s: Testing/testing.cpp.s
+
+.PHONY : Testing/testing.s
+
+# target to generate assembly for a file
+Testing/testing.cpp.s:
+	$(MAKE) -f CMakeFiles/testerr.dir/build.make CMakeFiles/testerr.dir/Testing/testing.cpp.s
+.PHONY : Testing/testing.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +414,36 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... a1138"
+	@echo "... des"
+	@echo "... painful"
+	@echo "... testerr"
+	@echo "... Codechef/CHFPARTY.o"
+	@echo "... Codechef/CHFPARTY.i"
+	@echo "... Codechef/CHFPARTY.s"
+	@echo "... InterviewBit/Add_One_To_Number.o"
+	@echo "... InterviewBit/Add_One_To_Number.i"
+	@echo "... InterviewBit/Add_One_To_Number.s"
+	@echo "... LeetCode/1051._Height_Checker.o"
+	@echo "... LeetCode/1051._Height_Checker.i"
+	@echo "... LeetCode/1051._Height_Checker.s"
+	@echo "... LeetCode/950._Reveal_Cards_In_Increasing_Order.o"
+	@echo "... LeetCode/950._Reveal_Cards_In_Increasing_Order.i"
+	@echo "... LeetCode/950._Reveal_Cards_In_Increasing_Order.s"
+	@echo "... LeetCode/969._Pancake_Sorting.o"
+	@echo "... LeetCode/969._Pancake_Sorting.i"
+	@echo "... LeetCode/969._Pancake_Sorting.s"
+	@echo "... LightOJ/1021_-_Painful_Bases.o"
+	@echo "... LightOJ/1021_-_Painful_Bases.i"
+	@echo "... LightOJ/1021_-_Painful_Bases.s"
 	@echo "... LightOJ/1138-Trailing_Zeroes_(III).o"
 	@echo "... LightOJ/1138-Trailing_Zeroes_(III).i"
 	@echo "... LightOJ/1138-Trailing_Zeroes_(III).s"
+	@echo "... Offline/DES.o"
+	@echo "... Offline/DES.i"
+	@echo "... Offline/DES.s"
+	@echo "... Testing/testing.o"
+	@echo "... Testing/testing.i"
+	@echo "... Testing/testing.s"
 .PHONY : help
 
 
