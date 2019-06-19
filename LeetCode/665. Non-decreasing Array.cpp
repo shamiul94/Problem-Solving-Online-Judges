@@ -1,6 +1,4 @@
-//
-// Created by shamiul93 on 6/19/19.
-//
+//https://leetcode.com/problems/non-decreasing-array/
 
 #include "bits/stdc++.h"
 
@@ -8,35 +6,68 @@
 
 using namespace std;
 
-bool checkPossibility(vector<int> &nums) {
-    vector<int> v;
+string longestPalindrome(string A) {
+    int len = static_cast<int>(A.length());
 
-    v.push_back(INT_MIN + 1);
-    for (int i = 0; i < nums.size(); i++) {
-        v.push_back(nums[i]);
+    int maxLen = -1;
+    string maxStr;
+
+    for (int i = 0; i < len; i++) {
+
+        int idx, left, right, traverse;
+
+        idx = i;
+        left = idx; // left e ache amar idx er shoman shongkhok
+        right = len - left - 1; // right e ache
+        traverse = min(left, right);
+
+        string tem = "";
+        tem = tem + A[i];
+
+        for (int j = 1; j <= traverse; j++) {
+
+            if (A[i - j] != A[i + j]) {
+                break;
+            } else {
+
+                tem = A[i - j] + tem;
+                tem = tem + A[i + j];
+            }
+        }
+
+        int length = static_cast<int>(tem.length());
+
+        if (maxLen < length) {
+            maxLen = length;
+            maxStr = tem;
+        }
     }
-    v.push_back(INT_MAX - 1);
 
-    //left to right
+    return maxStr;
+}
+
+bool checkPossibility(vector<int> &nums) {
 
     int outOfPlaceLeftToRight = 0, outOfPlaceRightToLeft = 0, prev = INT_MIN;
 
-    for (int i = 0; i < v.size(); i++) {
+    for (int i = 0; i < nums.size(); i++) {
+
+        //left to right
+
         if (outOfPlaceLeftToRight > 1) break;
-        if (v[i] >= prev) {
-            prev = v[i];
+        if (nums[i] >= prev) {
+            prev = nums[i];
         } else {
             outOfPlaceLeftToRight++;
         }
     }
 
     //right to left
-
     prev = INT_MAX;
-    for (int i = static_cast<int>(v.size() - 1); i >= 0; i--) {
+    for (int i = static_cast<int>(nums.size() - 1); i >= 0; i--) {
         if (outOfPlaceRightToLeft > 1) break;
-        if (v[i] <= prev) {
-            prev = v[i];
+        if (nums[i] <= prev) {
+            prev = nums[i];
         } else {
             outOfPlaceRightToLeft++;
         }

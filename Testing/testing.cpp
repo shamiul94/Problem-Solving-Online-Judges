@@ -45,34 +45,27 @@ string longestPalindrome(string A) {
 }
 
 bool checkPossibility(vector<int> &nums) {
-    vector<int> v;
-
-    v.push_back(INT_MIN + 1);
-    for (int i = 0; i < nums.size(); i++) {
-        v.push_back(nums[i]);
-    }
-    v.push_back(INT_MAX - 1);
-
-    //left to right
 
     int outOfPlaceLeftToRight = 0, outOfPlaceRightToLeft = 0, prev = INT_MIN;
 
-    for (int i = 0; i < v.size(); i++) {
+    for (int i = 0; i < nums.size(); i++) {
+
+        //left to right
+
         if (outOfPlaceLeftToRight > 1) break;
-        if (v[i] >= prev) {
-            prev = v[i];
+        if (nums[i] >= prev) {
+            prev = nums[i];
         } else {
             outOfPlaceLeftToRight++;
         }
     }
 
     //right to left
-
     prev = INT_MAX;
-    for (int i = static_cast<int>(v.size() - 1); i >= 0; i--) {
+    for (int i = static_cast<int>(nums.size() - 1); i >= 0; i--) {
         if (outOfPlaceRightToLeft > 1) break;
-        if (v[i] <= prev) {
-            prev = v[i];
+        if (nums[i] <= prev) {
+            prev = nums[i];
         } else {
             outOfPlaceRightToLeft++;
         }
