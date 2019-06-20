@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o"
   "CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o"
   "CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o"
+  "CMakeFiles/a1138.dir/LeetCode/665._Non-decreasing_Array.cpp.o"
   "a1138.pdb"
   "a1138"
 )

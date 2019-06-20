@@ -243,6 +243,33 @@ LeetCode/1051._Height_Checker.cpp.s:
 	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.s
 .PHONY : LeetCode/1051._Height_Checker.cpp.s
 
+LeetCode/665._Non-decreasing_Array.o: LeetCode/665._Non-decreasing_Array.cpp.o
+
+.PHONY : LeetCode/665._Non-decreasing_Array.o
+
+# target to build an object file
+LeetCode/665._Non-decreasing_Array.cpp.o:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/665._Non-decreasing_Array.cpp.o
+.PHONY : LeetCode/665._Non-decreasing_Array.cpp.o
+
+LeetCode/665._Non-decreasing_Array.i: LeetCode/665._Non-decreasing_Array.cpp.i
+
+.PHONY : LeetCode/665._Non-decreasing_Array.i
+
+# target to preprocess a source file
+LeetCode/665._Non-decreasing_Array.cpp.i:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/665._Non-decreasing_Array.cpp.i
+.PHONY : LeetCode/665._Non-decreasing_Array.cpp.i
+
+LeetCode/665._Non-decreasing_Array.s: LeetCode/665._Non-decreasing_Array.cpp.s
+
+.PHONY : LeetCode/665._Non-decreasing_Array.s
+
+# target to generate assembly for a file
+LeetCode/665._Non-decreasing_Array.cpp.s:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/665._Non-decreasing_Array.cpp.s
+.PHONY : LeetCode/665._Non-decreasing_Array.cpp.s
+
 LeetCode/950._Reveal_Cards_In_Increasing_Order.o: LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o
 
 .PHONY : LeetCode/950._Reveal_Cards_In_Increasing_Order.o
@@ -426,6 +453,9 @@ help:
 	@echo "... LeetCode/1051._Height_Checker.o"
 	@echo "... LeetCode/1051._Height_Checker.i"
 	@echo "... LeetCode/1051._Height_Checker.s"
+	@echo "... LeetCode/665._Non-decreasing_Array.o"
+	@echo "... LeetCode/665._Non-decreasing_Array.i"
+	@echo "... LeetCode/665._Non-decreasing_Array.s"
 	@echo "... LeetCode/950._Reveal_Cards_In_Increasing_Order.o"
 	@echo "... LeetCode/950._Reveal_Cards_In_Increasing_Order.i"
 	@echo "... LeetCode/950._Reveal_Cards_In_Increasing_Order.s"

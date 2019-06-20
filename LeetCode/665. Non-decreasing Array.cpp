@@ -1,4 +1,8 @@
 //https://leetcode.com/problems/non-decreasing-array/
+/**
+ * can be better: Runtime: 32 ms, faster than 88.13% of C++ online submissions for Non-decreasing Array.
+Memory Usage: 10.3 MB, less than 83.82% of C++ online submissions for Non-decreasing Array.
+ */
 
 #include "bits/stdc++.h"
 

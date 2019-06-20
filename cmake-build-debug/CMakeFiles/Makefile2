@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = "/home/shamiul93/Documents/Problem Solving Online Judges/cmak
 CMakeFiles/a1138.dir/all:
 	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/depend
 	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target a1138"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target a1138"
 .PHONY : CMakeFiles/a1138.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/a1138.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/a1138.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/a1138.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/a1138.dir/rule
@@ -103,7 +103,7 @@ clean: CMakeFiles/a1138.dir/clean
 CMakeFiles/des.dir/all:
 	$(MAKE) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/depend
 	$(MAKE) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=8,9 "Built target des"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=9,10 "Built target des"
 .PHONY : CMakeFiles/des.dir/all
 
 # Include target in all.
@@ -140,7 +140,7 @@ clean: CMakeFiles/des.dir/clean
 CMakeFiles/painful.dir/all:
 	$(MAKE) -f CMakeFiles/painful.dir/build.make CMakeFiles/painful.dir/depend
 	$(MAKE) -f CMakeFiles/painful.dir/build.make CMakeFiles/painful.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=10,11 "Built target painful"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=11,12 "Built target painful"
 .PHONY : CMakeFiles/painful.dir/all
 
 # Include target in all.
@@ -177,7 +177,7 @@ clean: CMakeFiles/painful.dir/clean
 CMakeFiles/testerr.dir/all:
 	$(MAKE) -f CMakeFiles/testerr.dir/build.make CMakeFiles/testerr.dir/depend
 	$(MAKE) -f CMakeFiles/testerr.dir/build.make CMakeFiles/testerr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=12,13 "Built target testerr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=13,14 "Built target testerr"
 .PHONY : CMakeFiles/testerr.dir/all
 
 # Include target in all.
