@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/a1138.dir/Codechef/CHFPARTY.cpp.o"
   "CMakeFiles/a1138.dir/LeetCode/1051._Height_Checker.cpp.o"
   "CMakeFiles/a1138.dir/LeetCode/665._Non-decreasing_Array.cpp.o"
+  "CMakeFiles/a1138.dir/LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.o"
   "a1138.pdb"
   "a1138"
 )

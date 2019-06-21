@@ -324,6 +324,33 @@ LeetCode/969._Pancake_Sorting.cpp.s:
 	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.s
 .PHONY : LeetCode/969._Pancake_Sorting.cpp.s
 
+LeetCode/985._Sum_of_Even_Numbers_After_Queries.o: LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.o
+
+.PHONY : LeetCode/985._Sum_of_Even_Numbers_After_Queries.o
+
+# target to build an object file
+LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.o:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.o
+.PHONY : LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.o
+
+LeetCode/985._Sum_of_Even_Numbers_After_Queries.i: LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.i
+
+.PHONY : LeetCode/985._Sum_of_Even_Numbers_After_Queries.i
+
+# target to preprocess a source file
+LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.i:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.i
+.PHONY : LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.i
+
+LeetCode/985._Sum_of_Even_Numbers_After_Queries.s: LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.s
+
+.PHONY : LeetCode/985._Sum_of_Even_Numbers_After_Queries.s
+
+# target to generate assembly for a file
+LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.s:
+	$(MAKE) -f CMakeFiles/a1138.dir/build.make CMakeFiles/a1138.dir/LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.s
+.PHONY : LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.s
+
 LightOJ/1021_-_Painful_Bases.o: LightOJ/1021_-_Painful_Bases.cpp.o
 
 .PHONY : LightOJ/1021_-_Painful_Bases.o
@@ -462,6 +489,9 @@ help:
 	@echo "... LeetCode/969._Pancake_Sorting.o"
 	@echo "... LeetCode/969._Pancake_Sorting.i"
 	@echo "... LeetCode/969._Pancake_Sorting.s"
+	@echo "... LeetCode/985._Sum_of_Even_Numbers_After_Queries.o"
+	@echo "... LeetCode/985._Sum_of_Even_Numbers_After_Queries.i"
+	@echo "... LeetCode/985._Sum_of_Even_Numbers_After_Queries.s"
 	@echo "... LightOJ/1021_-_Painful_Bases.o"
 	@echo "... LightOJ/1021_-_Painful_Bases.i"
 	@echo "... LightOJ/1021_-_Painful_Bases.s"

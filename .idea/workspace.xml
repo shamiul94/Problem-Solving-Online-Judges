@@ -15,8 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/665. Non-decreasing Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/665. Non-decreasing Array.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testing/testing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/testing.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -39,14 +39,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testing.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testing.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Testing/testing.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="50" column="15" lean-forward="true" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+            <state relative-caret-position="216">
+              <caret line="47" selection-end-line="95" selection-end-column="1" />
               <folding>
                 <element signature="e#70#900#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="929. Unique Email Addresses.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/929. Unique Email Addresses.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -98,6 +107,7 @@
         <option value="$PROJECT_DIR$/LeetCode/665. Non-decreasing Array.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/985. Sum of Even Numbers After Queries.cpp" />
         <option value="$PROJECT_DIR$/Testing/testing.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/929. Unique Email Addresses.cpp" />
       </list>
     </option>
   </component>
@@ -214,12 +224,12 @@
       <workItem from="1558176388043" duration="2680000" />
       <workItem from="1558179089143" duration="25314000" />
       <workItem from="1558801178804" duration="777000" />
-      <workItem from="1560409017843" duration="41587000" />
+      <workItem from="1560409017843" duration="45152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93556000" />
+    <option name="totallyTimeSpent" value="97121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="-4" width="1323" height="773" extended-state="6" />
@@ -277,13 +287,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/in.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239832">
@@ -579,11 +582,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Testing/testing.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="50" column="15" lean-forward="true" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+        <state relative-caret-position="216">
+          <caret line="47" selection-end-line="95" selection-end-column="1" />
           <folding>
             <element signature="e#70#900#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/929. Unique Email Addresses.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

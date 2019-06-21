@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/665. Non-decreasing Array.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/a1138.dir/LeetCode/665._Non-decreasing_Array.cpp.o"
   "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/950. Reveal Cards In Increasing Order.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/a1138.dir/LeetCode/950._Reveal_Cards_In_Increasing_Order.cpp.o"
   "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/969. Pancake Sorting.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/a1138.dir/LeetCode/969._Pancake_Sorting.cpp.o"
+  "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/985. Sum of Even Numbers After Queries.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/a1138.dir/LeetCode/985._Sum_of_Even_Numbers_After_Queries.cpp.o"
   "/home/shamiul93/Documents/Problem Solving Online Judges/LightOJ/1138-Trailing Zeroes (III).cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/a1138.dir/LightOJ/1138-Trailing_Zeroes_(III).cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
