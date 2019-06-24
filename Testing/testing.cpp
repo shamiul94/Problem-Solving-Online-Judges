@@ -44,39 +44,17 @@ string longestPalindrome(string A) {
     return maxStr;
 }
 
-int numUniqueEmails(vector<string> &emails) {
+string str = "abcd";
+vector<string> vec;
 
-    vector<string> v;
-    for (int i = 0; i < emails.size(); i++) {
-        bool plusFound = false;
+string Permutation(ll idx , ll mask) {
+    if(idx >= str.length()) return "";
 
-        string localName, domainName, email, finalEmail;
-
-        email = emails[i];
-
-        for (int j = 0; j < email.length(); j++) {
-            if (email[j] == '@') {
-                domainName = email.substr(j);
-                break;
-            }
-
-            if (email[j] == '+') {
-                plusFound = true;
-            }
-
-            if (!plusFound && email[j] != '.') {
-                localName += email[j];
-            }
-        }
-
-        finalEmail = localName + domainName;
-        v.push_back(finalEmail);
+    for (int i = 0; i < str.length(); i++) {
+        
     }
-
-    set<string> s( v.begin(), v.end() );
-    v.assign( s.begin(), s.end() );
-    return static_cast<int>(v.size());
 }
+
 
 int main() {
     std::ios::sync_with_stdio(false);
@@ -88,9 +66,6 @@ int main() {
                      "test.e.mail+bob.cathy@leetcode.com",
                      "testemail+david@lee.tcode.com"};
 
-    int a = numUniqueEmails(v);
-
-    cout << a << endl;
 
     return 0;
 }
