@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/kmp.dir/Algorithm_Templates/KMP.cpp.o  -o kmp 

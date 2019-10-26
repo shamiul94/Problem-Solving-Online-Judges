@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/media/shamiul93/Software and Media/Necessary Softwares/Softwares/clion-2018.1.5/bin/cmake/bin/cmake"
+CMAKE_COMMAND = "/media/shamiul93/Software-and-Media/Necessary Softwares/Linux Softwares/clion-2018.1.5/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = "/media/shamiul93/Software and Media/Necessary Softwares/Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -E remove -f
+RM = "/media/shamiul93/Software-and-Media/Necessary Softwares/Linux Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/home/shamiul93/Documents/Problem Solving Online Judges/cmak
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/media/shamiul93/Software and Media/Necessary Softwares/Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/media/shamiul93/Software-and-Media/Necessary Softwares/Linux Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/media/shamiul93/Software and Media/Necessary Softwares/Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/media/shamiul93/Software-and-Media/Necessary Softwares/Linux Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,84 +111,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named transpose
+# Target rules for targets named kmp
 
 # Build rule for target.
-transpose: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 transpose
-.PHONY : transpose
+kmp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kmp
+.PHONY : kmp
 
 # fast build rule for target.
-transpose/fast:
-	$(MAKE) -f CMakeFiles/transpose.dir/build.make CMakeFiles/transpose.dir/build
-.PHONY : transpose/fast
+kmp/fast:
+	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/build
+.PHONY : kmp/fast
 
 #=============================================================================
-# Target rules for targets named des
+# Target rules for targets named tsttrr
 
 # Build rule for target.
-des: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 des
-.PHONY : des
+tsttrr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tsttrr
+.PHONY : tsttrr
 
 # fast build rule for target.
-des/fast:
-	$(MAKE) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/build
-.PHONY : des/fast
+tsttrr/fast:
+	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/build
+.PHONY : tsttrr/fast
 
-Offline/DES.o: Offline/DES.cpp.o
+Algorithm_Templates/KMP.o: Algorithm_Templates/KMP.cpp.o
 
-.PHONY : Offline/DES.o
-
-# target to build an object file
-Offline/DES.cpp.o:
-	$(MAKE) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/Offline/DES.cpp.o
-.PHONY : Offline/DES.cpp.o
-
-Offline/DES.i: Offline/DES.cpp.i
-
-.PHONY : Offline/DES.i
-
-# target to preprocess a source file
-Offline/DES.cpp.i:
-	$(MAKE) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/Offline/DES.cpp.i
-.PHONY : Offline/DES.cpp.i
-
-Offline/DES.s: Offline/DES.cpp.s
-
-.PHONY : Offline/DES.s
-
-# target to generate assembly for a file
-Offline/DES.cpp.s:
-	$(MAKE) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/Offline/DES.cpp.s
-.PHONY : Offline/DES.cpp.s
-
-Offline/Transposition.o: Offline/Transposition.cpp.o
-
-.PHONY : Offline/Transposition.o
+.PHONY : Algorithm_Templates/KMP.o
 
 # target to build an object file
-Offline/Transposition.cpp.o:
-	$(MAKE) -f CMakeFiles/transpose.dir/build.make CMakeFiles/transpose.dir/Offline/Transposition.cpp.o
-.PHONY : Offline/Transposition.cpp.o
+Algorithm_Templates/KMP.cpp.o:
+	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/Algorithm_Templates/KMP.cpp.o
+.PHONY : Algorithm_Templates/KMP.cpp.o
 
-Offline/Transposition.i: Offline/Transposition.cpp.i
+Algorithm_Templates/KMP.i: Algorithm_Templates/KMP.cpp.i
 
-.PHONY : Offline/Transposition.i
+.PHONY : Algorithm_Templates/KMP.i
 
 # target to preprocess a source file
-Offline/Transposition.cpp.i:
-	$(MAKE) -f CMakeFiles/transpose.dir/build.make CMakeFiles/transpose.dir/Offline/Transposition.cpp.i
-.PHONY : Offline/Transposition.cpp.i
+Algorithm_Templates/KMP.cpp.i:
+	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/Algorithm_Templates/KMP.cpp.i
+.PHONY : Algorithm_Templates/KMP.cpp.i
 
-Offline/Transposition.s: Offline/Transposition.cpp.s
+Algorithm_Templates/KMP.s: Algorithm_Templates/KMP.cpp.s
 
-.PHONY : Offline/Transposition.s
+.PHONY : Algorithm_Templates/KMP.s
 
 # target to generate assembly for a file
-Offline/Transposition.cpp.s:
-	$(MAKE) -f CMakeFiles/transpose.dir/build.make CMakeFiles/transpose.dir/Offline/Transposition.cpp.s
-.PHONY : Offline/Transposition.cpp.s
+Algorithm_Templates/KMP.cpp.s:
+	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/Algorithm_Templates/KMP.cpp.s
+.PHONY : Algorithm_Templates/KMP.cpp.s
+
+Testing/testin2.o: Testing/testin2.cpp.o
+
+.PHONY : Testing/testin2.o
+
+# target to build an object file
+Testing/testin2.cpp.o:
+	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/Testing/testin2.cpp.o
+.PHONY : Testing/testin2.cpp.o
+
+Testing/testin2.i: Testing/testin2.cpp.i
+
+.PHONY : Testing/testin2.i
+
+# target to preprocess a source file
+Testing/testin2.cpp.i:
+	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/Testing/testin2.cpp.i
+.PHONY : Testing/testin2.cpp.i
+
+Testing/testin2.s: Testing/testin2.cpp.s
+
+.PHONY : Testing/testin2.s
+
+# target to generate assembly for a file
+Testing/testin2.cpp.s:
+	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/Testing/testin2.cpp.s
+.PHONY : Testing/testin2.cpp.s
 
 # Help Target
 help:
@@ -197,15 +197,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... transpose"
 	@echo "... edit_cache"
-	@echo "... des"
-	@echo "... Offline/DES.o"
-	@echo "... Offline/DES.i"
-	@echo "... Offline/DES.s"
-	@echo "... Offline/Transposition.o"
-	@echo "... Offline/Transposition.i"
-	@echo "... Offline/Transposition.s"
+	@echo "... kmp"
+	@echo "... tsttrr"
+	@echo "... Algorithm_Templates/KMP.o"
+	@echo "... Algorithm_Templates/KMP.i"
+	@echo "... Algorithm_Templates/KMP.s"
+	@echo "... Testing/testin2.o"
+	@echo "... Testing/testin2.i"
+	@echo "... Testing/testin2.s"
 .PHONY : help
 
 

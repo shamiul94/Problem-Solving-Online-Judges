@@ -45,10 +45,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/media/shamiul93/Software and Media/Necessary Softwares/Softwares/clion-2018.1.5/bin/cmake/bin/cmake"
+CMAKE_COMMAND = "/media/shamiul93/Software-and-Media/Necessary Softwares/Linux Softwares/clion-2018.1.5/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = "/media/shamiul93/Software and Media/Necessary Softwares/Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -E remove -f
+RM = "/media/shamiul93/Software-and-Media/Necessary Softwares/Linux Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -60,76 +60,76 @@ CMAKE_SOURCE_DIR = "/home/shamiul93/Documents/Problem Solving Online Judges"
 CMAKE_BINARY_DIR = "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/transpose.dir
+# Target rules for target CMakeFiles/kmp.dir
 
 # All Build rule for target.
-CMakeFiles/transpose.dir/all:
-	$(MAKE) -f CMakeFiles/transpose.dir/build.make CMakeFiles/transpose.dir/depend
-	$(MAKE) -f CMakeFiles/transpose.dir/build.make CMakeFiles/transpose.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target transpose"
-.PHONY : CMakeFiles/transpose.dir/all
+CMakeFiles/kmp.dir/all:
+	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/depend
+	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target kmp"
+.PHONY : CMakeFiles/kmp.dir/all
 
 # Include target in all.
-all: CMakeFiles/transpose.dir/all
+all: CMakeFiles/kmp.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/transpose.dir/rule: cmake_check_build_system
+CMakeFiles/kmp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/transpose.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kmp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/transpose.dir/rule
+.PHONY : CMakeFiles/kmp.dir/rule
 
 # Convenience name for target.
-transpose: CMakeFiles/transpose.dir/rule
+kmp: CMakeFiles/kmp.dir/rule
 
-.PHONY : transpose
-
-# clean rule for target.
-CMakeFiles/transpose.dir/clean:
-	$(MAKE) -f CMakeFiles/transpose.dir/build.make CMakeFiles/transpose.dir/clean
-.PHONY : CMakeFiles/transpose.dir/clean
+.PHONY : kmp
 
 # clean rule for target.
-clean: CMakeFiles/transpose.dir/clean
+CMakeFiles/kmp.dir/clean:
+	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/clean
+.PHONY : CMakeFiles/kmp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/kmp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/des.dir
+# Target rules for target CMakeFiles/tsttrr.dir
 
 # All Build rule for target.
-CMakeFiles/des.dir/all:
-	$(MAKE) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/depend
-	$(MAKE) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target des"
-.PHONY : CMakeFiles/des.dir/all
+CMakeFiles/tsttrr.dir/all:
+	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/depend
+	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target tsttrr"
+.PHONY : CMakeFiles/tsttrr.dir/all
 
 # Include target in all.
-all: CMakeFiles/des.dir/all
+all: CMakeFiles/tsttrr.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/des.dir/rule: cmake_check_build_system
+CMakeFiles/tsttrr.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/des.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tsttrr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/des.dir/rule
+.PHONY : CMakeFiles/tsttrr.dir/rule
 
 # Convenience name for target.
-des: CMakeFiles/des.dir/rule
+tsttrr: CMakeFiles/tsttrr.dir/rule
 
-.PHONY : des
-
-# clean rule for target.
-CMakeFiles/des.dir/clean:
-	$(MAKE) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/clean
-.PHONY : CMakeFiles/des.dir/clean
+.PHONY : tsttrr
 
 # clean rule for target.
-clean: CMakeFiles/des.dir/clean
+CMakeFiles/tsttrr.dir/clean:
+	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/clean
+.PHONY : CMakeFiles/tsttrr.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tsttrr.dir/clean
 
 .PHONY : clean
 
