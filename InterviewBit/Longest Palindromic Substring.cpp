@@ -76,15 +76,15 @@ void printVec(vector<char> vec) {
 }
 
 ll Set(ll N, ll pos) {
-    return N = N | ((ll)1 << pos);
+    return N = N | ((ll) 1 << pos);
 }
 
 ll reset(ll N, ll pos) {
-    return N = N & ~((ll)1 << pos);
+    return N = N & ~((ll) 1 << pos);
 }
 
 ll check(ll N, ll pos) {
-    return (bool) (N & ((ll)1 << pos));
+    return (bool) (N & ((ll) 1 << pos));
 }
 
 ll setValueBit(ll n, ll pos, ll val) {
@@ -98,29 +98,88 @@ ll setValueBit(ll n, ll pos, ll val) {
 
 /************************************** END OF INITIALS ****************************************/
 
-class Solution{
+class Solution {
 public:
+    string longestPalindromeDP(string A);
+
     string longestPalindrome(string A);
+
+//    string longestPalindrome(string A);
 };
 
-
 string Solution::longestPalindrome(string A) {
+    int index = 0;
+    string newInput = "";
+
+    for (int i = 0; i < 2 * A.length() + 1; i++) {
+        if (i % 2 != 0) {
+            newInput += A[index++];
+        } else {
+            newInput += '$';
+        }
+    }
+    int newInputLength = static_cast<int>(newInput.length());
+
+
+    int T[newInputLength];
+    m0(T);
+
+    int start = 0;
+    int end = 0;
+    for (int i = 0; i < newInputLength;) {
+        while (start > 0 && end < newInputLength - 1 && newInput[start - 1] == newInput[end + 1]) {
+            start--;
+            end++;
+        }
+        T[i] = end - start + 1;
+
+        if (end == newInputLength - 1) {
+            break;
+        }
+
+        int newCenter = end + (i % 2 == 0 ? 1 : 0);
+
+        for (int j = i + 1; j <= end; j++) {
+
+            T[j] = min(T[i - (j - i)], 2 * (end - j) + 1);
+
+            if (j + T[i - (j - i)] / 2 == end) {
+                newCenter = j;
+                break;
+            }
+        }
+        i = newCenter;
+        end = i + T[i] / 2;
+        start = i - T[i] / 2;
+    }
+
+
+    int max = INT_MIN;
+    int idx ;
+
+    for (int i = 0; i < newInputLength; i++) {
+        int val;
+        val = T[i] / 2;
+        if (max < val) {
+            idx = i;
+            max = val;
+        }
+    }
+
+    string ans = "";
+    for(int i = idx - max ; i <= idx + max ; i++){
+        if(newInput[i] != '$'){
+            ans += newInput[i];
+        }
+    }
+//    cout << ans << endl ;
+    return ans;
+//    return max;
 }
 
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    ll T, t = 0;
-
-    sll(T);
-
-    while (T--) {
-        t++;
-        ll ans;
-
-        PRINT_CASE(ans);
-    }
+    Solution sln = Solution();
+    cout << sln.longestPalindrome("aabbaa") << endl;
     return 0;
 }

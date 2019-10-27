@@ -66,6 +66,7 @@ int longestPalindromicSubstringLinear(string input) {
             break;
         }
         //Mark newCenter to be either end or end + 1 depending on if we dealing with even or old number input.
+        // etar karon hocche, # ke center dhore palin ber korar kono mane nai. as, even place gulate always # thakbe
         int newCenter = end + (i % 2 == 0 ? 1 : 0);
 
         for (int j = i + 1; j <= end; j++) {
@@ -98,7 +99,11 @@ int longestPalindromicSubstringLinear(string input) {
              * hoise oi palindrom. maane PREFIX hoye gese eta. etake count kora lagbe ----> CASE : 3
              *
              *
-             * CASE 3: etaay arektu extra kaaj kora laage.
+             * CASE 3: etaay arektu extra kaaj kora laage. karon, tumi to minimum ta niso but ekhono jano na
+             * je ashole konta minimum chilo T[i - (j - i)], naki (2 * (end - j) + 1). so, ami sure korte
+             * chaitesi je T[i - (j - i)] minimum hoilei kebol eta prefix hoye jaabe nicher check e
+             * and so, change ta hobe.
+             *
              *
              * if (j + T[i - (j - i)] / 2 == end) --> ei check ta kora lagtese case 3 te. keno?
              * eta diye confirm kortese je 'j' theke palin nile sheta suffix o hobe. aar prefix to aagei hoilo ekbar.
@@ -131,7 +136,7 @@ int longestPalindromicSubstringLinear(string input) {
     int max = INT_MIN;
 
     for (int i = 0; i < newInputLength; i++) {
-        cout << T[i] << " ";
+//        cout << T[i] << " ";
         int val;
         val = T[i] / 2;
         if (max < val) {
@@ -144,7 +149,8 @@ int longestPalindromicSubstringLinear(string input) {
 
 
 int main() {
-    string str = "abaxabaxabybaxabyb";
+//    string str = "abaxabaxabybaxabyb";
+    string str = "ab";
     cout << longestPalindromicSubstringLinear(str) << endl;
     return 0;
 }
