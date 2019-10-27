@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named kmp
+# Target rules for targets named palin
 
 # Build rule for target.
-kmp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kmp
-.PHONY : kmp
+palin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 palin
+.PHONY : palin
 
 # fast build rule for target.
-kmp/fast:
-	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/build
-.PHONY : kmp/fast
+palin/fast:
+	$(MAKE) -f CMakeFiles/palin.dir/build.make CMakeFiles/palin.dir/build
+.PHONY : palin/fast
 
 #=============================================================================
 # Target rules for targets named tsttrr
@@ -135,6 +135,19 @@ tsttrr: cmake_check_build_system
 tsttrr/fast:
 	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/build
 .PHONY : tsttrr/fast
+
+#=============================================================================
+# Target rules for targets named kmp
+
+# Build rule for target.
+kmp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kmp
+.PHONY : kmp
+
+# fast build rule for target.
+kmp/fast:
+	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/build
+.PHONY : kmp/fast
 
 Algorithm_Templates/KMP.o: Algorithm_Templates/KMP.cpp.o
 
@@ -162,6 +175,33 @@ Algorithm_Templates/KMP.s: Algorithm_Templates/KMP.cpp.s
 Algorithm_Templates/KMP.cpp.s:
 	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/Algorithm_Templates/KMP.cpp.s
 .PHONY : Algorithm_Templates/KMP.cpp.s
+
+LightOJ/1258_-_Making_Huge_Palindromes.o: LightOJ/1258_-_Making_Huge_Palindromes.cpp.o
+
+.PHONY : LightOJ/1258_-_Making_Huge_Palindromes.o
+
+# target to build an object file
+LightOJ/1258_-_Making_Huge_Palindromes.cpp.o:
+	$(MAKE) -f CMakeFiles/palin.dir/build.make CMakeFiles/palin.dir/LightOJ/1258_-_Making_Huge_Palindromes.cpp.o
+.PHONY : LightOJ/1258_-_Making_Huge_Palindromes.cpp.o
+
+LightOJ/1258_-_Making_Huge_Palindromes.i: LightOJ/1258_-_Making_Huge_Palindromes.cpp.i
+
+.PHONY : LightOJ/1258_-_Making_Huge_Palindromes.i
+
+# target to preprocess a source file
+LightOJ/1258_-_Making_Huge_Palindromes.cpp.i:
+	$(MAKE) -f CMakeFiles/palin.dir/build.make CMakeFiles/palin.dir/LightOJ/1258_-_Making_Huge_Palindromes.cpp.i
+.PHONY : LightOJ/1258_-_Making_Huge_Palindromes.cpp.i
+
+LightOJ/1258_-_Making_Huge_Palindromes.s: LightOJ/1258_-_Making_Huge_Palindromes.cpp.s
+
+.PHONY : LightOJ/1258_-_Making_Huge_Palindromes.s
+
+# target to generate assembly for a file
+LightOJ/1258_-_Making_Huge_Palindromes.cpp.s:
+	$(MAKE) -f CMakeFiles/palin.dir/build.make CMakeFiles/palin.dir/LightOJ/1258_-_Making_Huge_Palindromes.cpp.s
+.PHONY : LightOJ/1258_-_Making_Huge_Palindromes.cpp.s
 
 Testing/testin2.o: Testing/testin2.cpp.o
 
@@ -197,12 +237,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... kmp"
+	@echo "... palin"
 	@echo "... tsttrr"
+	@echo "... kmp"
+	@echo "... edit_cache"
 	@echo "... Algorithm_Templates/KMP.o"
 	@echo "... Algorithm_Templates/KMP.i"
 	@echo "... Algorithm_Templates/KMP.s"
+	@echo "... LightOJ/1258_-_Making_Huge_Palindromes.o"
+	@echo "... LightOJ/1258_-_Making_Huge_Palindromes.i"
+	@echo "... LightOJ/1258_-_Making_Huge_Palindromes.s"
 	@echo "... Testing/testin2.o"
 	@echo "... Testing/testin2.i"
 	@echo "... Testing/testin2.s"

@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(des Offline/DES.h Offline/DES.cpp)
 #add_executable(transpose Offline/Transposition.cpp)
 
-#add_executable(painful "LightOJ/1021 - Painful Bases.cpp")
+add_executable(palin "LightOJ/1258 - Making Huge Palindromes.cpp")
 #add_executable(testerr Testing/testing.cpp)
 
 

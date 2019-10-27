@@ -1,8 +1,8 @@
 /**
 @author - Rumman BUET CSE'15
-Problem - 
-Idea - 
-Concept - 
+Problem -
+Idea -
+Concept -
 */
 
 #include <bits/stdc++.h>
@@ -56,18 +56,6 @@ Concept -
 
 using namespace std;
 
-ll BigMod(ll B, ll P, ll M) {
-    ll R = 1;
-    while (P > 0) {
-        if (P % 2 == 1) {
-            R = (R * B) % M;
-        }
-        P /= 2;
-        B = (B * B) % M;
-    }
-    return R;
-}
-
 void printVec(vector<char> vec) {
     for (int i = 0; i < vec.size(); i++) {
         cout << vec[i] << " ";
@@ -75,33 +63,53 @@ void printVec(vector<char> vec) {
     cout << endl;
 }
 
-ll Set(ll N, ll pos) {
-    return N = N | ((ll)1 << pos);
-}
-
-ll reset(ll N, ll pos) {
-    return N = N & ~((ll)1 << pos);
-}
-
-ll check(ll N, ll pos) {
-    return (bool) (N & ((ll)1 << pos));
-}
-
-ll setValueBit(ll n, ll pos, ll val) {
-    if (val == 1) {
-        n = Set(n, pos);
-    } else if (val == 0) {
-        n = reset(n, pos);
-    }
-    return n;
-}
-
 /************************************** END OF INITIALS ****************************************/
 
-int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+int LPS[1000005] = {};
+int N;
 
+void generateLPSArray(string pattern) {
+    N = (int)(pattern.length());
+    int j, i;
+    // initialize
+    j = 0;
+    LPS[0] = 0;
+
+    for (i = 1; j < i && i < N;) {
+        if (pattern[j] == pattern[i]) {
+            LPS[i] = j + 1;
+            i++;
+            j++;
+        } else { // pattern[j] != pattern[i]
+            if (j > 0) {
+                j = LPS[j - 1];
+            } else {
+                LPS[i] = 0;
+                i++;
+            }
+        }
+    }
+}
+
+int solve(string A) {
+    reverse(A.begin(), A.end());
+    m0(LPS);
+    string tem = A;
+    int realStringLen = static_cast<int>(A.length());
+    string modified = A + "#";
+    reverse(tem.begin(), tem.end());
+    modified += tem;
+
+    generateLPSArray(modified);
+    int lastIdxValue = LPS[N - 1];
+
+    return (realStringLen + (realStringLen - lastIdxValue));
+}
+
+
+int main() {
+//    fi;
+//    fo;
     ll T, t = 0;
 
     sll(T);
@@ -109,6 +117,9 @@ int main() {
     while (T--) {
         t++;
         ll ans;
+        string str;
+        cin >> str;
+        ans = solve(str);
 
         PRINT_CASE(ans);
     }

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/palin.dir/LightOJ/1258_-_Making_Huge_Palindromes.cpp.o  -o palin 
