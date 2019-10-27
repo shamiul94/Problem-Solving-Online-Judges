@@ -61,7 +61,7 @@ int longestPalindromicSubstringLinear(string input) {
         //set the longest value of palindrome around center i at T[i]
         T[i] = end - start + 1;
 
-        //this is case 2. Current palindrome is proper suffix of input. No need to proceed. Just break out of loop.
+        //Case 2: this is case 2. Current palindrome is proper suffix of input. No need to proceed. Just break out of loop.
         if (end == newInputLength - 1) {
             break;
         }
@@ -70,11 +70,51 @@ int longestPalindromicSubstringLinear(string input) {
 
         for (int j = i + 1; j <= end; j++) {
 
-            //i - (j - i) is left mirror. Its possible left mirror might go beyond current center palindrome. So take minimum
-            //of either left side palindrome or distance of j to end.
+            // This part contains Case 3,4
+            /*
+             *
+             * Bangla explanation -
+             *
+             * j ki? - j hocche ashol pallindrome er center er daan pasher part ta.
+             * ei j = range(center -> end)
+             *
+             * Case 1: jodi choto pallindrome boro pallindrome er moddhe included hoye jay.
+             * how is checked? - T[j] = min(T[i - (j - i)], 2 * (end - j) + 1); -> it ensures it
+             * Q: (2 * (end - j) + 1) diye ki bujhaay? - j ke center dhore pallindrom er daane baame (end-j) ta kore
+             * element thaake. so, total element in that pallindrom hobe 2 * (end-j) + 1. (1 hoche j ke shoho niye).
+             * Q: T[i - (j - i)] diye ki bujhaay? - Eta bujhaay i er mirror elelment ke center dhore banano
+             * pallindrom er length koto hobe. ekhon chinta koro,  (2 * (end - j) + 1) is the highest possible
+             * length of the pallindrome centered at j. naaile onnora ore cover kore felto.
+             * So, -
+             * 1. T[i - (j - i)] > (2 * (end - j) + 1) ---> maane holo, baam dike ashol pallin
+             * er edge over kore chole gese. so, eta ignore korbo ---> CASE : 4
+             *
+             *
+             * 2. T[i - (j - i)] < (2 * (end - j) + 1) ---> baam dike notun pallin ashol pallin er moddhe
+             * included hoye gese. notun kore etake hishab korar proyojon nai----> CASE : 1
+             *
+             *
+             * 3. T[i - (j - i)] == (2 * (end - j) + 1) ---> maane holo, baam dike edge thekei shuru
+             * hoise oi pallindrom. maane PREFIX hoye gese eta. etake count kora lagbe ----> CASE : 3
+             *
+             *
+             * CASE 3: etaay arektu extra kaaj kora laage.
+             *
+             * if (j + T[i - (j - i)] / 2 == end) --> ei check ta kora lagtese case 3 te. keno?
+             * eta diye confirm kortese je 'j' theke pallin nile sheta suffix o hobe. aar prefix to aagei hoilo ekbar.
+             * so, ultimately suffix , prefix duitai proof hoilo ---> CASE : 3 proved.
+             *
+             *
+             */
+
+
+            //Case 1, 4:  i - (j - i) is left mirror. Its possible left mirror might go beyond current center palindrome.
+            // So take minimum of either left side palindrome or distance of j to end.
             T[j] = min(T[i - (j - i)], 2 * (end - j) + 1);
-            //Only proceed if we get case 3. This check is to make sure we do not pick j as new center for case 1 or case 4
-            //As soon as we find a center lets break out of this inner while loop.
+
+            // Case 3: Only proceed if we get case 3. This check is to make sure we do not pick j as new
+            // center for case 1 or case 4
+            // As soon as we find a center lets break out of this inner while loop.
             if (j + T[i - (j - i)] / 2 == end) {
                 newCenter = j;
                 break;
