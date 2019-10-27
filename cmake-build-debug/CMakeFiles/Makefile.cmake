@@ -45,7 +45,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/palin.dir/DependInfo.cmake"
+  "CMakeFiles/manacher.dir/DependInfo.cmake"
   "CMakeFiles/tsttrr.dir/DependInfo.cmake"
   "CMakeFiles/kmp.dir/DependInfo.cmake"
   )

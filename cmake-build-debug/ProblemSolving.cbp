@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="palin">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/palin" prefix_auto="0" extension_auto="0"/>
+			<Target title="manacher">
+				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/manacher" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -44,14 +44,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 palin"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 manacher"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="palin/fast">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/palin" prefix_auto="0" extension_auto="0"/>
+			<Target title="manacher/fast">
+				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/manacher" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -67,7 +67,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 palin/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 manacher/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -179,8 +179,8 @@
 		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/KMP.cpp">
 			<Option target="kmp"/>
 		</Unit>
-		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/LightOJ/1258 - Making Huge Palindromes.cpp">
-			<Option target="palin"/>
+		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/Manacher&apos;s Algorithm.cpp">
+			<Option target="manacher"/>
 		</Unit>
 		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Testing/testin2.cpp">
 			<Option target="tsttrr"/>

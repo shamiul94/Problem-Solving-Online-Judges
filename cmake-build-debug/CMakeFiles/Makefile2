@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = "/home/shamiul93/Documents/Problem Solving Online Judges"
 CMAKE_BINARY_DIR = "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/palin.dir
+# Target rules for target CMakeFiles/manacher.dir
 
 # All Build rule for target.
-CMakeFiles/palin.dir/all:
-	$(MAKE) -f CMakeFiles/palin.dir/build.make CMakeFiles/palin.dir/depend
-	$(MAKE) -f CMakeFiles/palin.dir/build.make CMakeFiles/palin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target palin"
-.PHONY : CMakeFiles/palin.dir/all
+CMakeFiles/manacher.dir/all:
+	$(MAKE) -f CMakeFiles/manacher.dir/build.make CMakeFiles/manacher.dir/depend
+	$(MAKE) -f CMakeFiles/manacher.dir/build.make CMakeFiles/manacher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target manacher"
+.PHONY : CMakeFiles/manacher.dir/all
 
 # Include target in all.
-all: CMakeFiles/palin.dir/all
+all: CMakeFiles/manacher.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/palin.dir/rule: cmake_check_build_system
+CMakeFiles/manacher.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/palin.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/manacher.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/palin.dir/rule
+.PHONY : CMakeFiles/manacher.dir/rule
 
 # Convenience name for target.
-palin: CMakeFiles/palin.dir/rule
+manacher: CMakeFiles/manacher.dir/rule
 
-.PHONY : palin
-
-# clean rule for target.
-CMakeFiles/palin.dir/clean:
-	$(MAKE) -f CMakeFiles/palin.dir/build.make CMakeFiles/palin.dir/clean
-.PHONY : CMakeFiles/palin.dir/clean
+.PHONY : manacher
 
 # clean rule for target.
-clean: CMakeFiles/palin.dir/clean
+CMakeFiles/manacher.dir/clean:
+	$(MAKE) -f CMakeFiles/manacher.dir/build.make CMakeFiles/manacher.dir/clean
+.PHONY : CMakeFiles/manacher.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/manacher.dir/clean
 
 .PHONY : clean
 

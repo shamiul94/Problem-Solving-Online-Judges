@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named palin
+# Target rules for targets named manacher
 
 # Build rule for target.
-palin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 palin
-.PHONY : palin
+manacher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 manacher
+.PHONY : manacher
 
 # fast build rule for target.
-palin/fast:
-	$(MAKE) -f CMakeFiles/palin.dir/build.make CMakeFiles/palin.dir/build
-.PHONY : palin/fast
+manacher/fast:
+	$(MAKE) -f CMakeFiles/manacher.dir/build.make CMakeFiles/manacher.dir/build
+.PHONY : manacher/fast
 
 #=============================================================================
 # Target rules for targets named tsttrr
@@ -176,32 +176,32 @@ Algorithm_Templates/KMP.cpp.s:
 	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/Algorithm_Templates/KMP.cpp.s
 .PHONY : Algorithm_Templates/KMP.cpp.s
 
-LightOJ/1258_-_Making_Huge_Palindromes.o: LightOJ/1258_-_Making_Huge_Palindromes.cpp.o
+Algorithm_Templates/Manacher's_Algorithm.o: Algorithm_Templates/Manacher's_Algorithm.cpp.o
 
-.PHONY : LightOJ/1258_-_Making_Huge_Palindromes.o
+.PHONY : Algorithm_Templates/Manacher's_Algorithm.o
 
 # target to build an object file
-LightOJ/1258_-_Making_Huge_Palindromes.cpp.o:
-	$(MAKE) -f CMakeFiles/palin.dir/build.make CMakeFiles/palin.dir/LightOJ/1258_-_Making_Huge_Palindromes.cpp.o
-.PHONY : LightOJ/1258_-_Making_Huge_Palindromes.cpp.o
+Algorithm_Templates/Manacher's_Algorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o"
+.PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.o
 
-LightOJ/1258_-_Making_Huge_Palindromes.i: LightOJ/1258_-_Making_Huge_Palindromes.cpp.i
+Algorithm_Templates/Manacher's_Algorithm.i: Algorithm_Templates/Manacher's_Algorithm.cpp.i
 
-.PHONY : LightOJ/1258_-_Making_Huge_Palindromes.i
+.PHONY : Algorithm_Templates/Manacher's_Algorithm.i
 
 # target to preprocess a source file
-LightOJ/1258_-_Making_Huge_Palindromes.cpp.i:
-	$(MAKE) -f CMakeFiles/palin.dir/build.make CMakeFiles/palin.dir/LightOJ/1258_-_Making_Huge_Palindromes.cpp.i
-.PHONY : LightOJ/1258_-_Making_Huge_Palindromes.cpp.i
+Algorithm_Templates/Manacher's_Algorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.i"
+.PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.i
 
-LightOJ/1258_-_Making_Huge_Palindromes.s: LightOJ/1258_-_Making_Huge_Palindromes.cpp.s
+Algorithm_Templates/Manacher's_Algorithm.s: Algorithm_Templates/Manacher's_Algorithm.cpp.s
 
-.PHONY : LightOJ/1258_-_Making_Huge_Palindromes.s
+.PHONY : Algorithm_Templates/Manacher's_Algorithm.s
 
 # target to generate assembly for a file
-LightOJ/1258_-_Making_Huge_Palindromes.cpp.s:
-	$(MAKE) -f CMakeFiles/palin.dir/build.make CMakeFiles/palin.dir/LightOJ/1258_-_Making_Huge_Palindromes.cpp.s
-.PHONY : LightOJ/1258_-_Making_Huge_Palindromes.cpp.s
+Algorithm_Templates/Manacher's_Algorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
+.PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.s
 
 Testing/testin2.o: Testing/testin2.cpp.o
 
@@ -237,16 +237,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... palin"
+	@echo "... manacher"
 	@echo "... tsttrr"
 	@echo "... kmp"
 	@echo "... edit_cache"
 	@echo "... Algorithm_Templates/KMP.o"
 	@echo "... Algorithm_Templates/KMP.i"
 	@echo "... Algorithm_Templates/KMP.s"
-	@echo "... LightOJ/1258_-_Making_Huge_Palindromes.o"
-	@echo "... LightOJ/1258_-_Making_Huge_Palindromes.i"
-	@echo "... LightOJ/1258_-_Making_Huge_Palindromes.s"
+	@echo "... Algorithm_Templates/Manacher's_Algorithm.o"
+	@echo "... Algorithm_Templates/Manacher's_Algorithm.i"
+	@echo "... Algorithm_Templates/Manacher's_Algorithm.s"
 	@echo "... Testing/testin2.o"
 	@echo "... Testing/testin2.i"
 	@echo "... Testing/testin2.s"

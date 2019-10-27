@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(des Offline/DES.h Offline/DES.cpp)
 #add_executable(transpose Offline/Transposition.cpp)
 
-add_executable(palin "LightOJ/1258 - Making Huge Palindromes.cpp")
+add_executable(manacher "Algorithm Templates/Manacher's Algorithm.cpp")
 #add_executable(testerr Testing/testing.cpp)
 
 
