@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(transpose Offline/Transposition.cpp)
 
 add_executable(manacher "Algorithm Templates/Manacher's Algorithm.cpp")
+add_executable(longpal "InterviewBit/Longest Palindromic Substring.cpp")
 #add_executable(testerr Testing/testing.cpp)
 
 

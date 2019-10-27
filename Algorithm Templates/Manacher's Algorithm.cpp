@@ -75,33 +75,33 @@ int longestPalindromicSubstringLinear(string input) {
              *
              * Bangla explanation -
              *
-             * j ki? - j hocche ashol pallindrome er center er daan pasher part ta.
+             * j ki? - j hocche ashol palindrome er center er daan pasher part ta.
              * ei j = range(center -> end)
              *
-             * Case 1: jodi choto pallindrome boro pallindrome er moddhe included hoye jay.
+             * Case 1: jodi choto palindrome boro palindrome er moddhe included hoye jay.
              * how is checked? - T[j] = min(T[i - (j - i)], 2 * (end - j) + 1); -> it ensures it
-             * Q: (2 * (end - j) + 1) diye ki bujhaay? - j ke center dhore pallindrom er daane baame (end-j) ta kore
-             * element thaake. so, total element in that pallindrom hobe 2 * (end-j) + 1. (1 hoche j ke shoho niye).
+             * Q: (2 * (end - j) + 1) diye ki bujhaay? - j ke center dhore palindrom er daane baame (end-j) ta kore
+             * element thaake. so, total element in that palindrom hobe 2 * (end-j) + 1. (1 hoche j ke shoho niye).
              * Q: T[i - (j - i)] diye ki bujhaay? - Eta bujhaay i er mirror elelment ke center dhore banano
-             * pallindrom er length koto hobe. ekhon chinta koro,  (2 * (end - j) + 1) is the highest possible
-             * length of the pallindrome centered at j. naaile onnora ore cover kore felto.
+             * palindrom er length koto hobe. ekhon chinta koro,  (2 * (end - j) + 1) is the highest possible
+             * length of the palindrome centered at j. naaile onnora ore cover kore felto.
              * So, -
-             * 1. T[i - (j - i)] > (2 * (end - j) + 1) ---> maane holo, baam dike ashol pallin
+             * 1. T[i - (j - i)] > (2 * (end - j) + 1) ---> maane holo, baam dike ashol palin
              * er edge over kore chole gese. so, eta ignore korbo ---> CASE : 4
              *
              *
-             * 2. T[i - (j - i)] < (2 * (end - j) + 1) ---> baam dike notun pallin ashol pallin er moddhe
+             * 2. T[i - (j - i)] < (2 * (end - j) + 1) ---> baam dike notun palin ashol palin er moddhe
              * included hoye gese. notun kore etake hishab korar proyojon nai----> CASE : 1
              *
              *
              * 3. T[i - (j - i)] == (2 * (end - j) + 1) ---> maane holo, baam dike edge thekei shuru
-             * hoise oi pallindrom. maane PREFIX hoye gese eta. etake count kora lagbe ----> CASE : 3
+             * hoise oi palindrom. maane PREFIX hoye gese eta. etake count kora lagbe ----> CASE : 3
              *
              *
              * CASE 3: etaay arektu extra kaaj kora laage.
              *
              * if (j + T[i - (j - i)] / 2 == end) --> ei check ta kora lagtese case 3 te. keno?
-             * eta diye confirm kortese je 'j' theke pallin nile sheta suffix o hobe. aar prefix to aagei hoilo ekbar.
+             * eta diye confirm kortese je 'j' theke palin nile sheta suffix o hobe. aar prefix to aagei hoilo ekbar.
              * so, ultimately suffix , prefix duitai proof hoilo ---> CASE : 3 proved.
              *
              *

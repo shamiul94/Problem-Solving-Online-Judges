@@ -124,6 +124,19 @@ manacher/fast:
 .PHONY : manacher/fast
 
 #=============================================================================
+# Target rules for targets named longpal
+
+# Build rule for target.
+longpal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 longpal
+.PHONY : longpal
+
+# fast build rule for target.
+longpal/fast:
+	$(MAKE) -f CMakeFiles/longpal.dir/build.make CMakeFiles/longpal.dir/build
+.PHONY : longpal/fast
+
+#=============================================================================
 # Target rules for targets named tsttrr
 
 # Build rule for target.
@@ -203,6 +216,33 @@ Algorithm_Templates/Manacher's_Algorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
 .PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.s
 
+InterviewBit/Longest_Palindromic_Substring.o: InterviewBit/Longest_Palindromic_Substring.cpp.o
+
+.PHONY : InterviewBit/Longest_Palindromic_Substring.o
+
+# target to build an object file
+InterviewBit/Longest_Palindromic_Substring.cpp.o:
+	$(MAKE) -f CMakeFiles/longpal.dir/build.make CMakeFiles/longpal.dir/InterviewBit/Longest_Palindromic_Substring.cpp.o
+.PHONY : InterviewBit/Longest_Palindromic_Substring.cpp.o
+
+InterviewBit/Longest_Palindromic_Substring.i: InterviewBit/Longest_Palindromic_Substring.cpp.i
+
+.PHONY : InterviewBit/Longest_Palindromic_Substring.i
+
+# target to preprocess a source file
+InterviewBit/Longest_Palindromic_Substring.cpp.i:
+	$(MAKE) -f CMakeFiles/longpal.dir/build.make CMakeFiles/longpal.dir/InterviewBit/Longest_Palindromic_Substring.cpp.i
+.PHONY : InterviewBit/Longest_Palindromic_Substring.cpp.i
+
+InterviewBit/Longest_Palindromic_Substring.s: InterviewBit/Longest_Palindromic_Substring.cpp.s
+
+.PHONY : InterviewBit/Longest_Palindromic_Substring.s
+
+# target to generate assembly for a file
+InterviewBit/Longest_Palindromic_Substring.cpp.s:
+	$(MAKE) -f CMakeFiles/longpal.dir/build.make CMakeFiles/longpal.dir/InterviewBit/Longest_Palindromic_Substring.cpp.s
+.PHONY : InterviewBit/Longest_Palindromic_Substring.cpp.s
+
 Testing/testin2.o: Testing/testin2.cpp.o
 
 .PHONY : Testing/testin2.o
@@ -238,15 +278,19 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... manacher"
+	@echo "... edit_cache"
+	@echo "... longpal"
 	@echo "... tsttrr"
 	@echo "... kmp"
-	@echo "... edit_cache"
 	@echo "... Algorithm_Templates/KMP.o"
 	@echo "... Algorithm_Templates/KMP.i"
 	@echo "... Algorithm_Templates/KMP.s"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.o"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.i"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.s"
+	@echo "... InterviewBit/Longest_Palindromic_Substring.o"
+	@echo "... InterviewBit/Longest_Palindromic_Substring.i"
+	@echo "... InterviewBit/Longest_Palindromic_Substring.s"
 	@echo "... Testing/testin2.o"
 	@echo "... Testing/testin2.i"
 	@echo "... Testing/testin2.s"
