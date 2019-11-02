@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o  -o leet 

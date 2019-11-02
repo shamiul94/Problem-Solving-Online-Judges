@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = "/home/shamiul93/Documents/Problem Solving Online Judges/cmak
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/media/shamiul93/Software-and-Media/Necessary Softwares/Linux Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/media/shamiul93/Software-and-Media/Necessary Softwares/Linux Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -124,17 +124,17 @@ manacher/fast:
 .PHONY : manacher/fast
 
 #=============================================================================
-# Target rules for targets named longpal
+# Target rules for targets named leet
 
 # Build rule for target.
-longpal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 longpal
-.PHONY : longpal
+leet: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leet
+.PHONY : leet
 
 # fast build rule for target.
-longpal/fast:
-	$(MAKE) -f CMakeFiles/longpal.dir/build.make CMakeFiles/longpal.dir/build
-.PHONY : longpal/fast
+leet/fast:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/build
+.PHONY : leet/fast
 
 #=============================================================================
 # Target rules for targets named tsttrr
@@ -216,32 +216,32 @@ Algorithm_Templates/Manacher's_Algorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
 .PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.s
 
-InterviewBit/Longest_Palindromic_Substring.o: InterviewBit/Longest_Palindromic_Substring.cpp.o
+LeetCode/15._3Sum.o: LeetCode/15._3Sum.cpp.o
 
-.PHONY : InterviewBit/Longest_Palindromic_Substring.o
+.PHONY : LeetCode/15._3Sum.o
 
 # target to build an object file
-InterviewBit/Longest_Palindromic_Substring.cpp.o:
-	$(MAKE) -f CMakeFiles/longpal.dir/build.make CMakeFiles/longpal.dir/InterviewBit/Longest_Palindromic_Substring.cpp.o
-.PHONY : InterviewBit/Longest_Palindromic_Substring.cpp.o
+LeetCode/15._3Sum.cpp.o:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o
+.PHONY : LeetCode/15._3Sum.cpp.o
 
-InterviewBit/Longest_Palindromic_Substring.i: InterviewBit/Longest_Palindromic_Substring.cpp.i
+LeetCode/15._3Sum.i: LeetCode/15._3Sum.cpp.i
 
-.PHONY : InterviewBit/Longest_Palindromic_Substring.i
+.PHONY : LeetCode/15._3Sum.i
 
 # target to preprocess a source file
-InterviewBit/Longest_Palindromic_Substring.cpp.i:
-	$(MAKE) -f CMakeFiles/longpal.dir/build.make CMakeFiles/longpal.dir/InterviewBit/Longest_Palindromic_Substring.cpp.i
-.PHONY : InterviewBit/Longest_Palindromic_Substring.cpp.i
+LeetCode/15._3Sum.cpp.i:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.i
+.PHONY : LeetCode/15._3Sum.cpp.i
 
-InterviewBit/Longest_Palindromic_Substring.s: InterviewBit/Longest_Palindromic_Substring.cpp.s
+LeetCode/15._3Sum.s: LeetCode/15._3Sum.cpp.s
 
-.PHONY : InterviewBit/Longest_Palindromic_Substring.s
+.PHONY : LeetCode/15._3Sum.s
 
 # target to generate assembly for a file
-InterviewBit/Longest_Palindromic_Substring.cpp.s:
-	$(MAKE) -f CMakeFiles/longpal.dir/build.make CMakeFiles/longpal.dir/InterviewBit/Longest_Palindromic_Substring.cpp.s
-.PHONY : InterviewBit/Longest_Palindromic_Substring.cpp.s
+LeetCode/15._3Sum.cpp.s:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.s
+.PHONY : LeetCode/15._3Sum.cpp.s
 
 Testing/testin2.o: Testing/testin2.cpp.o
 
@@ -276,10 +276,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... manacher"
 	@echo "... edit_cache"
-	@echo "... longpal"
+	@echo "... manacher"
+	@echo "... rebuild_cache"
+	@echo "... leet"
 	@echo "... tsttrr"
 	@echo "... kmp"
 	@echo "... Algorithm_Templates/KMP.o"
@@ -288,9 +288,9 @@ help:
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.o"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.i"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.s"
-	@echo "... InterviewBit/Longest_Palindromic_Substring.o"
-	@echo "... InterviewBit/Longest_Palindromic_Substring.i"
-	@echo "... InterviewBit/Longest_Palindromic_Substring.s"
+	@echo "... LeetCode/15._3Sum.o"
+	@echo "... LeetCode/15._3Sum.i"
+	@echo "... LeetCode/15._3Sum.s"
 	@echo "... Testing/testin2.o"
 	@echo "... Testing/testin2.i"
 	@echo "... Testing/testin2.s"

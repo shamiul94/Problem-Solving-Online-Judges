@@ -97,39 +97,39 @@ clean: CMakeFiles/manacher.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/longpal.dir
+# Target rules for target CMakeFiles/leet.dir
 
 # All Build rule for target.
-CMakeFiles/longpal.dir/all:
-	$(MAKE) -f CMakeFiles/longpal.dir/build.make CMakeFiles/longpal.dir/depend
-	$(MAKE) -f CMakeFiles/longpal.dir/build.make CMakeFiles/longpal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target longpal"
-.PHONY : CMakeFiles/longpal.dir/all
+CMakeFiles/leet.dir/all:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/depend
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target leet"
+.PHONY : CMakeFiles/leet.dir/all
 
 # Include target in all.
-all: CMakeFiles/longpal.dir/all
+all: CMakeFiles/leet.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/longpal.dir/rule: cmake_check_build_system
+CMakeFiles/leet.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/longpal.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/leet.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/longpal.dir/rule
+.PHONY : CMakeFiles/leet.dir/rule
 
 # Convenience name for target.
-longpal: CMakeFiles/longpal.dir/rule
+leet: CMakeFiles/leet.dir/rule
 
-.PHONY : longpal
-
-# clean rule for target.
-CMakeFiles/longpal.dir/clean:
-	$(MAKE) -f CMakeFiles/longpal.dir/build.make CMakeFiles/longpal.dir/clean
-.PHONY : CMakeFiles/longpal.dir/clean
+.PHONY : leet
 
 # clean rule for target.
-clean: CMakeFiles/longpal.dir/clean
+CMakeFiles/leet.dir/clean:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/clean
+.PHONY : CMakeFiles/leet.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/leet.dir/clean
 
 .PHONY : clean
 

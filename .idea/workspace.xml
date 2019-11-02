@@ -5,7 +5,7 @@
       <config projectName="ProblemSolving" targetName="tsttrr" />
       <config projectName="ProblemSolving" targetName="kmp" />
       <config projectName="ProblemSolving" targetName="manacher" />
-      <config projectName="ProblemSolving" targetName="longpal" />
+      <config projectName="ProblemSolving" targetName="leet" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,6 +16,12 @@
   <component name="ChangeListManager">
     <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProblemSolving.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProblemSolving.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,17 +37,26 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="216">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="344. Reverse String.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/344. Reverse String.cpp">
+      <file leaf-file-name="15. 3Sum.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/15. 3Sum.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="72">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="94. Binary Tree Inorder Traversal.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/94. Binary Tree Inorder Traversal.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -49,8 +64,8 @@
       <file leaf-file-name="in.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/in.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="1" column="15675" selection-start-line="1" selection-start-column="15675" selection-end-line="1" selection-end-column="15675" />
+            <state relative-caret-position="24">
+              <caret line="1" column="15593" selection-start-line="1" selection-start-column="15593" selection-end-line="1" selection-end-column="15593" />
             </state>
           </provider>
         </entry>
@@ -122,10 +137,13 @@
         <option value="$PROJECT_DIR$/My Template.cpp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/in.txt" />
         <option value="$PROJECT_DIR$/LightOJ/1258 - Making Huge Palindromes.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Algorithm Templates/Manacher's Algorithm.cpp" />
         <option value="$PROJECT_DIR$/InterviewBit/Longest Palindromic Substring.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/344. Reverse String.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/104. Maximum Depth of Binary Tree.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/LeetCode/94. Binary Tree Inorder Traversal.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/15. 3Sum.cpp" />
       </list>
     </option>
   </component>
@@ -196,16 +214,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.longpal">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="longpal" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="kmp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProblemSolving" TARGET_NAME="kmp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="longpal" />
-    <configuration name="longpal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProblemSolving" TARGET_NAME="longpal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="longpal" />
+  <component name="RunManager" selected="Application.leet">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="leet" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="kmp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProblemSolving" TARGET_NAME="kmp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="leet" />
+    <configuration name="leet" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProblemSolving" TARGET_NAME="leet" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="leet" />
     <configuration name="manacher" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProblemSolving" TARGET_NAME="manacher" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="manacher" />
     <configuration name="tsttrr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProblemSolving" TARGET_NAME="tsttrr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="tsttrr" />
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.kmp" />
-      <item itemvalue="Application.longpal" />
+      <item itemvalue="Application.leet" />
       <item itemvalue="Application.manacher" />
       <item itemvalue="Application.tsttrr" />
     </list>
@@ -234,23 +252,26 @@
       <workItem from="1571678026309" duration="1187000" />
       <workItem from="1571679245215" duration="2723000" />
       <workItem from="1572036954141" duration="28509000" />
-      <workItem from="1572255390567" duration="712000" />
+      <workItem from="1572255390567" duration="837000" />
+      <workItem from="1572280075996" duration="9360000" />
+      <workItem from="1572721671313" duration="5692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157192000" />
+    <option name="totallyTimeSpent" value="172369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="27" width="1319" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20679012" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20679012" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.2621849" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3092437" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27731094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -262,7 +283,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32973805" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.36134455" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,27 +297,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/in.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="125" selection-start-column="125" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Offline/cryptoOffline.cpp" />
     <entry file="file://$PROJECT_DIR$/Offline/cryptoHeader.h" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/in.txt">
@@ -501,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/in.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="1" column="15675" selection-start-line="1" selection-start-column="15675" selection-end-line="1" selection-end-column="15675" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/out.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -550,17 +542,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/344. Reverse String.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/104. Maximum Depth of Binary Tree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/94. Binary Tree Inorder Traversal.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="15593" selection-start-line="1" selection-start-column="15593" selection-end-line="1" selection-end-column="15593" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/15. 3Sum.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
