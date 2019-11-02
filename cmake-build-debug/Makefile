@@ -216,32 +216,32 @@ Algorithm_Templates/Manacher's_Algorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
 .PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.s
 
-LeetCode/15._3Sum.o: LeetCode/15._3Sum.cpp.o
+LeetCode/16._3Sum_Closest.o: LeetCode/16._3Sum_Closest.cpp.o
 
-.PHONY : LeetCode/15._3Sum.o
+.PHONY : LeetCode/16._3Sum_Closest.o
 
 # target to build an object file
-LeetCode/15._3Sum.cpp.o:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o
-.PHONY : LeetCode/15._3Sum.cpp.o
+LeetCode/16._3Sum_Closest.cpp.o:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o
+.PHONY : LeetCode/16._3Sum_Closest.cpp.o
 
-LeetCode/15._3Sum.i: LeetCode/15._3Sum.cpp.i
+LeetCode/16._3Sum_Closest.i: LeetCode/16._3Sum_Closest.cpp.i
 
-.PHONY : LeetCode/15._3Sum.i
+.PHONY : LeetCode/16._3Sum_Closest.i
 
 # target to preprocess a source file
-LeetCode/15._3Sum.cpp.i:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.i
-.PHONY : LeetCode/15._3Sum.cpp.i
+LeetCode/16._3Sum_Closest.cpp.i:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.i
+.PHONY : LeetCode/16._3Sum_Closest.cpp.i
 
-LeetCode/15._3Sum.s: LeetCode/15._3Sum.cpp.s
+LeetCode/16._3Sum_Closest.s: LeetCode/16._3Sum_Closest.cpp.s
 
-.PHONY : LeetCode/15._3Sum.s
+.PHONY : LeetCode/16._3Sum_Closest.s
 
 # target to generate assembly for a file
-LeetCode/15._3Sum.cpp.s:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.s
-.PHONY : LeetCode/15._3Sum.cpp.s
+LeetCode/16._3Sum_Closest.cpp.s:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.s
+.PHONY : LeetCode/16._3Sum_Closest.cpp.s
 
 Testing/testin2.o: Testing/testin2.cpp.o
 
@@ -288,9 +288,9 @@ help:
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.o"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.i"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.s"
-	@echo "... LeetCode/15._3Sum.o"
-	@echo "... LeetCode/15._3Sum.i"
-	@echo "... LeetCode/15._3Sum.s"
+	@echo "... LeetCode/16._3Sum_Closest.o"
+	@echo "... LeetCode/16._3Sum_Closest.i"
+	@echo "... LeetCode/16._3Sum_Closest.s"
 	@echo "... Testing/testin2.o"
 	@echo "... Testing/testin2.i"
 	@echo "... Testing/testin2.s"

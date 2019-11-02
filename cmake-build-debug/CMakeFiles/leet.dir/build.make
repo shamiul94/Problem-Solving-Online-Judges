@@ -57,38 +57,38 @@ include CMakeFiles/leet.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leet.dir/flags.make
 
-CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o: CMakeFiles/leet.dir/flags.make
-CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o: ../LeetCode/15.\ 3Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/15. 3Sum.cpp"
+CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o: CMakeFiles/leet.dir/flags.make
+CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o: ../LeetCode/16.\ 3Sum\ Closest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/16. 3Sum Closest.cpp"
 
-CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/15. 3Sum.cpp" > CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.i
+CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/16. 3Sum Closest.cpp" > CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.i
 
-CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/15. 3Sum.cpp" -o CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.s
+CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/16. 3Sum Closest.cpp" -o CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.s
 
-CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o.requires:
+CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o.requires:
 
-.PHONY : CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o.requires
+.PHONY : CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o.requires
 
-CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o.provides: CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o.requires
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o.provides.build
-.PHONY : CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o.provides
+CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o.provides: CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o.provides.build
+.PHONY : CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o.provides
 
-CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o.provides.build: CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o
+CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o.provides.build: CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o
 
 
 # Object files for target leet
 leet_OBJECTS = \
-"CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o"
+"CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o"
 
 # External object files for target leet
 leet_EXTERNAL_OBJECTS =
 
-leet: CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o
+leet: CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o
 leet: CMakeFiles/leet.dir/build.make
 leet: CMakeFiles/leet.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leet"
@@ -99,7 +99,7 @@ CMakeFiles/leet.dir/build: leet
 
 .PHONY : CMakeFiles/leet.dir/build
 
-CMakeFiles/leet.dir/requires: CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o.requires
+CMakeFiles/leet.dir/requires: CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o.requires
 
 .PHONY : CMakeFiles/leet.dir/requires
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o"
+  "CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o"
   "leet.pdb"
   "leet"
 )

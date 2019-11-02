@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/15. 3Sum.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/leet.dir/LeetCode/15._3Sum.cpp.o"
+  "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/16. 3Sum Closest.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
