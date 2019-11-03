@@ -216,32 +216,32 @@ Algorithm_Templates/Manacher's_Algorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
 .PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.s
 
-LeetCode/695._Max_Area_of_Island.o: LeetCode/695._Max_Area_of_Island.cpp.o
+LeetCode/120._Triangle.o: LeetCode/120._Triangle.cpp.o
 
-.PHONY : LeetCode/695._Max_Area_of_Island.o
+.PHONY : LeetCode/120._Triangle.o
 
 # target to build an object file
-LeetCode/695._Max_Area_of_Island.cpp.o:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/695._Max_Area_of_Island.cpp.o
-.PHONY : LeetCode/695._Max_Area_of_Island.cpp.o
+LeetCode/120._Triangle.cpp.o:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/120._Triangle.cpp.o
+.PHONY : LeetCode/120._Triangle.cpp.o
 
-LeetCode/695._Max_Area_of_Island.i: LeetCode/695._Max_Area_of_Island.cpp.i
+LeetCode/120._Triangle.i: LeetCode/120._Triangle.cpp.i
 
-.PHONY : LeetCode/695._Max_Area_of_Island.i
+.PHONY : LeetCode/120._Triangle.i
 
 # target to preprocess a source file
-LeetCode/695._Max_Area_of_Island.cpp.i:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/695._Max_Area_of_Island.cpp.i
-.PHONY : LeetCode/695._Max_Area_of_Island.cpp.i
+LeetCode/120._Triangle.cpp.i:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/120._Triangle.cpp.i
+.PHONY : LeetCode/120._Triangle.cpp.i
 
-LeetCode/695._Max_Area_of_Island.s: LeetCode/695._Max_Area_of_Island.cpp.s
+LeetCode/120._Triangle.s: LeetCode/120._Triangle.cpp.s
 
-.PHONY : LeetCode/695._Max_Area_of_Island.s
+.PHONY : LeetCode/120._Triangle.s
 
 # target to generate assembly for a file
-LeetCode/695._Max_Area_of_Island.cpp.s:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/695._Max_Area_of_Island.cpp.s
-.PHONY : LeetCode/695._Max_Area_of_Island.cpp.s
+LeetCode/120._Triangle.cpp.s:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/120._Triangle.cpp.s
+.PHONY : LeetCode/120._Triangle.cpp.s
 
 Testing/testin2.o: Testing/testin2.cpp.o
 
@@ -288,9 +288,9 @@ help:
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.o"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.i"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.s"
-	@echo "... LeetCode/695._Max_Area_of_Island.o"
-	@echo "... LeetCode/695._Max_Area_of_Island.i"
-	@echo "... LeetCode/695._Max_Area_of_Island.s"
+	@echo "... LeetCode/120._Triangle.o"
+	@echo "... LeetCode/120._Triangle.i"
+	@echo "... LeetCode/120._Triangle.s"
 	@echo "... Testing/testin2.o"
 	@echo "... Testing/testin2.i"
 	@echo "... Testing/testin2.s"

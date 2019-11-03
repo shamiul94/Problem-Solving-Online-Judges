@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/695. Max Area of Island.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/leet.dir/LeetCode/695._Max_Area_of_Island.cpp.o"
+  "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/120. Triangle.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/leet.dir/LeetCode/120._Triangle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
