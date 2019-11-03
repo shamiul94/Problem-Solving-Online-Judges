@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(transpose Offline/Transposition.cpp)
 
 add_executable(manacher "Algorithm Templates/Manacher's Algorithm.cpp")
-add_executable(leet "LeetCode/16. 3Sum Closest.cpp")
+add_executable(leet "LeetCode/695. Max Area of Island.cpp")
 #add_executable(testerr Testing/testing.cpp)
 
 

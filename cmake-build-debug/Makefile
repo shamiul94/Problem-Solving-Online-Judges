@@ -216,32 +216,32 @@ Algorithm_Templates/Manacher's_Algorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
 .PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.s
 
-LeetCode/16._3Sum_Closest.o: LeetCode/16._3Sum_Closest.cpp.o
+LeetCode/695._Max_Area_of_Island.o: LeetCode/695._Max_Area_of_Island.cpp.o
 
-.PHONY : LeetCode/16._3Sum_Closest.o
+.PHONY : LeetCode/695._Max_Area_of_Island.o
 
 # target to build an object file
-LeetCode/16._3Sum_Closest.cpp.o:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.o
-.PHONY : LeetCode/16._3Sum_Closest.cpp.o
+LeetCode/695._Max_Area_of_Island.cpp.o:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/695._Max_Area_of_Island.cpp.o
+.PHONY : LeetCode/695._Max_Area_of_Island.cpp.o
 
-LeetCode/16._3Sum_Closest.i: LeetCode/16._3Sum_Closest.cpp.i
+LeetCode/695._Max_Area_of_Island.i: LeetCode/695._Max_Area_of_Island.cpp.i
 
-.PHONY : LeetCode/16._3Sum_Closest.i
+.PHONY : LeetCode/695._Max_Area_of_Island.i
 
 # target to preprocess a source file
-LeetCode/16._3Sum_Closest.cpp.i:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.i
-.PHONY : LeetCode/16._3Sum_Closest.cpp.i
+LeetCode/695._Max_Area_of_Island.cpp.i:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/695._Max_Area_of_Island.cpp.i
+.PHONY : LeetCode/695._Max_Area_of_Island.cpp.i
 
-LeetCode/16._3Sum_Closest.s: LeetCode/16._3Sum_Closest.cpp.s
+LeetCode/695._Max_Area_of_Island.s: LeetCode/695._Max_Area_of_Island.cpp.s
 
-.PHONY : LeetCode/16._3Sum_Closest.s
+.PHONY : LeetCode/695._Max_Area_of_Island.s
 
 # target to generate assembly for a file
-LeetCode/16._3Sum_Closest.cpp.s:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/16._3Sum_Closest.cpp.s
-.PHONY : LeetCode/16._3Sum_Closest.cpp.s
+LeetCode/695._Max_Area_of_Island.cpp.s:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/695._Max_Area_of_Island.cpp.s
+.PHONY : LeetCode/695._Max_Area_of_Island.cpp.s
 
 Testing/testin2.o: Testing/testin2.cpp.o
 
@@ -288,9 +288,9 @@ help:
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.o"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.i"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.s"
-	@echo "... LeetCode/16._3Sum_Closest.o"
-	@echo "... LeetCode/16._3Sum_Closest.i"
-	@echo "... LeetCode/16._3Sum_Closest.s"
+	@echo "... LeetCode/695._Max_Area_of_Island.o"
+	@echo "... LeetCode/695._Max_Area_of_Island.i"
+	@echo "... LeetCode/695._Max_Area_of_Island.s"
 	@echo "... Testing/testin2.o"
 	@echo "... Testing/testin2.i"
 	@echo "... Testing/testin2.s"
