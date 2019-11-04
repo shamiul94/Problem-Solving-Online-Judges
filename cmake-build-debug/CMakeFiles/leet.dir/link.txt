@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/leet.dir/LeetCode/120._Triangle.cpp.o  -o leet 
+/usr/bin/c++  -g   CMakeFiles/leet.dir/LeetCode/242._Valid_Anagram.cpp.o  -o leet 

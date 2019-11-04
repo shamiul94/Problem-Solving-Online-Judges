@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(transpose Offline/Transposition.cpp)
 
 add_executable(manacher "Algorithm Templates/Manacher's Algorithm.cpp")
-add_executable(leet "LeetCode/120. Triangle.cpp")
+add_executable(leet "LeetCode/242. Valid Anagram.cpp")
 #add_executable(testerr Testing/testing.cpp)
 
 

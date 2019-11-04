@@ -216,32 +216,32 @@ Algorithm_Templates/Manacher's_Algorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
 .PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.s
 
-LeetCode/120._Triangle.o: LeetCode/120._Triangle.cpp.o
+LeetCode/242._Valid_Anagram.o: LeetCode/242._Valid_Anagram.cpp.o
 
-.PHONY : LeetCode/120._Triangle.o
+.PHONY : LeetCode/242._Valid_Anagram.o
 
 # target to build an object file
-LeetCode/120._Triangle.cpp.o:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/120._Triangle.cpp.o
-.PHONY : LeetCode/120._Triangle.cpp.o
+LeetCode/242._Valid_Anagram.cpp.o:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/242._Valid_Anagram.cpp.o
+.PHONY : LeetCode/242._Valid_Anagram.cpp.o
 
-LeetCode/120._Triangle.i: LeetCode/120._Triangle.cpp.i
+LeetCode/242._Valid_Anagram.i: LeetCode/242._Valid_Anagram.cpp.i
 
-.PHONY : LeetCode/120._Triangle.i
+.PHONY : LeetCode/242._Valid_Anagram.i
 
 # target to preprocess a source file
-LeetCode/120._Triangle.cpp.i:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/120._Triangle.cpp.i
-.PHONY : LeetCode/120._Triangle.cpp.i
+LeetCode/242._Valid_Anagram.cpp.i:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/242._Valid_Anagram.cpp.i
+.PHONY : LeetCode/242._Valid_Anagram.cpp.i
 
-LeetCode/120._Triangle.s: LeetCode/120._Triangle.cpp.s
+LeetCode/242._Valid_Anagram.s: LeetCode/242._Valid_Anagram.cpp.s
 
-.PHONY : LeetCode/120._Triangle.s
+.PHONY : LeetCode/242._Valid_Anagram.s
 
 # target to generate assembly for a file
-LeetCode/120._Triangle.cpp.s:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/120._Triangle.cpp.s
-.PHONY : LeetCode/120._Triangle.cpp.s
+LeetCode/242._Valid_Anagram.cpp.s:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/242._Valid_Anagram.cpp.s
+.PHONY : LeetCode/242._Valid_Anagram.cpp.s
 
 Testing/testin2.o: Testing/testin2.cpp.o
 
@@ -288,9 +288,9 @@ help:
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.o"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.i"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.s"
-	@echo "... LeetCode/120._Triangle.o"
-	@echo "... LeetCode/120._Triangle.i"
-	@echo "... LeetCode/120._Triangle.s"
+	@echo "... LeetCode/242._Valid_Anagram.o"
+	@echo "... LeetCode/242._Valid_Anagram.i"
+	@echo "... LeetCode/242._Valid_Anagram.s"
 	@echo "... Testing/testin2.o"
 	@echo "... Testing/testin2.i"
 	@echo "... Testing/testin2.s"

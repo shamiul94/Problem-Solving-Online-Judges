@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/120. Triangle.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/leet.dir/LeetCode/120._Triangle.cpp.o"
+  "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/242. Valid Anagram.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/leet.dir/LeetCode/242._Valid_Anagram.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

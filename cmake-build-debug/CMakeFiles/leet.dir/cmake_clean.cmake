@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leet.dir/LeetCode/120._Triangle.cpp.o"
+  "CMakeFiles/leet.dir/LeetCode/242._Valid_Anagram.cpp.o"
   "leet.pdb"
   "leet"
 )
