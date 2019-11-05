@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/leet.dir/LeetCode/394._Decode_String.cpp.o  -o leet 
+/usr/bin/c++  -g   CMakeFiles/leet.dir/LeetCode/647._Palindromic_Substrings.cpp.o  -o leet 

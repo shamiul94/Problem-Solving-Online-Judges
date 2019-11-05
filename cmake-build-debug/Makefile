@@ -216,32 +216,32 @@ Algorithm_Templates/Manacher's_Algorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
 .PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.s
 
-LeetCode/394._Decode_String.o: LeetCode/394._Decode_String.cpp.o
+LeetCode/647._Palindromic_Substrings.o: LeetCode/647._Palindromic_Substrings.cpp.o
 
-.PHONY : LeetCode/394._Decode_String.o
+.PHONY : LeetCode/647._Palindromic_Substrings.o
 
 # target to build an object file
-LeetCode/394._Decode_String.cpp.o:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/394._Decode_String.cpp.o
-.PHONY : LeetCode/394._Decode_String.cpp.o
+LeetCode/647._Palindromic_Substrings.cpp.o:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/647._Palindromic_Substrings.cpp.o
+.PHONY : LeetCode/647._Palindromic_Substrings.cpp.o
 
-LeetCode/394._Decode_String.i: LeetCode/394._Decode_String.cpp.i
+LeetCode/647._Palindromic_Substrings.i: LeetCode/647._Palindromic_Substrings.cpp.i
 
-.PHONY : LeetCode/394._Decode_String.i
+.PHONY : LeetCode/647._Palindromic_Substrings.i
 
 # target to preprocess a source file
-LeetCode/394._Decode_String.cpp.i:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/394._Decode_String.cpp.i
-.PHONY : LeetCode/394._Decode_String.cpp.i
+LeetCode/647._Palindromic_Substrings.cpp.i:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/647._Palindromic_Substrings.cpp.i
+.PHONY : LeetCode/647._Palindromic_Substrings.cpp.i
 
-LeetCode/394._Decode_String.s: LeetCode/394._Decode_String.cpp.s
+LeetCode/647._Palindromic_Substrings.s: LeetCode/647._Palindromic_Substrings.cpp.s
 
-.PHONY : LeetCode/394._Decode_String.s
+.PHONY : LeetCode/647._Palindromic_Substrings.s
 
 # target to generate assembly for a file
-LeetCode/394._Decode_String.cpp.s:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/394._Decode_String.cpp.s
-.PHONY : LeetCode/394._Decode_String.cpp.s
+LeetCode/647._Palindromic_Substrings.cpp.s:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/647._Palindromic_Substrings.cpp.s
+.PHONY : LeetCode/647._Palindromic_Substrings.cpp.s
 
 Testing/testin2.o: Testing/testin2.cpp.o
 
@@ -288,9 +288,9 @@ help:
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.o"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.i"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.s"
-	@echo "... LeetCode/394._Decode_String.o"
-	@echo "... LeetCode/394._Decode_String.i"
-	@echo "... LeetCode/394._Decode_String.s"
+	@echo "... LeetCode/647._Palindromic_Substrings.o"
+	@echo "... LeetCode/647._Palindromic_Substrings.i"
+	@echo "... LeetCode/647._Palindromic_Substrings.s"
 	@echo "... Testing/testin2.o"
 	@echo "... Testing/testin2.i"
 	@echo "... Testing/testin2.s"

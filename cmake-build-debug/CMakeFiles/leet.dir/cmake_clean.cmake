@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leet.dir/LeetCode/394._Decode_String.cpp.o"
+  "CMakeFiles/leet.dir/LeetCode/647._Palindromic_Substrings.cpp.o"
   "leet.pdb"
   "leet"
 )

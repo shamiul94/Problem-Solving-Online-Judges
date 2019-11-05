@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(transpose Offline/Transposition.cpp)
 
 add_executable(manacher "Algorithm Templates/Manacher's Algorithm.cpp")
-add_executable(leet "LeetCode/394. Decode String.cpp")
+add_executable(leet "LeetCode/647. Palindromic Substrings.cpp")
 #add_executable(testerr Testing/testing.cpp)
 
 
