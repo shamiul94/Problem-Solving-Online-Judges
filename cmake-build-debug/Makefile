@@ -216,32 +216,32 @@ Algorithm_Templates/Manacher's_Algorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
 .PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.s
 
-LeetCode/647._Palindromic_Substrings.o: LeetCode/647._Palindromic_Substrings.cpp.o
+LeetCode/155._Min_Stack.o: LeetCode/155._Min_Stack.cpp.o
 
-.PHONY : LeetCode/647._Palindromic_Substrings.o
+.PHONY : LeetCode/155._Min_Stack.o
 
 # target to build an object file
-LeetCode/647._Palindromic_Substrings.cpp.o:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/647._Palindromic_Substrings.cpp.o
-.PHONY : LeetCode/647._Palindromic_Substrings.cpp.o
+LeetCode/155._Min_Stack.cpp.o:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/155._Min_Stack.cpp.o
+.PHONY : LeetCode/155._Min_Stack.cpp.o
 
-LeetCode/647._Palindromic_Substrings.i: LeetCode/647._Palindromic_Substrings.cpp.i
+LeetCode/155._Min_Stack.i: LeetCode/155._Min_Stack.cpp.i
 
-.PHONY : LeetCode/647._Palindromic_Substrings.i
+.PHONY : LeetCode/155._Min_Stack.i
 
 # target to preprocess a source file
-LeetCode/647._Palindromic_Substrings.cpp.i:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/647._Palindromic_Substrings.cpp.i
-.PHONY : LeetCode/647._Palindromic_Substrings.cpp.i
+LeetCode/155._Min_Stack.cpp.i:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/155._Min_Stack.cpp.i
+.PHONY : LeetCode/155._Min_Stack.cpp.i
 
-LeetCode/647._Palindromic_Substrings.s: LeetCode/647._Palindromic_Substrings.cpp.s
+LeetCode/155._Min_Stack.s: LeetCode/155._Min_Stack.cpp.s
 
-.PHONY : LeetCode/647._Palindromic_Substrings.s
+.PHONY : LeetCode/155._Min_Stack.s
 
 # target to generate assembly for a file
-LeetCode/647._Palindromic_Substrings.cpp.s:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/647._Palindromic_Substrings.cpp.s
-.PHONY : LeetCode/647._Palindromic_Substrings.cpp.s
+LeetCode/155._Min_Stack.cpp.s:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/155._Min_Stack.cpp.s
+.PHONY : LeetCode/155._Min_Stack.cpp.s
 
 Testing/testin2.o: Testing/testin2.cpp.o
 
@@ -288,9 +288,9 @@ help:
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.o"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.i"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.s"
-	@echo "... LeetCode/647._Palindromic_Substrings.o"
-	@echo "... LeetCode/647._Palindromic_Substrings.i"
-	@echo "... LeetCode/647._Palindromic_Substrings.s"
+	@echo "... LeetCode/155._Min_Stack.o"
+	@echo "... LeetCode/155._Min_Stack.i"
+	@echo "... LeetCode/155._Min_Stack.s"
 	@echo "... Testing/testin2.o"
 	@echo "... Testing/testin2.i"
 	@echo "... Testing/testin2.s"
