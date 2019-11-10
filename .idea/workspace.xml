@@ -85,8 +85,8 @@
       <file leaf-file-name="101. Symmetric Tree.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeetCode/101. Symmetric Tree.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+            <state relative-caret-position="72">
+              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -259,12 +259,12 @@
       <workItem from="1572036954141" duration="28509000" />
       <workItem from="1572255390567" duration="837000" />
       <workItem from="1572280075996" duration="9360000" />
-      <workItem from="1572721671313" duration="54189000" />
+      <workItem from="1572721671313" duration="54549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220866000" />
+    <option name="totallyTimeSpent" value="221226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="27" width="1319" height="741" extended-state="6" />
@@ -723,8 +723,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/101. Symmetric Tree.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="72">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
         </state>
       </provider>
     </entry>

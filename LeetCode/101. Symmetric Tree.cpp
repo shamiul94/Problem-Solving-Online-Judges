@@ -1,3 +1,5 @@
+// recursive
+
 class Solution {
 public:
 
@@ -18,8 +20,9 @@ public:
         } else return false;
     }
 };
-// iterative
 
+
+// iterative
 
 class Solution {
 public:
