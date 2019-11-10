@@ -15,7 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/LeetCode/543. Diameter of Binary Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/543. Diameter of Binary Tree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/100. Same Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/100. Same Tree.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,29 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="50. Pow(x, n).cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/50. Pow(x, n).cpp">
+      <file leaf-file-name="572. Subtree of Another Tree.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/572. Subtree of Another Tree.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="543. Diameter of Binary Tree.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/543. Diameter of Binary Tree.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="100. Same Tree.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/100. Same Tree.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="168">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -120,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LightOJ/1231 - Coin Change (I).cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1056 - Olympics.cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1047 - Neighbor House.cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1004 - Monkey Banana Problem.cpp" />
@@ -171,6 +152,7 @@
         <option value="$PROJECT_DIR$/LeetCode/50. Pow(x, n).cpp" />
         <option value="$PROJECT_DIR$/LeetCode/543. Diameter of Binary Tree.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/100. Same Tree.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/572. Subtree of Another Tree.cpp" />
       </list>
     </option>
   </component>
@@ -183,7 +165,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="47" />
     <option name="y" value="209" />
     <option name="width" value="1287" />
@@ -268,12 +250,12 @@
       <workItem from="1572036954141" duration="28509000" />
       <workItem from="1572255390567" duration="837000" />
       <workItem from="1572280075996" duration="9360000" />
-      <workItem from="1572721671313" duration="49917000" />
+      <workItem from="1572721671313" duration="52032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216594000" />
+    <option name="totallyTimeSpent" value="218709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="27" width="1319" height="741" extended-state="6" />
@@ -306,13 +288,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LightOJ/1137 - Expanding Rods.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LightOJ/1088 - Points in Segments.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -709,17 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/155. Min Stack.cpp">
+    <entry file="file://$PROJECT_DIR$/LeetCode/100. Same Tree.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/50. Pow(x, n).cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="120">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -730,10 +698,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/100. Same Tree.cpp">
+    <entry file="file://$PROJECT_DIR$/LeetCode/50. Pow(x, n).cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/155. Min Stack.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/572. Subtree of Another Tree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
