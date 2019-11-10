@@ -1,3 +1,5 @@
+/* original solution */
+
 class Solution {
 public:
     double recurse(double x, long n) {
@@ -21,3 +23,27 @@ public:
         else return ret;
     }
 };
+
+/** time - 100% , space - 100% **/
+
+class Solution {
+public:
+
+    double myPow(double x, int n) {
+        if (n == 0) return 1;
+        if (n == 1) return x;
+        if (n == -1) return 1 / x;
+        double ret = myPow(x, n / 2);
+        if (n % 2 == 0) {
+            ret = ret * ret;
+        } else {
+            if (n < 0) {
+                ret = (1 / x) * ret * ret;
+            } else {
+                ret = x * ret * ret;
+            }
+        }
+        return ret;
+    }
+};
+
