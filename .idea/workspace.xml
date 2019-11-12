@@ -15,8 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode/209. Minimum Size Subarray Sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/209. Minimum Size Subarray Sum.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/testin2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/testin2.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +50,8 @@
       <file leaf-file-name="209. Minimum Size Subarray Sum.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeetCode/209. Minimum Size Subarray Sum.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="234">
+              <caret line="109" column="10" lean-forward="true" selection-end-line="137" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -238,12 +238,12 @@
       <workItem from="1572036954141" duration="28509000" />
       <workItem from="1572255390567" duration="837000" />
       <workItem from="1572280075996" duration="9360000" />
-      <workItem from="1572721671313" duration="66327000" />
+      <workItem from="1572721671313" duration="66958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233004000" />
+    <option name="totallyTimeSpent" value="233635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="27" width="1319" height="741" extended-state="6" />
@@ -702,8 +702,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/209. Minimum Size Subarray Sum.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="234">
+          <caret line="109" column="10" lean-forward="true" selection-end-line="137" selection-end-column="2" />
         </state>
       </provider>
     </entry>
