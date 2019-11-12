@@ -54,8 +54,6 @@ public:
 
         if (nums[0] >= s) return 1; // it's just an extended case of the below for loop.
 
-
-
         int n = nums.size();
         for (int i = 1; i < n; i++) {
             if (nums[i] >= s) return 1;
