@@ -22,6 +22,17 @@ int maxserver(int servers[], int n, int k) {
     return count;
 }
 
+class bal{
+public:
+    vector<int> v;
+    vector<int> v1;
+    vector<int> fun(vector<int> vv){
+        vector<int> t(vv.size(), 100);
+        v1 = t;
+        cout << v1[0] << endl;
+        return vector<int>{};
+    }
+};
 
 int main() {
 //    int servers[] = {1, 12, 5, 111, 200, 1000, 10, 9, 12, 15};
@@ -33,6 +44,8 @@ int main() {
 ////    cout << servers[8888];
 //    return 0;
 
-    int arr[1100][1100] = {};
-    cout << arr[100][100] << endl;
+//    int arr[1100][1100] = {};
+//    cout << arr[100][100] << endl;
+    bal b = bal();
+    b.fun({1,2,3});
 }
