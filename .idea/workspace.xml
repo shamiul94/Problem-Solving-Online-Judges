@@ -14,11 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/testin2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/testin2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/testing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/testing.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,15 +26,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="617. Merge Two Binary Trees.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/617. Merge Two Binary Trees.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
-              <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="700. Search in a Binary Search Tree.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/700. Search in a Binary Search Tree.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,11 +71,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="567. Permutation in String.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="567. Permutation in String.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/567. Permutation in String.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="192">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="438. Find All Anagrams in a String.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/438. Find All Anagrams in a String.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -150,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LightOJ/1189 - Sum of Factorials.cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1331 - Agent J.cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1006 - Hex-a-bonacci.cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1116 - Ekka Dokka.cpp" />
@@ -201,6 +196,7 @@
         <option value="$PROJECT_DIR$/Testing/testing.cpp" />
         <option value="$PROJECT_DIR$/Testing/testin2.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/567. Permutation in String.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/438. Find All Anagrams in a String.cpp" />
       </list>
     </option>
   </component>
@@ -307,12 +303,12 @@
       <workItem from="1572255390567" duration="837000" />
       <workItem from="1572280075996" duration="9360000" />
       <workItem from="1572721671313" duration="88474000" />
-      <workItem from="1574154205956" duration="2194000" />
+      <workItem from="1574154205956" duration="3439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257345000" />
+    <option name="totallyTimeSpent" value="258590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="27" width="1319" height="741" extended-state="6" />
@@ -345,13 +341,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LightOJ/1214 - Large Division.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LightOJ/1020 - A Childhood Game.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -697,8 +686,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/567. Permutation in String.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="192">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/438. Find All Anagrams in a String.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
