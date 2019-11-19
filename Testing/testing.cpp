@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 string longestPalindrome(string A) {
     int len = static_cast<int>(A.length());
 
@@ -47,11 +48,11 @@ string longestPalindrome(string A) {
 string str = "abcd";
 vector<string> vec;
 
-string Permutation(ll idx , ll mask) {
-    if(idx >= str.length()) return "";
+string Permutation(ll idx, ll mask) {
+    if (idx >= str.length()) return "";
 
     for (int i = 0; i < str.length(); i++) {
-        
+
     }
 }
 
