@@ -14,9 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/LeetCode/90. Subsets II.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/90. Subsets II.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,11 +80,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="90. Subsets II.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="90. Subsets II.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/90. Subsets II.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
               <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="39. Combination Sum.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/39. Combination Sum.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -96,15 +103,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
               <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="128. Longest Consecutive Sequence.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/128. Longest Consecutive Sequence.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -148,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LightOJ/1020 - A Childhood Game.cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1297 - Largest Box.cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1015 - Brush (I).cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1249 - Chocolate Thief.cpp" />
@@ -199,6 +196,7 @@
         <option value="$PROJECT_DIR$/LeetCode/113. Path Sum II.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/78. Subsets.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/90. Subsets II.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/39. Combination Sum.cpp" />
       </list>
     </option>
   </component>
@@ -305,12 +303,12 @@
       <workItem from="1572255390567" duration="837000" />
       <workItem from="1572280075996" duration="9360000" />
       <workItem from="1572721671313" duration="88474000" />
-      <workItem from="1574154205956" duration="11614000" />
+      <workItem from="1574154205956" duration="12862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266765000" />
+    <option name="totallyTimeSpent" value="268013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="27" width="1319" height="741" extended-state="6" />
@@ -343,13 +341,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LightOJ/1008 - Fibsieve`s Fantabulous Birthday.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LightOJ/1294 - Positive Negative Sign.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -697,6 +688,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/39. Combination Sum.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
         </state>
       </provider>
     </entry>
