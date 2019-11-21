@@ -14,7 +14,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="" />
+    <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/LeetCode/90. Subsets II.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/90. Subsets II.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,20 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="90. Subsets II.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="90. Subsets II.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeetCode/90. Subsets II.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="196">
+              <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="78. Subsets.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="78. Subsets.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/78. Subsets.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            <state relative-caret-position="186">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -195,8 +197,8 @@
         <option value="$PROJECT_DIR$/LeetCode/438. Find All Anagrams in a String.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/112. Path Sum.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/113. Path Sum II.cpp" />
-        <option value="$PROJECT_DIR$/LeetCode/90. Subsets II.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/78. Subsets.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/90. Subsets II.cpp" />
       </list>
     </option>
   </component>
@@ -303,12 +305,12 @@
       <workItem from="1572255390567" duration="837000" />
       <workItem from="1572280075996" duration="9360000" />
       <workItem from="1572721671313" duration="88474000" />
-      <workItem from="1574154205956" duration="9650000" />
+      <workItem from="1574154205956" duration="11614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264801000" />
+    <option name="totallyTimeSpent" value="266765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="27" width="1319" height="741" extended-state="6" />
@@ -684,17 +686,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/90. Subsets II.cpp">
+    <entry file="file://$PROJECT_DIR$/LeetCode/78. Subsets.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="186">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/78. Subsets.cpp">
+    <entry file="file://$PROJECT_DIR$/LeetCode/90. Subsets II.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state relative-caret-position="196">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
         </state>
       </provider>
     </entry>
