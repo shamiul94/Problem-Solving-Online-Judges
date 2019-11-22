@@ -26,15 +26,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testing.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Testing/testing.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="testin2.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Testing/testin2.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,11 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="40. Combination Sum II.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="40. Combination Sum II.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/40. Combination Sum II.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="198. House Robber.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/198. House Robber.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -146,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LightOJ/1015 - Brush (I).cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1249 - Chocolate Thief.cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1008 - Fibsieve`s Fantabulous Birthday.cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1294 - Positive Negative Sign.cpp" />
@@ -197,6 +196,7 @@
         <option value="$PROJECT_DIR$/LeetCode/90. Subsets II.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/39. Combination Sum.cpp" />
         <option value="$PROJECT_DIR$/LeetCode/40. Combination Sum II.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/198. House Robber.cpp" />
       </list>
     </option>
   </component>
@@ -303,12 +303,12 @@
       <workItem from="1572255390567" duration="837000" />
       <workItem from="1572280075996" duration="9360000" />
       <workItem from="1572721671313" duration="88474000" />
-      <workItem from="1574154205956" duration="13195000" />
+      <workItem from="1574154205956" duration="15559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268346000" />
+    <option name="totallyTimeSpent" value="270710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="27" width="1319" height="741" extended-state="6" />
@@ -341,13 +341,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LightOJ/1133 - Array Simulation.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LightOJ/1225 - Palindromic Numbers (II).cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -695,6 +688,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/198. House Robber.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
