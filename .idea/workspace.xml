@@ -14,12 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/testin2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/testin2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tsttrr.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tsttrr.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tsttrr" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tsttrr" afterDir="false" />
-    </list>
+    <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -121,7 +116,7 @@
       <file leaf-file-name="Root of Number.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pramp/Root of Number.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="-342">
               <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -247,6 +242,23 @@
             <path>
               <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
               <item name="Problem Solving Online Judges" type="462c0819:PsiDirectoryNode" />
+              <item name="1505038" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem Solving Online Judges" type="462c0819:PsiDirectoryNode" />
+              <item name="1505038" type="462c0819:PsiDirectoryNode" />
+              <item name="DES" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem Solving Online Judges" type="462c0819:PsiDirectoryNode" />
+              <item name="1505038" type="462c0819:PsiDirectoryNode" />
+              <item name="Transposition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem Solving Online Judges" type="462c0819:PsiDirectoryNode" />
               <item name="Pramp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -314,16 +326,15 @@
       <workItem from="1572721671313" duration="88474000" />
       <workItem from="1574154205956" duration="19691000" />
       <workItem from="1574624243950" duration="2280000" />
-      <workItem from="1574759239986" duration="976000" />
+      <workItem from="1574759239986" duration="1580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278098000" />
+    <option name="totallyTimeSpent" value="278702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="27" width="1319" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20679012" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -706,7 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pramp/Root of Number.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="-342">
           <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
