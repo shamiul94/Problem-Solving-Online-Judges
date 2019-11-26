@@ -26,15 +26,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="40. Combination Sum II.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/40. Combination Sum II.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="198. House Robber.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/198. House Robber.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,11 +104,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Root of Number.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Root of Number.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pramp/Root of Number.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-342">
-              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="1218">
+              <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Move Zeros To End.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pramp/Move Zeros To End.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -155,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LightOJ/1305 - Area of a Parallelogram.cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1001 - Opposite Task.cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1433 - Minimum Arc Distance.cpp" />
         <option value="$PROJECT_DIR$/LightOJ/1000 - Greetings from LightOJ.cpp" />
@@ -206,6 +208,7 @@
         <option value="$PROJECT_DIR$/Testing/testin2.cpp" />
         <option value="$PROJECT_DIR$/Pramp/H-Tree Construction.cpp" />
         <option value="$PROJECT_DIR$/Pramp/Root of Number.cpp" />
+        <option value="$PROJECT_DIR$/Pramp/Move Zeros To End.cpp" />
       </list>
     </option>
   </component>
@@ -238,23 +241,6 @@
             <path>
               <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
               <item name="Problem Solving Online Judges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problem Solving Online Judges" type="462c0819:PsiDirectoryNode" />
-              <item name="1505038" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problem Solving Online Judges" type="462c0819:PsiDirectoryNode" />
-              <item name="1505038" type="462c0819:PsiDirectoryNode" />
-              <item name="DES" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problem Solving Online Judges" type="462c0819:PsiDirectoryNode" />
-              <item name="1505038" type="462c0819:PsiDirectoryNode" />
-              <item name="Transposition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
@@ -326,15 +312,16 @@
       <workItem from="1572721671313" duration="88474000" />
       <workItem from="1574154205956" duration="19691000" />
       <workItem from="1574624243950" duration="2280000" />
-      <workItem from="1574759239986" duration="1580000" />
+      <workItem from="1574759239986" duration="2763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278702000" />
+    <option name="totallyTimeSpent" value="279885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="27" width="1319" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20679012" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -363,13 +350,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/695. Max Area of Island.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/120. Triangle.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -717,8 +697,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pramp/Root of Number.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="1218">
+          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pramp/Move Zeros To End.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
