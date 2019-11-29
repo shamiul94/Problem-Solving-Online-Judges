@@ -9,7 +9,8 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(transpose Offline/Transposition.cpp)
 
 add_executable(manacher "Algorithm Templates/Manacher's Algorithm.cpp")
-add_executable(leet "LeetCode/155. Min Stack.cpp")
+add_executable(leet "LeetCode/23. Merge k Sorted Lists.cpp")
+add_executable(leet2 "LeetCode/1169. Invalid Transactions.cpp")
 #add_executable(testerr Testing/testing.cpp)
 
 

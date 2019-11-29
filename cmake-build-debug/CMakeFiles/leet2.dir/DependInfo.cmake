@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/23. Merge k Sorted Lists.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/leet.dir/LeetCode/23._Merge_k_Sorted_Lists.cpp.o"
+  "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/1169. Invalid Transactions.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/leet2.dir/LeetCode/1169._Invalid_Transactions.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

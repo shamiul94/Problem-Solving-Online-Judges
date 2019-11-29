@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leet.dir/LeetCode/155._Min_Stack.cpp.o"
+  "CMakeFiles/leet.dir/LeetCode/23._Merge_k_Sorted_Lists.cpp.o"
   "leet.pdb"
   "leet"
 )

@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named kmp
+
+# Build rule for target.
+kmp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kmp
+.PHONY : kmp
+
+# fast build rule for target.
+kmp/fast:
+	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/build
+.PHONY : kmp/fast
+
+#=============================================================================
 # Target rules for targets named manacher
 
 # Build rule for target.
@@ -137,6 +150,19 @@ leet/fast:
 .PHONY : leet/fast
 
 #=============================================================================
+# Target rules for targets named leet2
+
+# Build rule for target.
+leet2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leet2
+.PHONY : leet2
+
+# fast build rule for target.
+leet2/fast:
+	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/build
+.PHONY : leet2/fast
+
+#=============================================================================
 # Target rules for targets named tsttrr
 
 # Build rule for target.
@@ -148,19 +174,6 @@ tsttrr: cmake_check_build_system
 tsttrr/fast:
 	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/build
 .PHONY : tsttrr/fast
-
-#=============================================================================
-# Target rules for targets named kmp
-
-# Build rule for target.
-kmp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kmp
-.PHONY : kmp
-
-# fast build rule for target.
-kmp/fast:
-	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/build
-.PHONY : kmp/fast
 
 Algorithm_Templates/KMP.o: Algorithm_Templates/KMP.cpp.o
 
@@ -216,32 +229,59 @@ Algorithm_Templates/Manacher's_Algorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
 .PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.s
 
-LeetCode/155._Min_Stack.o: LeetCode/155._Min_Stack.cpp.o
+LeetCode/1169._Invalid_Transactions.o: LeetCode/1169._Invalid_Transactions.cpp.o
 
-.PHONY : LeetCode/155._Min_Stack.o
+.PHONY : LeetCode/1169._Invalid_Transactions.o
 
 # target to build an object file
-LeetCode/155._Min_Stack.cpp.o:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/155._Min_Stack.cpp.o
-.PHONY : LeetCode/155._Min_Stack.cpp.o
+LeetCode/1169._Invalid_Transactions.cpp.o:
+	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/1169._Invalid_Transactions.cpp.o
+.PHONY : LeetCode/1169._Invalid_Transactions.cpp.o
 
-LeetCode/155._Min_Stack.i: LeetCode/155._Min_Stack.cpp.i
+LeetCode/1169._Invalid_Transactions.i: LeetCode/1169._Invalid_Transactions.cpp.i
 
-.PHONY : LeetCode/155._Min_Stack.i
+.PHONY : LeetCode/1169._Invalid_Transactions.i
 
 # target to preprocess a source file
-LeetCode/155._Min_Stack.cpp.i:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/155._Min_Stack.cpp.i
-.PHONY : LeetCode/155._Min_Stack.cpp.i
+LeetCode/1169._Invalid_Transactions.cpp.i:
+	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/1169._Invalid_Transactions.cpp.i
+.PHONY : LeetCode/1169._Invalid_Transactions.cpp.i
 
-LeetCode/155._Min_Stack.s: LeetCode/155._Min_Stack.cpp.s
+LeetCode/1169._Invalid_Transactions.s: LeetCode/1169._Invalid_Transactions.cpp.s
 
-.PHONY : LeetCode/155._Min_Stack.s
+.PHONY : LeetCode/1169._Invalid_Transactions.s
 
 # target to generate assembly for a file
-LeetCode/155._Min_Stack.cpp.s:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/155._Min_Stack.cpp.s
-.PHONY : LeetCode/155._Min_Stack.cpp.s
+LeetCode/1169._Invalid_Transactions.cpp.s:
+	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/1169._Invalid_Transactions.cpp.s
+.PHONY : LeetCode/1169._Invalid_Transactions.cpp.s
+
+LeetCode/23._Merge_k_Sorted_Lists.o: LeetCode/23._Merge_k_Sorted_Lists.cpp.o
+
+.PHONY : LeetCode/23._Merge_k_Sorted_Lists.o
+
+# target to build an object file
+LeetCode/23._Merge_k_Sorted_Lists.cpp.o:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/23._Merge_k_Sorted_Lists.cpp.o
+.PHONY : LeetCode/23._Merge_k_Sorted_Lists.cpp.o
+
+LeetCode/23._Merge_k_Sorted_Lists.i: LeetCode/23._Merge_k_Sorted_Lists.cpp.i
+
+.PHONY : LeetCode/23._Merge_k_Sorted_Lists.i
+
+# target to preprocess a source file
+LeetCode/23._Merge_k_Sorted_Lists.cpp.i:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/23._Merge_k_Sorted_Lists.cpp.i
+.PHONY : LeetCode/23._Merge_k_Sorted_Lists.cpp.i
+
+LeetCode/23._Merge_k_Sorted_Lists.s: LeetCode/23._Merge_k_Sorted_Lists.cpp.s
+
+.PHONY : LeetCode/23._Merge_k_Sorted_Lists.s
+
+# target to generate assembly for a file
+LeetCode/23._Merge_k_Sorted_Lists.cpp.s:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/23._Merge_k_Sorted_Lists.cpp.s
+.PHONY : LeetCode/23._Merge_k_Sorted_Lists.cpp.s
 
 Testing/testin2.o: Testing/testin2.cpp.o
 
@@ -277,20 +317,24 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... kmp"
 	@echo "... manacher"
 	@echo "... rebuild_cache"
 	@echo "... leet"
+	@echo "... leet2"
 	@echo "... tsttrr"
-	@echo "... kmp"
 	@echo "... Algorithm_Templates/KMP.o"
 	@echo "... Algorithm_Templates/KMP.i"
 	@echo "... Algorithm_Templates/KMP.s"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.o"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.i"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.s"
-	@echo "... LeetCode/155._Min_Stack.o"
-	@echo "... LeetCode/155._Min_Stack.i"
-	@echo "... LeetCode/155._Min_Stack.s"
+	@echo "... LeetCode/1169._Invalid_Transactions.o"
+	@echo "... LeetCode/1169._Invalid_Transactions.i"
+	@echo "... LeetCode/1169._Invalid_Transactions.s"
+	@echo "... LeetCode/23._Merge_k_Sorted_Lists.o"
+	@echo "... LeetCode/23._Merge_k_Sorted_Lists.i"
+	@echo "... LeetCode/23._Merge_k_Sorted_Lists.s"
 	@echo "... Testing/testin2.o"
 	@echo "... Testing/testin2.i"
 	@echo "... Testing/testin2.s"

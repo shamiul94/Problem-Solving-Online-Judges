@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/leet2.dir/LeetCode/1169._Invalid_Transactions.cpp.o  -o leet2 

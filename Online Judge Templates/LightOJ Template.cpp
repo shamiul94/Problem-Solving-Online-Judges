@@ -47,6 +47,9 @@ Concept -
 #define sll3(a, b, c)                           sll(a), sll(b), sll(c)
 #define sll4(a, b, c, d)                         sll(a), sll(b), sll(c), sll(d)
 
+#define debug(...) fprintf(stderr, __VA_ARGS__), fflush(stderr)
+#define time__(d)for(long blockTime=NULL;(blockTime==NULL?(blockTime=clock())!=NULL:false); debug("%s:%.4fs\n",d,(double)(clock()-blockTime)/CLOCKS_PER_SEC))
+
 #define inf LLONG_MAX
 #define minf LLONG_MIN
 #define min3(a, b, c) min(a,min(b,c))
@@ -76,15 +79,15 @@ void printVec(vector<char> vec) {
 }
 
 ll Set(ll N, ll pos) {
-    return N = N | ((ll)1 << pos);
+    return N = N | ((ll) 1 << pos);
 }
 
 ll reset(ll N, ll pos) {
-    return N = N & ~((ll)1 << pos);
+    return N = N & ~((ll) 1 << pos);
 }
 
 ll check(ll N, ll pos) {
-    return (bool) (N & ((ll)1 << pos));
+    return (bool) (N & ((ll) 1 << pos));
 }
 
 ll setValueBit(ll n, ll pos, ll val) {
