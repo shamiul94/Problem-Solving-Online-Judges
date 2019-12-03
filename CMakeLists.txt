@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(manacher "Algorithm Templates/Manacher's Algorithm.cpp")
 add_executable(leet "LeetCode/23. Merge k Sorted Lists.cpp")
-add_executable(leet2 "LeetCode/1169. Invalid Transactions.cpp")
+add_executable(leet2 "LeetCode/983. Minimum Cost For Tickets.cpp")
 #add_executable(testerr Testing/testing.cpp)
 
 

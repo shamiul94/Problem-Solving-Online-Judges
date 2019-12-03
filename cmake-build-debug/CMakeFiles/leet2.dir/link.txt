@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/leet2.dir/LeetCode/1169._Invalid_Transactions.cpp.o  -o leet2 
+/usr/bin/c++  -g   CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o  -o leet2 

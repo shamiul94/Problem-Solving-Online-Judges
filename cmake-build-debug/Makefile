@@ -229,33 +229,6 @@ Algorithm_Templates/Manacher's_Algorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
 .PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.s
 
-LeetCode/1169._Invalid_Transactions.o: LeetCode/1169._Invalid_Transactions.cpp.o
-
-.PHONY : LeetCode/1169._Invalid_Transactions.o
-
-# target to build an object file
-LeetCode/1169._Invalid_Transactions.cpp.o:
-	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/1169._Invalid_Transactions.cpp.o
-.PHONY : LeetCode/1169._Invalid_Transactions.cpp.o
-
-LeetCode/1169._Invalid_Transactions.i: LeetCode/1169._Invalid_Transactions.cpp.i
-
-.PHONY : LeetCode/1169._Invalid_Transactions.i
-
-# target to preprocess a source file
-LeetCode/1169._Invalid_Transactions.cpp.i:
-	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/1169._Invalid_Transactions.cpp.i
-.PHONY : LeetCode/1169._Invalid_Transactions.cpp.i
-
-LeetCode/1169._Invalid_Transactions.s: LeetCode/1169._Invalid_Transactions.cpp.s
-
-.PHONY : LeetCode/1169._Invalid_Transactions.s
-
-# target to generate assembly for a file
-LeetCode/1169._Invalid_Transactions.cpp.s:
-	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/1169._Invalid_Transactions.cpp.s
-.PHONY : LeetCode/1169._Invalid_Transactions.cpp.s
-
 LeetCode/23._Merge_k_Sorted_Lists.o: LeetCode/23._Merge_k_Sorted_Lists.cpp.o
 
 .PHONY : LeetCode/23._Merge_k_Sorted_Lists.o
@@ -282,6 +255,33 @@ LeetCode/23._Merge_k_Sorted_Lists.s: LeetCode/23._Merge_k_Sorted_Lists.cpp.s
 LeetCode/23._Merge_k_Sorted_Lists.cpp.s:
 	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/23._Merge_k_Sorted_Lists.cpp.s
 .PHONY : LeetCode/23._Merge_k_Sorted_Lists.cpp.s
+
+LeetCode/983._Minimum_Cost_For_Tickets.o: LeetCode/983._Minimum_Cost_For_Tickets.cpp.o
+
+.PHONY : LeetCode/983._Minimum_Cost_For_Tickets.o
+
+# target to build an object file
+LeetCode/983._Minimum_Cost_For_Tickets.cpp.o:
+	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o
+.PHONY : LeetCode/983._Minimum_Cost_For_Tickets.cpp.o
+
+LeetCode/983._Minimum_Cost_For_Tickets.i: LeetCode/983._Minimum_Cost_For_Tickets.cpp.i
+
+.PHONY : LeetCode/983._Minimum_Cost_For_Tickets.i
+
+# target to preprocess a source file
+LeetCode/983._Minimum_Cost_For_Tickets.cpp.i:
+	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.i
+.PHONY : LeetCode/983._Minimum_Cost_For_Tickets.cpp.i
+
+LeetCode/983._Minimum_Cost_For_Tickets.s: LeetCode/983._Minimum_Cost_For_Tickets.cpp.s
+
+.PHONY : LeetCode/983._Minimum_Cost_For_Tickets.s
+
+# target to generate assembly for a file
+LeetCode/983._Minimum_Cost_For_Tickets.cpp.s:
+	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.s
+.PHONY : LeetCode/983._Minimum_Cost_For_Tickets.cpp.s
 
 Testing/testin2.o: Testing/testin2.cpp.o
 
@@ -329,12 +329,12 @@ help:
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.o"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.i"
 	@echo "... Algorithm_Templates/Manacher's_Algorithm.s"
-	@echo "... LeetCode/1169._Invalid_Transactions.o"
-	@echo "... LeetCode/1169._Invalid_Transactions.i"
-	@echo "... LeetCode/1169._Invalid_Transactions.s"
 	@echo "... LeetCode/23._Merge_k_Sorted_Lists.o"
 	@echo "... LeetCode/23._Merge_k_Sorted_Lists.i"
 	@echo "... LeetCode/23._Merge_k_Sorted_Lists.s"
+	@echo "... LeetCode/983._Minimum_Cost_For_Tickets.o"
+	@echo "... LeetCode/983._Minimum_Cost_For_Tickets.i"
+	@echo "... LeetCode/983._Minimum_Cost_For_Tickets.s"
 	@echo "... Testing/testin2.o"
 	@echo "... Testing/testin2.i"
 	@echo "... Testing/testin2.s"

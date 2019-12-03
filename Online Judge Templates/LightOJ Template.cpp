@@ -9,6 +9,7 @@ Concept -
 
 #define PRINT_CASE(ans)                         printf("Case %lld: %lld\n",t, ans)
 #define SORT_VECTOR(vec)                        sort(vec.begin(), vec.end())
+#define print_vec(vec) for(int i = 0 ; i < vec.size(); i++){cout<<vec[i]<<" ";} cout << endl
 
 
 #define ll                                      long long int

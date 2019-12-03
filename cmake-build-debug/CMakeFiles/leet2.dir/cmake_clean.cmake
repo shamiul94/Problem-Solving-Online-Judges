@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leet2.dir/LeetCode/1169._Invalid_Transactions.cpp.o"
+  "CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o"
   "leet2.pdb"
   "leet2"
 )
