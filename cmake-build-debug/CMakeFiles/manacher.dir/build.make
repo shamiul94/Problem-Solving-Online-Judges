@@ -57,38 +57,38 @@ include CMakeFiles/manacher.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/manacher.dir/flags.make
 
-CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o: CMakeFiles/manacher.dir/flags.make
-CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o: ../Algorithm\ Templates/Manacher's\ Algorithm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o" -c "/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/Manacher's Algorithm.cpp"
+CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o: CMakeFiles/manacher.dir/flags.make
+CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o: ../Algorithm\ Templates/Euler\ Path\ -\ Hierholzer\ Algorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/Euler Path - Hierholzer Algorithm.cpp"
 
-CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/Manacher's Algorithm.cpp" > "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.i"
+CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/Euler Path - Hierholzer Algorithm.cpp" > CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.i
 
-CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/Manacher's Algorithm.cpp" -o "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
+CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/Euler Path - Hierholzer Algorithm.cpp" -o CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.s
 
-CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o.requires:
+CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o.requires:
 
-.PHONY : CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o.requires
+.PHONY : CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o.requires
 
-CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o.provides: CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o.requires
-	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o.provides.build"
-.PHONY : CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o.provides
+CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o.provides: CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o.requires
+	$(MAKE) -f CMakeFiles/manacher.dir/build.make CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o.provides.build
+.PHONY : CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o.provides
 
-CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o.provides.build: CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o
+CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o.provides.build: CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o
 
 
 # Object files for target manacher
 manacher_OBJECTS = \
-"CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o"
+"CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o"
 
 # External object files for target manacher
 manacher_EXTERNAL_OBJECTS =
 
-manacher: CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o
+manacher: CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o
 manacher: CMakeFiles/manacher.dir/build.make
 manacher: CMakeFiles/manacher.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable manacher"
@@ -99,7 +99,7 @@ CMakeFiles/manacher.dir/build: manacher
 
 .PHONY : CMakeFiles/manacher.dir/build
 
-CMakeFiles/manacher.dir/requires: CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o.requires
+CMakeFiles/manacher.dir/requires: CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o.requires
 
 .PHONY : CMakeFiles/manacher.dir/requires
 

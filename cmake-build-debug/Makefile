@@ -175,6 +175,33 @@ tsttrr/fast:
 	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/build
 .PHONY : tsttrr/fast
 
+Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.o: Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o
+
+.PHONY : Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.o
+
+# target to build an object file
+Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/manacher.dir/build.make CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o
+.PHONY : Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o
+
+Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.i: Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.i
+
+.PHONY : Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.i
+
+# target to preprocess a source file
+Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/manacher.dir/build.make CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.i
+.PHONY : Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.i
+
+Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.s: Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.s
+
+.PHONY : Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.s
+
+# target to generate assembly for a file
+Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/manacher.dir/build.make CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.s
+.PHONY : Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.s
+
 Algorithm_Templates/KMP.o: Algorithm_Templates/KMP.cpp.o
 
 .PHONY : Algorithm_Templates/KMP.o
@@ -202,32 +229,32 @@ Algorithm_Templates/KMP.cpp.s:
 	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/Algorithm_Templates/KMP.cpp.s
 .PHONY : Algorithm_Templates/KMP.cpp.s
 
-Algorithm_Templates/Manacher's_Algorithm.o: Algorithm_Templates/Manacher's_Algorithm.cpp.o
+LeetCode/1129._Shortest_Path_with_Alternating_Colors.o: LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o
 
-.PHONY : Algorithm_Templates/Manacher's_Algorithm.o
+.PHONY : LeetCode/1129._Shortest_Path_with_Alternating_Colors.o
 
 # target to build an object file
-Algorithm_Templates/Manacher's_Algorithm.cpp.o:
-	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o"
-.PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.o
+LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o:
+	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o
+.PHONY : LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o
 
-Algorithm_Templates/Manacher's_Algorithm.i: Algorithm_Templates/Manacher's_Algorithm.cpp.i
+LeetCode/1129._Shortest_Path_with_Alternating_Colors.i: LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.i
 
-.PHONY : Algorithm_Templates/Manacher's_Algorithm.i
+.PHONY : LeetCode/1129._Shortest_Path_with_Alternating_Colors.i
 
 # target to preprocess a source file
-Algorithm_Templates/Manacher's_Algorithm.cpp.i:
-	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.i"
-.PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.i
+LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.i:
+	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.i
+.PHONY : LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.i
 
-Algorithm_Templates/Manacher's_Algorithm.s: Algorithm_Templates/Manacher's_Algorithm.cpp.s
+LeetCode/1129._Shortest_Path_with_Alternating_Colors.s: LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.s
 
-.PHONY : Algorithm_Templates/Manacher's_Algorithm.s
+.PHONY : LeetCode/1129._Shortest_Path_with_Alternating_Colors.s
 
 # target to generate assembly for a file
-Algorithm_Templates/Manacher's_Algorithm.cpp.s:
-	$(MAKE) -f CMakeFiles/manacher.dir/build.make "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.s"
-.PHONY : Algorithm_Templates/Manacher's_Algorithm.cpp.s
+LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.s:
+	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.s
+.PHONY : LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.s
 
 LeetCode/23._Merge_k_Sorted_Lists.o: LeetCode/23._Merge_k_Sorted_Lists.cpp.o
 
@@ -255,33 +282,6 @@ LeetCode/23._Merge_k_Sorted_Lists.s: LeetCode/23._Merge_k_Sorted_Lists.cpp.s
 LeetCode/23._Merge_k_Sorted_Lists.cpp.s:
 	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/23._Merge_k_Sorted_Lists.cpp.s
 .PHONY : LeetCode/23._Merge_k_Sorted_Lists.cpp.s
-
-LeetCode/983._Minimum_Cost_For_Tickets.o: LeetCode/983._Minimum_Cost_For_Tickets.cpp.o
-
-.PHONY : LeetCode/983._Minimum_Cost_For_Tickets.o
-
-# target to build an object file
-LeetCode/983._Minimum_Cost_For_Tickets.cpp.o:
-	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o
-.PHONY : LeetCode/983._Minimum_Cost_For_Tickets.cpp.o
-
-LeetCode/983._Minimum_Cost_For_Tickets.i: LeetCode/983._Minimum_Cost_For_Tickets.cpp.i
-
-.PHONY : LeetCode/983._Minimum_Cost_For_Tickets.i
-
-# target to preprocess a source file
-LeetCode/983._Minimum_Cost_For_Tickets.cpp.i:
-	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.i
-.PHONY : LeetCode/983._Minimum_Cost_For_Tickets.cpp.i
-
-LeetCode/983._Minimum_Cost_For_Tickets.s: LeetCode/983._Minimum_Cost_For_Tickets.cpp.s
-
-.PHONY : LeetCode/983._Minimum_Cost_For_Tickets.s
-
-# target to generate assembly for a file
-LeetCode/983._Minimum_Cost_For_Tickets.cpp.s:
-	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.s
-.PHONY : LeetCode/983._Minimum_Cost_For_Tickets.cpp.s
 
 Testing/testin2.o: Testing/testin2.cpp.o
 
@@ -323,18 +323,18 @@ help:
 	@echo "... leet"
 	@echo "... leet2"
 	@echo "... tsttrr"
+	@echo "... Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.o"
+	@echo "... Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.i"
+	@echo "... Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.s"
 	@echo "... Algorithm_Templates/KMP.o"
 	@echo "... Algorithm_Templates/KMP.i"
 	@echo "... Algorithm_Templates/KMP.s"
-	@echo "... Algorithm_Templates/Manacher's_Algorithm.o"
-	@echo "... Algorithm_Templates/Manacher's_Algorithm.i"
-	@echo "... Algorithm_Templates/Manacher's_Algorithm.s"
+	@echo "... LeetCode/1129._Shortest_Path_with_Alternating_Colors.o"
+	@echo "... LeetCode/1129._Shortest_Path_with_Alternating_Colors.i"
+	@echo "... LeetCode/1129._Shortest_Path_with_Alternating_Colors.s"
 	@echo "... LeetCode/23._Merge_k_Sorted_Lists.o"
 	@echo "... LeetCode/23._Merge_k_Sorted_Lists.i"
 	@echo "... LeetCode/23._Merge_k_Sorted_Lists.s"
-	@echo "... LeetCode/983._Minimum_Cost_For_Tickets.o"
-	@echo "... LeetCode/983._Minimum_Cost_For_Tickets.i"
-	@echo "... LeetCode/983._Minimum_Cost_For_Tickets.s"
 	@echo "... Testing/testin2.o"
 	@echo "... Testing/testin2.i"
 	@echo "... Testing/testin2.s"

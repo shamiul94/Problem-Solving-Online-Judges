@@ -8,9 +8,9 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(des Offline/DES.h Offline/DES.cpp)
 #add_executable(transpose Offline/Transposition.cpp)
 
-add_executable(manacher "Algorithm Templates/Manacher's Algorithm.cpp")
+add_executable(manacher "Algorithm Templates/Euler Path - Hierholzer Algorithm.cpp")
 add_executable(leet "LeetCode/23. Merge k Sorted Lists.cpp")
-add_executable(leet2 "LeetCode/983. Minimum Cost For Tickets.cpp")
+add_executable(leet2 "Online Judge Templates/my_template.h" "LeetCode/1129. Shortest Path with Alternating Colors.cpp")
 #add_executable(testerr Testing/testing.cpp)
 
 

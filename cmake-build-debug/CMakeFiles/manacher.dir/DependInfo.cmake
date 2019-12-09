@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/Manacher's Algorithm.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o"
+  "/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/Euler Path - Hierholzer Algorithm.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

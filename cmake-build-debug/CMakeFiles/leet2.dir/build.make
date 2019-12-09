@@ -57,38 +57,38 @@ include CMakeFiles/leet2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leet2.dir/flags.make
 
-CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o: CMakeFiles/leet2.dir/flags.make
-CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o: ../LeetCode/983.\ Minimum\ Cost\ For\ Tickets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/983. Minimum Cost For Tickets.cpp"
+CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o: CMakeFiles/leet2.dir/flags.make
+CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o: ../LeetCode/1129.\ Shortest\ Path\ with\ Alternating\ Colors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/1129. Shortest Path with Alternating Colors.cpp"
 
-CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/983. Minimum Cost For Tickets.cpp" > CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.i
+CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/1129. Shortest Path with Alternating Colors.cpp" > CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.i
 
-CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/983. Minimum Cost For Tickets.cpp" -o CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.s
+CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/1129. Shortest Path with Alternating Colors.cpp" -o CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.s
 
-CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o.requires:
+CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o.requires:
 
-.PHONY : CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o.requires
+.PHONY : CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o.requires
 
-CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o.provides: CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o.requires
-	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o.provides.build
-.PHONY : CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o.provides
+CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o.provides: CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o.requires
+	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o.provides.build
+.PHONY : CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o.provides
 
-CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o.provides.build: CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o
+CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o.provides.build: CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o
 
 
 # Object files for target leet2
 leet2_OBJECTS = \
-"CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o"
+"CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o"
 
 # External object files for target leet2
 leet2_EXTERNAL_OBJECTS =
 
-leet2: CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o
+leet2: CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o
 leet2: CMakeFiles/leet2.dir/build.make
 leet2: CMakeFiles/leet2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leet2"
@@ -99,7 +99,7 @@ CMakeFiles/leet2.dir/build: leet2
 
 .PHONY : CMakeFiles/leet2.dir/build
 
-CMakeFiles/leet2.dir/requires: CMakeFiles/leet2.dir/LeetCode/983._Minimum_Cost_For_Tickets.cpp.o.requires
+CMakeFiles/leet2.dir/requires: CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o.requires
 
 .PHONY : CMakeFiles/leet2.dir/requires
 

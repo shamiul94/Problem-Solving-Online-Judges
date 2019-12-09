@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o"  -o manacher 
+/usr/bin/c++  -g   CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o  -o manacher 

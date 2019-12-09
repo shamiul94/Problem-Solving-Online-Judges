@@ -268,16 +268,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/Euler Path - Hierholzer Algorithm.cpp">
+			<Option target="manacher"/>
+		</Unit>
 		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/KMP.cpp">
 			<Option target="kmp"/>
 		</Unit>
-		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/Manacher&apos;s Algorithm.cpp">
-			<Option target="manacher"/>
+		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/1129. Shortest Path with Alternating Colors.cpp">
+			<Option target="leet2"/>
 		</Unit>
 		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/23. Merge k Sorted Lists.cpp">
 			<Option target="leet"/>
 		</Unit>
-		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/983. Minimum Cost For Tickets.cpp">
+		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Online Judge Templates/my_template.h">
 			<Option target="leet2"/>
 		</Unit>
 		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Testing/testin2.cpp">

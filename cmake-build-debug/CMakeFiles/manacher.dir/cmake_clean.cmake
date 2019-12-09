@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/manacher.dir/Algorithm_Templates/Manacher's_Algorithm.cpp.o"
+  "CMakeFiles/manacher.dir/Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o"
   "manacher.pdb"
   "manacher"
 )
