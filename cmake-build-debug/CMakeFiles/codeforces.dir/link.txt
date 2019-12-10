@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o  -o codeforces 

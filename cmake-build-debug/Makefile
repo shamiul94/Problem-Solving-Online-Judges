@@ -150,6 +150,19 @@ leet/fast:
 .PHONY : leet/fast
 
 #=============================================================================
+# Target rules for targets named tsttrr
+
+# Build rule for target.
+tsttrr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tsttrr
+.PHONY : tsttrr
+
+# fast build rule for target.
+tsttrr/fast:
+	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/build
+.PHONY : tsttrr/fast
+
+#=============================================================================
 # Target rules for targets named leet2
 
 # Build rule for target.
@@ -163,17 +176,17 @@ leet2/fast:
 .PHONY : leet2/fast
 
 #=============================================================================
-# Target rules for targets named tsttrr
+# Target rules for targets named codeforces
 
 # Build rule for target.
-tsttrr: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tsttrr
-.PHONY : tsttrr
+codeforces: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 codeforces
+.PHONY : codeforces
 
 # fast build rule for target.
-tsttrr/fast:
-	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/build
-.PHONY : tsttrr/fast
+codeforces/fast:
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/build
+.PHONY : codeforces/fast
 
 Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.o: Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.cpp.o
 
@@ -228,6 +241,33 @@ Algorithm_Templates/KMP.s: Algorithm_Templates/KMP.cpp.s
 Algorithm_Templates/KMP.cpp.s:
 	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/Algorithm_Templates/KMP.cpp.s
 .PHONY : Algorithm_Templates/KMP.cpp.s
+
+Codeforces/1263-D._Secret_Passwords.o: Codeforces/1263-D._Secret_Passwords.cpp.o
+
+.PHONY : Codeforces/1263-D._Secret_Passwords.o
+
+# target to build an object file
+Codeforces/1263-D._Secret_Passwords.cpp.o:
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o
+.PHONY : Codeforces/1263-D._Secret_Passwords.cpp.o
+
+Codeforces/1263-D._Secret_Passwords.i: Codeforces/1263-D._Secret_Passwords.cpp.i
+
+.PHONY : Codeforces/1263-D._Secret_Passwords.i
+
+# target to preprocess a source file
+Codeforces/1263-D._Secret_Passwords.cpp.i:
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.i
+.PHONY : Codeforces/1263-D._Secret_Passwords.cpp.i
+
+Codeforces/1263-D._Secret_Passwords.s: Codeforces/1263-D._Secret_Passwords.cpp.s
+
+.PHONY : Codeforces/1263-D._Secret_Passwords.s
+
+# target to generate assembly for a file
+Codeforces/1263-D._Secret_Passwords.cpp.s:
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.s
+.PHONY : Codeforces/1263-D._Secret_Passwords.cpp.s
 
 LeetCode/1129._Shortest_Path_with_Alternating_Colors.o: LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o
 
@@ -321,14 +361,18 @@ help:
 	@echo "... manacher"
 	@echo "... rebuild_cache"
 	@echo "... leet"
-	@echo "... leet2"
 	@echo "... tsttrr"
+	@echo "... leet2"
+	@echo "... codeforces"
 	@echo "... Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.o"
 	@echo "... Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.i"
 	@echo "... Algorithm_Templates/Euler_Path_-_Hierholzer_Algorithm.s"
 	@echo "... Algorithm_Templates/KMP.o"
 	@echo "... Algorithm_Templates/KMP.i"
 	@echo "... Algorithm_Templates/KMP.s"
+	@echo "... Codeforces/1263-D._Secret_Passwords.o"
+	@echo "... Codeforces/1263-D._Secret_Passwords.i"
+	@echo "... Codeforces/1263-D._Secret_Passwords.s"
 	@echo "... LeetCode/1129._Shortest_Path_with_Alternating_Colors.o"
 	@echo "... LeetCode/1129._Shortest_Path_with_Alternating_Colors.i"
 	@echo "... LeetCode/1129._Shortest_Path_with_Alternating_Colors.s"

@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = "/home/shamiul93/Documents/Problem Solving Online Judges/cmak
 CMakeFiles/kmp.dir/all:
 	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/depend
 	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target kmp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target kmp"
 .PHONY : CMakeFiles/kmp.dir/all
 
 # Include target in all.
@@ -103,7 +103,7 @@ clean: CMakeFiles/kmp.dir/clean
 CMakeFiles/manacher.dir/all:
 	$(MAKE) -f CMakeFiles/manacher.dir/build.make CMakeFiles/manacher.dir/depend
 	$(MAKE) -f CMakeFiles/manacher.dir/build.make CMakeFiles/manacher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=7,8 "Built target manacher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=9,10 "Built target manacher"
 .PHONY : CMakeFiles/manacher.dir/all
 
 # Include target in all.
@@ -140,7 +140,7 @@ clean: CMakeFiles/manacher.dir/clean
 CMakeFiles/leet.dir/all:
 	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/depend
 	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target leet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=5,6 "Built target leet"
 .PHONY : CMakeFiles/leet.dir/all
 
 # Include target in all.
@@ -171,13 +171,50 @@ clean: CMakeFiles/leet.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/tsttrr.dir
+
+# All Build rule for target.
+CMakeFiles/tsttrr.dir/all:
+	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/depend
+	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=11,12 "Built target tsttrr"
+.PHONY : CMakeFiles/tsttrr.dir/all
+
+# Include target in all.
+all: CMakeFiles/tsttrr.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tsttrr.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tsttrr.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/tsttrr.dir/rule
+
+# Convenience name for target.
+tsttrr: CMakeFiles/tsttrr.dir/rule
+
+.PHONY : tsttrr
+
+# clean rule for target.
+CMakeFiles/tsttrr.dir/clean:
+	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/clean
+.PHONY : CMakeFiles/tsttrr.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tsttrr.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/leet2.dir
 
 # All Build rule for target.
 CMakeFiles/leet2.dir/all:
 	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/depend
 	$(MAKE) -f CMakeFiles/leet2.dir/build.make CMakeFiles/leet2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=5,6 "Built target leet2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=7,8 "Built target leet2"
 .PHONY : CMakeFiles/leet2.dir/all
 
 # Include target in all.
@@ -208,39 +245,39 @@ clean: CMakeFiles/leet2.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tsttrr.dir
+# Target rules for target CMakeFiles/codeforces.dir
 
 # All Build rule for target.
-CMakeFiles/tsttrr.dir/all:
-	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/depend
-	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=9,10 "Built target tsttrr"
-.PHONY : CMakeFiles/tsttrr.dir/all
+CMakeFiles/codeforces.dir/all:
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/depend
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target codeforces"
+.PHONY : CMakeFiles/codeforces.dir/all
 
 # Include target in all.
-all: CMakeFiles/tsttrr.dir/all
+all: CMakeFiles/codeforces.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tsttrr.dir/rule: cmake_check_build_system
+CMakeFiles/codeforces.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tsttrr.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/codeforces.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/tsttrr.dir/rule
+.PHONY : CMakeFiles/codeforces.dir/rule
 
 # Convenience name for target.
-tsttrr: CMakeFiles/tsttrr.dir/rule
+codeforces: CMakeFiles/codeforces.dir/rule
 
-.PHONY : tsttrr
-
-# clean rule for target.
-CMakeFiles/tsttrr.dir/clean:
-	$(MAKE) -f CMakeFiles/tsttrr.dir/build.make CMakeFiles/tsttrr.dir/clean
-.PHONY : CMakeFiles/tsttrr.dir/clean
+.PHONY : codeforces
 
 # clean rule for target.
-clean: CMakeFiles/tsttrr.dir/clean
+CMakeFiles/codeforces.dir/clean:
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/clean
+.PHONY : CMakeFiles/codeforces.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/codeforces.dir/clean
 
 .PHONY : clean
 

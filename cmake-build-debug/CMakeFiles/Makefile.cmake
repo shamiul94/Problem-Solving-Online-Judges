@@ -48,6 +48,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/kmp.dir/DependInfo.cmake"
   "CMakeFiles/manacher.dir/DependInfo.cmake"
   "CMakeFiles/leet.dir/DependInfo.cmake"
-  "CMakeFiles/leet2.dir/DependInfo.cmake"
   "CMakeFiles/tsttrr.dir/DependInfo.cmake"
+  "CMakeFiles/leet2.dir/DependInfo.cmake"
+  "CMakeFiles/codeforces.dir/DependInfo.cmake"
   )

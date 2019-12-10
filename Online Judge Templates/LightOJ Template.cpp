@@ -103,7 +103,7 @@ ll setValueBit(ll n, ll pos, ll val) {
 /************************************** END OF INITIALS ****************************************/
 
 int main() {
-    ios_base::sync_with_stdio(false);
+    ios_base::sync_with_stdio(true);
     cin.tie(NULL);
 
     ll T, t = 0;

@@ -10,6 +10,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(manacher "Algorithm Templates/Euler Path - Hierholzer Algorithm.cpp")
 add_executable(leet "LeetCode/23. Merge k Sorted Lists.cpp")
+add_executable(codeforces "Codeforces/1263-D. Secret Passwords.cpp")
 add_executable(leet2 "Online Judge Templates/my_template.h" "LeetCode/1129. Shortest Path with Alternating Colors.cpp")
 #add_executable(testerr Testing/testing.cpp)
 

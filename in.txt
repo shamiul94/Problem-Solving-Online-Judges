@@ -1,9 +1,4 @@
-4
-
-bababababa
-
-pqrs
-
-madamimadam
-
-anncbaaababaaa
+3
+abc
+cde
+dfg
