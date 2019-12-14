@@ -57,38 +57,38 @@ include CMakeFiles/codeforces.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/codeforces.dir/flags.make
 
-CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o: CMakeFiles/codeforces.dir/flags.make
-CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o: ../Codeforces/1263-D.\ Secret\ Passwords.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1263-D. Secret Passwords.cpp"
+CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o: CMakeFiles/codeforces.dir/flags.make
+CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o: ../Codeforces/1277-D.\ Let's\ Play\ the\ Words?.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o" -c "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1277-D. Let's Play the Words?.cpp"
 
-CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1263-D. Secret Passwords.cpp" > CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.i
+CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1277-D. Let's Play the Words?.cpp" > "CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.i"
 
-CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1263-D. Secret Passwords.cpp" -o CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.s
+CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1277-D. Let's Play the Words?.cpp" -o "CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.s"
 
-CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o.requires:
+CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o.requires:
 
-.PHONY : CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o.requires
+.PHONY : CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o.requires
 
-CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o.provides: CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o.requires
-	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o.provides.build
-.PHONY : CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o.provides
+CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o.provides: CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o.requires
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make "CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o.provides.build"
+.PHONY : CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o.provides
 
-CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o.provides.build: CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o
+CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o.provides.build: CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o
 
 
 # Object files for target codeforces
 codeforces_OBJECTS = \
-"CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o"
+"CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o"
 
 # External object files for target codeforces
 codeforces_EXTERNAL_OBJECTS =
 
-codeforces: CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o
+codeforces: CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o
 codeforces: CMakeFiles/codeforces.dir/build.make
 codeforces: CMakeFiles/codeforces.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable codeforces"
@@ -99,7 +99,7 @@ CMakeFiles/codeforces.dir/build: codeforces
 
 .PHONY : CMakeFiles/codeforces.dir/build
 
-CMakeFiles/codeforces.dir/requires: CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o.requires
+CMakeFiles/codeforces.dir/requires: CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o.requires
 
 .PHONY : CMakeFiles/codeforces.dir/requires
 

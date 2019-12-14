@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1263-D. Secret Passwords.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o"
+  "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1277-D. Let's Play the Words?.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/codeforces.dir/Codeforces/1263-D._Secret_Passwords.cpp.o  -o codeforces 
+/usr/bin/c++  -g   "CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o"  -o codeforces 
