@@ -120,8 +120,8 @@ inline void WriteInt(int x) {
 /************************************** END OF INITIALS ****************************************/
 
 int main() {
-    ios_base::sync_with_stdio(true);
-    cin.tie(NULL);
+    ios::sync_with_stdio(0);
+    cin.tie(0);
 
     ll T, t = 0;
 

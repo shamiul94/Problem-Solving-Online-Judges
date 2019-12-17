@@ -242,32 +242,32 @@ Algorithm_Templates/KMP.cpp.s:
 	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/Algorithm_Templates/KMP.cpp.s
 .PHONY : Algorithm_Templates/KMP.cpp.s
 
-Codeforces/1277-D._Let's_Play_the_Words?.o: Codeforces/1277-D._Let's_Play_the_Words?.cpp.o
+Codeforces/1266-C._Diverse_Matrix.o: Codeforces/1266-C._Diverse_Matrix.cpp.o
 
-.PHONY : Codeforces/1277-D._Let's_Play_the_Words?.o
+.PHONY : Codeforces/1266-C._Diverse_Matrix.o
 
 # target to build an object file
-Codeforces/1277-D._Let's_Play_the_Words?.cpp.o:
-	$(MAKE) -f CMakeFiles/codeforces.dir/build.make "CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.o"
-.PHONY : Codeforces/1277-D._Let's_Play_the_Words?.cpp.o
+Codeforces/1266-C._Diverse_Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o
+.PHONY : Codeforces/1266-C._Diverse_Matrix.cpp.o
 
-Codeforces/1277-D._Let's_Play_the_Words?.i: Codeforces/1277-D._Let's_Play_the_Words?.cpp.i
+Codeforces/1266-C._Diverse_Matrix.i: Codeforces/1266-C._Diverse_Matrix.cpp.i
 
-.PHONY : Codeforces/1277-D._Let's_Play_the_Words?.i
+.PHONY : Codeforces/1266-C._Diverse_Matrix.i
 
 # target to preprocess a source file
-Codeforces/1277-D._Let's_Play_the_Words?.cpp.i:
-	$(MAKE) -f CMakeFiles/codeforces.dir/build.make "CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.i"
-.PHONY : Codeforces/1277-D._Let's_Play_the_Words?.cpp.i
+Codeforces/1266-C._Diverse_Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.i
+.PHONY : Codeforces/1266-C._Diverse_Matrix.cpp.i
 
-Codeforces/1277-D._Let's_Play_the_Words?.s: Codeforces/1277-D._Let's_Play_the_Words?.cpp.s
+Codeforces/1266-C._Diverse_Matrix.s: Codeforces/1266-C._Diverse_Matrix.cpp.s
 
-.PHONY : Codeforces/1277-D._Let's_Play_the_Words?.s
+.PHONY : Codeforces/1266-C._Diverse_Matrix.s
 
 # target to generate assembly for a file
-Codeforces/1277-D._Let's_Play_the_Words?.cpp.s:
-	$(MAKE) -f CMakeFiles/codeforces.dir/build.make "CMakeFiles/codeforces.dir/Codeforces/1277-D._Let's_Play_the_Words?.cpp.s"
-.PHONY : Codeforces/1277-D._Let's_Play_the_Words?.cpp.s
+Codeforces/1266-C._Diverse_Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.s
+.PHONY : Codeforces/1266-C._Diverse_Matrix.cpp.s
 
 LeetCode/1129._Shortest_Path_with_Alternating_Colors.o: LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o
 
@@ -370,9 +370,9 @@ help:
 	@echo "... Algorithm_Templates/KMP.o"
 	@echo "... Algorithm_Templates/KMP.i"
 	@echo "... Algorithm_Templates/KMP.s"
-	@echo "... Codeforces/1277-D._Let's_Play_the_Words?.o"
-	@echo "... Codeforces/1277-D._Let's_Play_the_Words?.i"
-	@echo "... Codeforces/1277-D._Let's_Play_the_Words?.s"
+	@echo "... Codeforces/1266-C._Diverse_Matrix.o"
+	@echo "... Codeforces/1266-C._Diverse_Matrix.i"
+	@echo "... Codeforces/1266-C._Diverse_Matrix.s"
 	@echo "... LeetCode/1129._Shortest_Path_with_Alternating_Colors.o"
 	@echo "... LeetCode/1129._Shortest_Path_with_Alternating_Colors.i"
 	@echo "... LeetCode/1129._Shortest_Path_with_Alternating_Colors.s"
