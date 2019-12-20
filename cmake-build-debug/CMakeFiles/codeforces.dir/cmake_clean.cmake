@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o"
+  "CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o"
   "codeforces.pdb"
   "codeforces"
 )

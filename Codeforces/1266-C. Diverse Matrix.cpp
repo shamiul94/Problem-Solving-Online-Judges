@@ -13,7 +13,7 @@
 using namespace std;
 
 int main() {
-//    fi;
+    fi;
 //    fo;
     ios::sync_with_stdio(0);
     cin.tie(0);

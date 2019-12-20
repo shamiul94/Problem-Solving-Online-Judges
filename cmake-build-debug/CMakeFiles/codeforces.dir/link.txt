@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o  -o codeforces 
+/usr/bin/c++  -g   CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o  -o codeforces 

@@ -242,32 +242,32 @@ Algorithm_Templates/KMP.cpp.s:
 	$(MAKE) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/Algorithm_Templates/KMP.cpp.s
 .PHONY : Algorithm_Templates/KMP.cpp.s
 
-Codeforces/1266-C._Diverse_Matrix.o: Codeforces/1266-C._Diverse_Matrix.cpp.o
+Codeforces/1266-E._Spaceship_Solitaire.o: Codeforces/1266-E._Spaceship_Solitaire.cpp.o
 
-.PHONY : Codeforces/1266-C._Diverse_Matrix.o
+.PHONY : Codeforces/1266-E._Spaceship_Solitaire.o
 
 # target to build an object file
-Codeforces/1266-C._Diverse_Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o
-.PHONY : Codeforces/1266-C._Diverse_Matrix.cpp.o
+Codeforces/1266-E._Spaceship_Solitaire.cpp.o:
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o
+.PHONY : Codeforces/1266-E._Spaceship_Solitaire.cpp.o
 
-Codeforces/1266-C._Diverse_Matrix.i: Codeforces/1266-C._Diverse_Matrix.cpp.i
+Codeforces/1266-E._Spaceship_Solitaire.i: Codeforces/1266-E._Spaceship_Solitaire.cpp.i
 
-.PHONY : Codeforces/1266-C._Diverse_Matrix.i
+.PHONY : Codeforces/1266-E._Spaceship_Solitaire.i
 
 # target to preprocess a source file
-Codeforces/1266-C._Diverse_Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.i
-.PHONY : Codeforces/1266-C._Diverse_Matrix.cpp.i
+Codeforces/1266-E._Spaceship_Solitaire.cpp.i:
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.i
+.PHONY : Codeforces/1266-E._Spaceship_Solitaire.cpp.i
 
-Codeforces/1266-C._Diverse_Matrix.s: Codeforces/1266-C._Diverse_Matrix.cpp.s
+Codeforces/1266-E._Spaceship_Solitaire.s: Codeforces/1266-E._Spaceship_Solitaire.cpp.s
 
-.PHONY : Codeforces/1266-C._Diverse_Matrix.s
+.PHONY : Codeforces/1266-E._Spaceship_Solitaire.s
 
 # target to generate assembly for a file
-Codeforces/1266-C._Diverse_Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.s
-.PHONY : Codeforces/1266-C._Diverse_Matrix.cpp.s
+Codeforces/1266-E._Spaceship_Solitaire.cpp.s:
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.s
+.PHONY : Codeforces/1266-E._Spaceship_Solitaire.cpp.s
 
 LeetCode/1129._Shortest_Path_with_Alternating_Colors.o: LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o
 
@@ -370,9 +370,9 @@ help:
 	@echo "... Algorithm_Templates/KMP.o"
 	@echo "... Algorithm_Templates/KMP.i"
 	@echo "... Algorithm_Templates/KMP.s"
-	@echo "... Codeforces/1266-C._Diverse_Matrix.o"
-	@echo "... Codeforces/1266-C._Diverse_Matrix.i"
-	@echo "... Codeforces/1266-C._Diverse_Matrix.s"
+	@echo "... Codeforces/1266-E._Spaceship_Solitaire.o"
+	@echo "... Codeforces/1266-E._Spaceship_Solitaire.i"
+	@echo "... Codeforces/1266-E._Spaceship_Solitaire.s"
 	@echo "... LeetCode/1129._Shortest_Path_with_Alternating_Colors.o"
 	@echo "... LeetCode/1129._Shortest_Path_with_Alternating_Colors.i"
 	@echo "... LeetCode/1129._Shortest_Path_with_Alternating_Colors.s"

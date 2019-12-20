@@ -1,8 +1,9 @@
 /**
-@author - Rumman BUET CSE'15
-Problem - 
-Idea - 
-Concept - 
+@author - shamiul93, CSE, BUET
+@Date - 12/19/19
+@Time - 11:42 AM
+@Problem - 1266-E. Spaceship Solitaire
+@Idea - Greedy
 */
 
 #include <bits/stdc++.h>
@@ -119,9 +120,43 @@ inline void WriteInt(int x) {
 
 /************************************** END OF INITIALS ****************************************/
 
+
 int main() {
+//    fi;
+//    fo;
     ios::sync_with_stdio(0);
     cin.tie(0);
 
+    ll n, ans = 0;
+    cin >> n;
+    vector<ll> a;
+    a.pb(0);
+    for (int i = 1; i <= n; i++) {
+        ll x;
+        cin >> x;
+        a.push_back(x);
+        ans += x;
+    }
+
+    ll q;
+    cin >> q;
+
+    unordered_map<ll, ll> m[n + 1];
+
+    while (q--) {
+        ll s, t, u;
+        cin >> s >> t >> u;
+
+        if (m[s].find(t) != m[s].end()) {
+            ll prevIdx = m[s][t];
+            a[prevIdx]++; // taking it back to normal as this update doesn't exist anymore.
+            if (a[prevIdx] > 0) ans++; // nullifying it's previous effect.
+        }
+
+        a[u]--;
+        if (a[u] >= 0) ans--;
+        m[s][t] = u;
+        cout << ans << endl;
+    }
     return 0;
 }

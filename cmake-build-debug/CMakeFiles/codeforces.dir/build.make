@@ -57,38 +57,38 @@ include CMakeFiles/codeforces.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/codeforces.dir/flags.make
 
-CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o: CMakeFiles/codeforces.dir/flags.make
-CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o: ../Codeforces/1266-C.\ Diverse\ Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1266-C. Diverse Matrix.cpp"
+CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o: CMakeFiles/codeforces.dir/flags.make
+CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o: ../Codeforces/1266-E.\ Spaceship\ Solitaire.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o -c "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1266-E. Spaceship Solitaire.cpp"
 
-CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1266-C. Diverse Matrix.cpp" > CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.i
+CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1266-E. Spaceship Solitaire.cpp" > CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.i
 
-CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1266-C. Diverse Matrix.cpp" -o CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.s
+CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1266-E. Spaceship Solitaire.cpp" -o CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.s
 
-CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o.requires:
+CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o.requires:
 
-.PHONY : CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o.requires
+.PHONY : CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o.requires
 
-CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o.provides: CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o.requires
-	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o.provides.build
-.PHONY : CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o.provides
+CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o.provides: CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o.requires
+	$(MAKE) -f CMakeFiles/codeforces.dir/build.make CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o.provides.build
+.PHONY : CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o.provides
 
-CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o.provides.build: CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o
+CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o.provides.build: CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o
 
 
 # Object files for target codeforces
 codeforces_OBJECTS = \
-"CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o"
+"CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o"
 
 # External object files for target codeforces
 codeforces_EXTERNAL_OBJECTS =
 
-codeforces: CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o
+codeforces: CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o
 codeforces: CMakeFiles/codeforces.dir/build.make
 codeforces: CMakeFiles/codeforces.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable codeforces"
@@ -99,7 +99,7 @@ CMakeFiles/codeforces.dir/build: codeforces
 
 .PHONY : CMakeFiles/codeforces.dir/build
 
-CMakeFiles/codeforces.dir/requires: CMakeFiles/codeforces.dir/Codeforces/1266-C._Diverse_Matrix.cpp.o.requires
+CMakeFiles/codeforces.dir/requires: CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o.requires
 
 .PHONY : CMakeFiles/codeforces.dir/requires
 
