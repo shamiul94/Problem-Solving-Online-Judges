@@ -17,17 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codeforces/1266-C. Diverse Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/1266-C. Diverse Matrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Online Judge Templates/LightOJ Template.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Online Judge Templates/LightOJ Template.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codeforces.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codeforces.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codeforces.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codeforces.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codeforces.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codeforces.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codeforces.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codeforces.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProblemSolving.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProblemSolving.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codeforces" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codeforces" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/1271-C. Shawarma Tent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/1271-C. Shawarma Tent.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +51,8 @@
       <file leaf-file-name="1271-C. Shawarma Tent.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Codeforces/1271-C. Shawarma Tent.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state relative-caret-position="120">
+              <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -172,7 +162,6 @@
         <option value="$PROJECT_DIR$/Codeforces/1281-B. Azamon Web Services.cpp" />
         <option value="$PROJECT_DIR$/Codeforces/1281-C. Cut and Paste.cpp" />
         <option value="$PROJECT_DIR$/Codeforces/1271-A. Suits .cpp" />
-        <option value="$PROJECT_DIR$/Codeforces/1271-C. Shawarma Tent.cpp" />
         <option value="$PROJECT_DIR$/Codeforces/1271-B. Blocks.cpp" />
         <option value="$PROJECT_DIR$/Codeforces/1271-E. Common Number.cpp" />
         <option value="$PROJECT_DIR$/Codeforces/1266-A. Competitive Programmer.cpp" />
@@ -184,6 +173,7 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/cmake-build-debug/in.txt" />
         <option value="$PROJECT_DIR$/Codeforces/1266-E. Spaceship Solitaire.cpp" />
+        <option value="$PROJECT_DIR$/Codeforces/1271-C. Shawarma Tent.cpp" />
       </list>
     </option>
   </component>
@@ -304,12 +294,12 @@
       <workItem from="1575574282277" duration="33915000" />
       <workItem from="1576326355471" duration="24544000" />
       <workItem from="1576399043175" duration="26088000" />
-      <workItem from="1576508256287" duration="22698000" />
+      <workItem from="1576508256287" duration="22949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="416080000" />
+    <option name="totallyTimeSpent" value="416331000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Codeforces/1271-C. Shawarma Tent.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="120">
+          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
         </state>
       </provider>
     </entry>
