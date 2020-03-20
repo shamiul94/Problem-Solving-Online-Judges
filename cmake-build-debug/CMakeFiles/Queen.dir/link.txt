@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Queen.dir/Codeforces/Round-549-Div2-1143-C-Queen.cpp.o CMakeFiles/Queen.dir/Codeforces/Round-549-Div2-1143-D-The_Beatles.cpp.o  -o Queen 

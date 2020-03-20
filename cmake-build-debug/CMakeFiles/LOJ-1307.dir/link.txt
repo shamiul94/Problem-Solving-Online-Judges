@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/LOJ-1307.dir/LightOJ/1307-Counting_Triangles.cpp.o  -o LOJ-1307 

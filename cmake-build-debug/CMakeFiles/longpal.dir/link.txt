@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/longpal.dir/InterviewBit/Longest_Palindromic_Substring.cpp.o  -o longpal 

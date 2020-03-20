@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/KMP.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/kmp.dir/Algorithm_Templates/KMP.cpp.o"
+  "/home/heisenberg/Programming/Problem-Solving-Online-Judges/Algorithm Templates/KMP.cpp" "/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles/kmp.dir/Algorithm_Templates/KMP.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

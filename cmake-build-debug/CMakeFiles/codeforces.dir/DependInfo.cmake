@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1266-E. Spaceship Solitaire.cpp" "/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o"
+  "/home/heisenberg/Programming/Problem-Solving-Online-Judges/Codeforces/1266-E. Spaceship Solitaire.cpp" "/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

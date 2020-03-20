@@ -8,334 +8,86 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
+				<Option working_dir="/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="kmp">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/kmp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 kmp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="kmp/fast">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/kmp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 kmp/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="manacher">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/manacher" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 manacher"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="manacher/fast">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/manacher" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 manacher/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
+				<Option working_dir="/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leet">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/leet" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
+				<Option output="/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/leet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 leet"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 leet"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leet/fast">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/leet" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
+				<Option output="/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/leet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 leet/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 leet/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tsttrr">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/tsttrr" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+			<Target title="edit_cache">
+				<Option working_dir="/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug"/>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 tsttrr"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tsttrr/fast">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/tsttrr" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 tsttrr/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="leet2">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/leet2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 leet2"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="leet2/fast">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/leet2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 leet2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="codeforces">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/codeforces" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 codeforces"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="codeforces/fast">
-				<Option output="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug/codeforces" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 codeforces/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shamiul93/Documents/Problem\ Solving\ Online\ Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/Euler Path - Hierholzer Algorithm.cpp">
-			<Option target="manacher"/>
-		</Unit>
-		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Algorithm Templates/KMP.cpp">
-			<Option target="kmp"/>
-		</Unit>
-		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Codeforces/1266-E. Spaceship Solitaire.cpp">
-			<Option target="codeforces"/>
-		</Unit>
-		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/1129. Shortest Path with Alternating Colors.cpp">
-			<Option target="leet2"/>
-		</Unit>
-		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/LeetCode/23. Merge k Sorted Lists.cpp">
+		<Unit filename="/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/986. Interval List Intersections.cpp">
 			<Option target="leet"/>
 		</Unit>
-		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Online Judge Templates/my_template.h">
-			<Option target="leet2"/>
-		</Unit>
-		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/Testing/testin2.cpp">
-			<Option target="tsttrr"/>
-		</Unit>
-		<Unit filename="/home/shamiul93/Documents/Problem Solving Online Judges/CMakeLists.txt">
+		<Unit filename="/home/heisenberg/Programming/Problem-Solving-Online-Judges/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

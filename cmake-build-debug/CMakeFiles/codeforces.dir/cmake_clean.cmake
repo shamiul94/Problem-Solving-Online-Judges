@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/codeforces.dir/Codeforces/1266-E._Spaceship_Solitaire.cpp.o"
-  "codeforces.pdb"
   "codeforces"
+  "codeforces.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

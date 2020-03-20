@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/testing.dir/Offline/test.cpp.o  -o testing 

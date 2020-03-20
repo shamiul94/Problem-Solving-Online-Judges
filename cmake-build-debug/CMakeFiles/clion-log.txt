@@ -1,4 +1,4 @@
-"/media/shamiul93/Software-and-Media/Necessary Softwares/Linux Softwares/clion-2018.1.5/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/shamiul93/Documents/Problem Solving Online Judges"
+/home/heisenberg/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/heisenberg/Programming/Problem-Solving-Online-Judges
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/shamiul93/Documents/Problem Solving Online Judges/cmake-build-debug
+-- Build files have been written to: /home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug
