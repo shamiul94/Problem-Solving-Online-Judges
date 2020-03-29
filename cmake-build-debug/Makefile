@@ -123,32 +123,32 @@ leet/fast:
 	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/build
 .PHONY : leet/fast
 
-LeetCode/986._Interval_List_Intersections.o: LeetCode/986._Interval_List_Intersections.cpp.o
+LeetCode/994._Rotting_Oranges.o: LeetCode/994._Rotting_Oranges.cpp.o
 
-.PHONY : LeetCode/986._Interval_List_Intersections.o
+.PHONY : LeetCode/994._Rotting_Oranges.o
 
 # target to build an object file
-LeetCode/986._Interval_List_Intersections.cpp.o:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/986._Interval_List_Intersections.cpp.o
-.PHONY : LeetCode/986._Interval_List_Intersections.cpp.o
+LeetCode/994._Rotting_Oranges.cpp.o:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.o
+.PHONY : LeetCode/994._Rotting_Oranges.cpp.o
 
-LeetCode/986._Interval_List_Intersections.i: LeetCode/986._Interval_List_Intersections.cpp.i
+LeetCode/994._Rotting_Oranges.i: LeetCode/994._Rotting_Oranges.cpp.i
 
-.PHONY : LeetCode/986._Interval_List_Intersections.i
+.PHONY : LeetCode/994._Rotting_Oranges.i
 
 # target to preprocess a source file
-LeetCode/986._Interval_List_Intersections.cpp.i:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/986._Interval_List_Intersections.cpp.i
-.PHONY : LeetCode/986._Interval_List_Intersections.cpp.i
+LeetCode/994._Rotting_Oranges.cpp.i:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.i
+.PHONY : LeetCode/994._Rotting_Oranges.cpp.i
 
-LeetCode/986._Interval_List_Intersections.s: LeetCode/986._Interval_List_Intersections.cpp.s
+LeetCode/994._Rotting_Oranges.s: LeetCode/994._Rotting_Oranges.cpp.s
 
-.PHONY : LeetCode/986._Interval_List_Intersections.s
+.PHONY : LeetCode/994._Rotting_Oranges.s
 
 # target to generate assembly for a file
-LeetCode/986._Interval_List_Intersections.cpp.s:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/986._Interval_List_Intersections.cpp.s
-.PHONY : LeetCode/986._Interval_List_Intersections.cpp.s
+LeetCode/994._Rotting_Oranges.cpp.s:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.s
+.PHONY : LeetCode/994._Rotting_Oranges.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... leet"
 	@echo "... edit_cache"
-	@echo "... LeetCode/986._Interval_List_Intersections.o"
-	@echo "... LeetCode/986._Interval_List_Intersections.i"
-	@echo "... LeetCode/986._Interval_List_Intersections.s"
+	@echo "... LeetCode/994._Rotting_Oranges.o"
+	@echo "... LeetCode/994._Rotting_Oranges.i"
+	@echo "... LeetCode/994._Rotting_Oranges.s"
 .PHONY : help
 
 

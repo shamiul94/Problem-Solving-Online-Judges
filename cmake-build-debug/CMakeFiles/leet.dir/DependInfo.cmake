@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/986. Interval List Intersections.cpp" "/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles/leet.dir/LeetCode/986._Interval_List_Intersections.cpp.o"
+  "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/994. Rotting Oranges.cpp" "/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
