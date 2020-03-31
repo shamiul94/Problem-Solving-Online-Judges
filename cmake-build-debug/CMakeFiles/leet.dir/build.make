@@ -57,30 +57,45 @@ include CMakeFiles/leet.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leet.dir/flags.make
 
-CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.o: CMakeFiles/leet.dir/flags.make
-CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.o: ../LeetCode/994.\ Rotting\ Oranges.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.o -c "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/994. Rotting Oranges.cpp"
+CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o: CMakeFiles/leet.dir/flags.make
+CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o: ../LeetCode/1110.\ Delete\ Nodes\ And\ Return\ Forest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o -c "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/1110. Delete Nodes And Return Forest.cpp"
 
-CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/994. Rotting Oranges.cpp" > CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.i
+CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/1110. Delete Nodes And Return Forest.cpp" > CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.i
 
-CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/994. Rotting Oranges.cpp" -o CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.s
+CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/1110. Delete Nodes And Return Forest.cpp" -o CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.s
+
+CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.o: CMakeFiles/leet.dir/flags.make
+CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.o: ../LeetCode/797.\ All\ Paths\ From\ Source\ to\ Target.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.o -c "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/797. All Paths From Source to Target.cpp"
+
+CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/797. All Paths From Source to Target.cpp" > CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.i
+
+CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/797. All Paths From Source to Target.cpp" -o CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.s
 
 # Object files for target leet
 leet_OBJECTS = \
-"CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.o"
+"CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o" \
+"CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.o"
 
 # External object files for target leet
 leet_EXTERNAL_OBJECTS =
 
-leet: CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.o
+leet: CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o
+leet: CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.o
 leet: CMakeFiles/leet.dir/build.make
 leet: CMakeFiles/leet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable leet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/leet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

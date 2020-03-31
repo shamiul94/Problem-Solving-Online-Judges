@@ -123,32 +123,59 @@ leet/fast:
 	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/build
 .PHONY : leet/fast
 
-LeetCode/994._Rotting_Oranges.o: LeetCode/994._Rotting_Oranges.cpp.o
+LeetCode/1110._Delete_Nodes_And_Return_Forest.o: LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o
 
-.PHONY : LeetCode/994._Rotting_Oranges.o
+.PHONY : LeetCode/1110._Delete_Nodes_And_Return_Forest.o
 
 # target to build an object file
-LeetCode/994._Rotting_Oranges.cpp.o:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.o
-.PHONY : LeetCode/994._Rotting_Oranges.cpp.o
+LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o
+.PHONY : LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o
 
-LeetCode/994._Rotting_Oranges.i: LeetCode/994._Rotting_Oranges.cpp.i
+LeetCode/1110._Delete_Nodes_And_Return_Forest.i: LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.i
 
-.PHONY : LeetCode/994._Rotting_Oranges.i
+.PHONY : LeetCode/1110._Delete_Nodes_And_Return_Forest.i
 
 # target to preprocess a source file
-LeetCode/994._Rotting_Oranges.cpp.i:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.i
-.PHONY : LeetCode/994._Rotting_Oranges.cpp.i
+LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.i:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.i
+.PHONY : LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.i
 
-LeetCode/994._Rotting_Oranges.s: LeetCode/994._Rotting_Oranges.cpp.s
+LeetCode/1110._Delete_Nodes_And_Return_Forest.s: LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.s
 
-.PHONY : LeetCode/994._Rotting_Oranges.s
+.PHONY : LeetCode/1110._Delete_Nodes_And_Return_Forest.s
 
 # target to generate assembly for a file
-LeetCode/994._Rotting_Oranges.cpp.s:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.s
-.PHONY : LeetCode/994._Rotting_Oranges.cpp.s
+LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.s:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.s
+.PHONY : LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.s
+
+LeetCode/797._All_Paths_From_Source_to_Target.o: LeetCode/797._All_Paths_From_Source_to_Target.cpp.o
+
+.PHONY : LeetCode/797._All_Paths_From_Source_to_Target.o
+
+# target to build an object file
+LeetCode/797._All_Paths_From_Source_to_Target.cpp.o:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.o
+.PHONY : LeetCode/797._All_Paths_From_Source_to_Target.cpp.o
+
+LeetCode/797._All_Paths_From_Source_to_Target.i: LeetCode/797._All_Paths_From_Source_to_Target.cpp.i
+
+.PHONY : LeetCode/797._All_Paths_From_Source_to_Target.i
+
+# target to preprocess a source file
+LeetCode/797._All_Paths_From_Source_to_Target.cpp.i:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.i
+.PHONY : LeetCode/797._All_Paths_From_Source_to_Target.cpp.i
+
+LeetCode/797._All_Paths_From_Source_to_Target.s: LeetCode/797._All_Paths_From_Source_to_Target.cpp.s
+
+.PHONY : LeetCode/797._All_Paths_From_Source_to_Target.s
+
+# target to generate assembly for a file
+LeetCode/797._All_Paths_From_Source_to_Target.cpp.s:
+	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.s
+.PHONY : LeetCode/797._All_Paths_From_Source_to_Target.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... leet"
 	@echo "... edit_cache"
-	@echo "... LeetCode/994._Rotting_Oranges.o"
-	@echo "... LeetCode/994._Rotting_Oranges.i"
-	@echo "... LeetCode/994._Rotting_Oranges.s"
+	@echo "... LeetCode/1110._Delete_Nodes_And_Return_Forest.o"
+	@echo "... LeetCode/1110._Delete_Nodes_And_Return_Forest.i"
+	@echo "... LeetCode/1110._Delete_Nodes_And_Return_Forest.s"
+	@echo "... LeetCode/797._All_Paths_From_Source_to_Target.o"
+	@echo "... LeetCode/797._All_Paths_From_Source_to_Target.i"
+	@echo "... LeetCode/797._All_Paths_From_Source_to_Target.s"
 .PHONY : help
 
 

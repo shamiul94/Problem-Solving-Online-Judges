@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/994. Rotting Oranges.cpp" "/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles/leet.dir/LeetCode/994._Rotting_Oranges.cpp.o"
+  "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/1110. Delete Nodes And Return Forest.cpp" "/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o"
+  "/home/heisenberg/Programming/Problem-Solving-Online-Judges/LeetCode/797. All Paths From Source to Target.cpp" "/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
