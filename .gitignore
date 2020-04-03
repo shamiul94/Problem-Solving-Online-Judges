@@ -31,3 +31,5 @@ Offline/*
 .idea
 CMakeLists.txt
 cmake-build-debug
+*/venv
+*/.idea
