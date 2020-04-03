@@ -111,71 +111,125 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named leet
+# Target rules for targets named codejam
 
 # Build rule for target.
-leet: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leet
-.PHONY : leet
+codejam: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 codejam
+.PHONY : codejam
 
 # fast build rule for target.
-leet/fast:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/build
-.PHONY : leet/fast
+codejam/fast:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/build
+.PHONY : codejam/fast
 
-LeetCode/1110._Delete_Nodes_And_Return_Forest.o: LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o
+CodeJam/2019/1-Foregone.o: CodeJam/2019/1-Foregone.cpp.o
 
-.PHONY : LeetCode/1110._Delete_Nodes_And_Return_Forest.o
-
-# target to build an object file
-LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o
-.PHONY : LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.o
-
-LeetCode/1110._Delete_Nodes_And_Return_Forest.i: LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.i
-
-.PHONY : LeetCode/1110._Delete_Nodes_And_Return_Forest.i
-
-# target to preprocess a source file
-LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.i:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.i
-.PHONY : LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.i
-
-LeetCode/1110._Delete_Nodes_And_Return_Forest.s: LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.s
-
-.PHONY : LeetCode/1110._Delete_Nodes_And_Return_Forest.s
-
-# target to generate assembly for a file
-LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.s:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.s
-.PHONY : LeetCode/1110._Delete_Nodes_And_Return_Forest.cpp.s
-
-LeetCode/797._All_Paths_From_Source_to_Target.o: LeetCode/797._All_Paths_From_Source_to_Target.cpp.o
-
-.PHONY : LeetCode/797._All_Paths_From_Source_to_Target.o
+.PHONY : CodeJam/2019/1-Foregone.o
 
 # target to build an object file
-LeetCode/797._All_Paths_From_Source_to_Target.cpp.o:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.o
-.PHONY : LeetCode/797._All_Paths_From_Source_to_Target.cpp.o
+CodeJam/2019/1-Foregone.cpp.o:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/CodeJam/2019/1-Foregone.cpp.o
+.PHONY : CodeJam/2019/1-Foregone.cpp.o
 
-LeetCode/797._All_Paths_From_Source_to_Target.i: LeetCode/797._All_Paths_From_Source_to_Target.cpp.i
+CodeJam/2019/1-Foregone.i: CodeJam/2019/1-Foregone.cpp.i
 
-.PHONY : LeetCode/797._All_Paths_From_Source_to_Target.i
+.PHONY : CodeJam/2019/1-Foregone.i
 
 # target to preprocess a source file
-LeetCode/797._All_Paths_From_Source_to_Target.cpp.i:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.i
-.PHONY : LeetCode/797._All_Paths_From_Source_to_Target.cpp.i
+CodeJam/2019/1-Foregone.cpp.i:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/CodeJam/2019/1-Foregone.cpp.i
+.PHONY : CodeJam/2019/1-Foregone.cpp.i
 
-LeetCode/797._All_Paths_From_Source_to_Target.s: LeetCode/797._All_Paths_From_Source_to_Target.cpp.s
+CodeJam/2019/1-Foregone.s: CodeJam/2019/1-Foregone.cpp.s
 
-.PHONY : LeetCode/797._All_Paths_From_Source_to_Target.s
+.PHONY : CodeJam/2019/1-Foregone.s
 
 # target to generate assembly for a file
-LeetCode/797._All_Paths_From_Source_to_Target.cpp.s:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/LeetCode/797._All_Paths_From_Source_to_Target.cpp.s
-.PHONY : LeetCode/797._All_Paths_From_Source_to_Target.cpp.s
+CodeJam/2019/1-Foregone.cpp.s:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/CodeJam/2019/1-Foregone.cpp.s
+.PHONY : CodeJam/2019/1-Foregone.cpp.s
+
+LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.o: LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.cpp.o
+
+.PHONY : LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.o
+
+# target to build an object file
+LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.cpp.o:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.cpp.o
+.PHONY : LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.cpp.o
+
+LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.i: LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.cpp.i
+
+.PHONY : LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.i
+
+# target to preprocess a source file
+LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.cpp.i:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.cpp.i
+.PHONY : LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.cpp.i
+
+LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.s: LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.cpp.s
+
+.PHONY : LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.s
+
+# target to generate assembly for a file
+LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.cpp.s:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.cpp.s
+.PHONY : LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.cpp.s
+
+LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.o: LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp.o
+
+.PHONY : LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.o
+
+# target to build an object file
+LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp.o:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp.o
+.PHONY : LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp.o
+
+LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.i: LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp.i
+
+.PHONY : LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.i
+
+# target to preprocess a source file
+LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp.i:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp.i
+.PHONY : LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp.i
+
+LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.s: LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp.s
+
+.PHONY : LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.s
+
+# target to generate assembly for a file
+LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp.s:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp.s
+.PHONY : LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp.s
+
+LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.o: LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.cpp.o
+
+.PHONY : LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.o
+
+# target to build an object file
+LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.cpp.o:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.cpp.o
+.PHONY : LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.cpp.o
+
+LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.i: LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.cpp.i
+
+.PHONY : LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.i
+
+# target to preprocess a source file
+LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.cpp.i:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.cpp.i
+.PHONY : LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.cpp.i
+
+LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.s: LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.cpp.s
+
+.PHONY : LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.s
+
+# target to generate assembly for a file
+LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.cpp.s:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.cpp.s
+.PHONY : LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.cpp.s
 
 # Help Target
 help:
@@ -184,14 +238,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... leet"
+	@echo "... codejam"
 	@echo "... edit_cache"
-	@echo "... LeetCode/1110._Delete_Nodes_And_Return_Forest.o"
-	@echo "... LeetCode/1110._Delete_Nodes_And_Return_Forest.i"
-	@echo "... LeetCode/1110._Delete_Nodes_And_Return_Forest.s"
-	@echo "... LeetCode/797._All_Paths_From_Source_to_Target.o"
-	@echo "... LeetCode/797._All_Paths_From_Source_to_Target.i"
-	@echo "... LeetCode/797._All_Paths_From_Source_to_Target.s"
+	@echo "... CodeJam/2019/1-Foregone.o"
+	@echo "... CodeJam/2019/1-Foregone.i"
+	@echo "... CodeJam/2019/1-Foregone.s"
+	@echo "... LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.o"
+	@echo "... LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.i"
+	@echo "... LeetCode/105._Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.s"
+	@echo "... LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.o"
+	@echo "... LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.i"
+	@echo "... LeetCode/106._Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.s"
+	@echo "... LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.o"
+	@echo "... LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.i"
+	@echo "... LeetCode/889._Construct_Binary_Tree_from_Preorder_and_Postorder_Traversal.s"
 .PHONY : help
 
 

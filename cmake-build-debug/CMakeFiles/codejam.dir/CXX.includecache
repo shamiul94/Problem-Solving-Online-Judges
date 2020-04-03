@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/heisenberg/Programming/Problem-Solving-Online-Judges/CodeJam/2019/1-Foregone.cpp
+bits/stdc++.h
+-
+

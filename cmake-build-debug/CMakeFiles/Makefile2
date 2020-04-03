@@ -53,12 +53,12 @@ CMAKE_BINARY_DIR = /home/heisenberg/Programming/Problem-Solving-Online-Judges/cm
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/leet.dir/all
+all: CMakeFiles/codejam.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/leet.dir/clean
+clean: CMakeFiles/codejam.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/leet.dir
+# Target rules for target CMakeFiles/codejam.dir
 
 # All Build rule for target.
-CMakeFiles/leet.dir/all:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/depend
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target leet"
-.PHONY : CMakeFiles/leet.dir/all
+CMakeFiles/codejam.dir/all:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/depend
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target codejam"
+.PHONY : CMakeFiles/codejam.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/leet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/leet.dir/all
+CMakeFiles/codejam.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/codejam.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/leet.dir/rule
+.PHONY : CMakeFiles/codejam.dir/rule
 
 # Convenience name for target.
-leet: CMakeFiles/leet.dir/rule
+codejam: CMakeFiles/codejam.dir/rule
 
-.PHONY : leet
+.PHONY : codejam
 
 # clean rule for target.
-CMakeFiles/leet.dir/clean:
-	$(MAKE) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/clean
-.PHONY : CMakeFiles/leet.dir/clean
+CMakeFiles/codejam.dir/clean:
+	$(MAKE) -f CMakeFiles/codejam.dir/build.make CMakeFiles/codejam.dir/clean
+.PHONY : CMakeFiles/codejam.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

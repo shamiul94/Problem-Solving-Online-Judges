@@ -26,7 +26,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ProblemSolving" targetName="leet" />
+      <config projectName="ProblemSolving" targetName="codejam" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -38,7 +38,10 @@
     <list default="true" id="665ae0f6-423c-4285-bb31-aafec5cc4bb8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/797. All Paths From Source to Target.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/797. All Paths From Source to Target.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leet.dir/cmake_clean.cmake" afterDir="false" />
@@ -86,22 +89,23 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="CMake Application.leet">
+  <component name="RunManager" selected="CMake Application.codejam">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="leet" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leet" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProblemSolving" TARGET_NAME="leet" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="leet">
+    <configuration name="codejam" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProblemSolving" TARGET_NAME="codejam" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProblemSolving" RUN_TARGET_NAME="codejam">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="CMake Application.Build All" />
-      <item itemvalue="CMake Application.leet" />
+      <item itemvalue="CMake Application.codejam" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -145,7 +149,8 @@
       <workItem from="1585498226683" duration="12592000" />
       <workItem from="1585583717849" duration="1226000" />
       <workItem from="1585589220828" duration="4157000" />
-      <workItem from="1585599562220" duration="6216000" />
+      <workItem from="1585599562220" duration="9079000" />
+      <workItem from="1585682021000" duration="15767000" />
     </task>
     <servers />
   </component>
@@ -174,22 +179,22 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="176" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1584701895048" />
-    <state width="1250" height="83" key="GridCell.Tab.0.bottom" timestamp="1585567080853">
+    <state width="453" height="538" key="GridCell.Tab.0.bottom" timestamp="1585867720637">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="83" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1585567080853" />
-    <state width="1250" height="83" key="GridCell.Tab.0.center" timestamp="1585567080853">
+    <state width="453" height="538" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1585867720637" />
+    <state width="453" height="538" key="GridCell.Tab.0.center" timestamp="1585867720637">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="83" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1585567080853" />
-    <state width="1250" height="83" key="GridCell.Tab.0.left" timestamp="1585567080852">
+    <state width="453" height="538" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1585867720637" />
+    <state width="453" height="538" key="GridCell.Tab.0.left" timestamp="1585867720636">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="83" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1585567080852" />
-    <state width="1250" height="83" key="GridCell.Tab.0.right" timestamp="1585567080853">
+    <state width="453" height="538" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1585867720636" />
+    <state width="453" height="538" key="GridCell.Tab.0.right" timestamp="1585867720637">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="83" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1585567080853" />
+    <state width="453" height="538" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1585867720637" />
     <state width="1250" height="83" key="GridCell.Tab.1.bottom" timestamp="1585567080855">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
@@ -210,9 +215,13 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="207" y="31" width="1022" height="737" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1584652129299" />
-    <state x="382" y="174" key="run.anything.popup" timestamp="1585584227796">
+    <state x="382" y="174" key="run.anything.popup" timestamp="1585686732645">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="382" y="174" key="run.anything.popup/70.27.1296.741@70.27.1296.741" timestamp="1585584227796" />
+    <state x="382" y="174" key="run.anything.popup/70.27.1296.741@70.27.1296.741" timestamp="1585686732645" />
+    <state x="381" y="89" key="search.everywhere.popup" timestamp="1585868954259">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="381" y="89" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1585868954259" />
   </component>
 </project>
