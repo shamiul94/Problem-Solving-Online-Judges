@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/leet2.dir/LeetCode/1129._Shortest_Path_with_Alternating_Colors.cpp.o  -o leet2 

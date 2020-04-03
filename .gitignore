@@ -28,3 +28,6 @@
 *.app
 
 Offline/*
+.idea
+CMakeLists.txt
+cmake-build-debug

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/tsttrr.dir/Testing/testin2.cpp.o  -o tsttrr 

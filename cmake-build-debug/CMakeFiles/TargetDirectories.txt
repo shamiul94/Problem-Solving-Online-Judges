@@ -1,3 +1,0 @@
-/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles/codejam.dir
-/home/heisenberg/Programming/Problem-Solving-Online-Judges/cmake-build-debug/CMakeFiles/edit_cache.dir
