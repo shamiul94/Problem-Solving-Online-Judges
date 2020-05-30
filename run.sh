@@ -1,5 +1,6 @@
 file="Codechef/Impressing Chefina.cpp"
 g++ -W -Wall -pedantic -o running.o -p "$file"
+# g++ -o running.o "$file"
 ./running.o
 # rm -rf running.o
 
