@@ -27,6 +27,7 @@
 *.out
 *.app
 
+pdfs-lists/
 Offline/*
 .idea
 CMakeLists.txt

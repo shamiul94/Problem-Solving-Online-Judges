@@ -1,4 +1,5 @@
-file="Codechef/Impressing Chefina.cpp"
+# file="Codechef/Impressing Chefina.cpp"
+file="Codechef/Roads in Chefland.cpp"
 g++ -W -Wall -pedantic -o running.o -p "$file"
 # g++ -o running.o "$file"
 ./running.o

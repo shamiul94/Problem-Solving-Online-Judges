@@ -69,7 +69,7 @@ void rearrange(vector<vector<int>> &matrix, vector<vector<int>> &ans, unordered_
 
 int main()
 {
-    fi;
+    // fi;
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
