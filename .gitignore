@@ -34,3 +34,5 @@ CMakeLists.txt
 cmake-build-debug
 */venv
 */.idea
+.vscode
+Codechef/June Long Challenge

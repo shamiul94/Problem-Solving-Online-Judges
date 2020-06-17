@@ -1,5 +1,6 @@
+rm -rf running.o
 # file="Codechef/Impressing Chefina.cpp"
-file="Codechef/Roads in Chefland.cpp"
+file="Codechef/June Long Challenge/Operations on a Tuple.cpp"
 g++ -W -Wall -pedantic -o running.o -p "$file"
 # g++ -o running.o "$file"
 ./running.o
