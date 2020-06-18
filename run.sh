@@ -1,6 +1,6 @@
 rm -rf running.o
 # file="Codechef/Impressing Chefina.cpp"
-file="Codechef/June Long Challenge/Operations on a Tuple.cpp"
+file="LeetCode/84. Largest Rectangle in Histogram.cpp"
 g++ -W -Wall -pedantic -o running.o -p "$file"
 # g++ -o running.o "$file"
 ./running.o
