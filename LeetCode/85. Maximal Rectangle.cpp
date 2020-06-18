@@ -9,7 +9,7 @@ using namespace std;
 class Solution {
 public:
     // stack solution
-    int solveHistogram(vector<int> &heights) {
+    int solveHistogram1(vector<int> &heights) {
         int n = heights.size();
 
         int maxArea = 0;
@@ -44,8 +44,59 @@ public:
         return maxArea;
     }
 
+    // DP solution
+    int solveHistogram(vector<int> &heights) {
+        int maxArea = 0;
+        int n = heights.size();
+        vector<int> left(n);
+
+
+        left[0] = -1;
+        for (int i = 1; i < n; i++) {
+            int curr = i;
+            int prev = i - 1;
+
+            if (heights[curr] > heights[prev]) {
+                left[curr] = prev;
+                continue;
+            }
+            // if(heights[curr] <= heights[prev])
+            while (prev >= 0 && heights[curr] <= heights[prev]) {
+                prev = left[prev];
+            }
+            left[curr] = prev;
+        }
+
+        vector<int> right(n);
+        right[n - 1] = n;
+        for (int i = n - 2; i >= 0; i--) {
+            int curr = i;
+            int next = i + 1;
+
+            if (heights[curr] > heights[next]) {
+                right[curr] = next;
+                continue;
+            }
+
+            while (next <= n - 1 && heights[curr] <= heights[next]) {
+                next = right[next];
+            }
+
+            right[curr] = next;
+        }
+
+
+
+        for (int i = 0; i < n; i++) {
+            int area = heights[i] * (right[i] - left[i] - 1);
+            maxArea = max(area, maxArea);
+        }
+        return maxArea;
+    }
+
+
     int maximalRectangle(vector<vector<char>> &matrix) {
-        if(matrix.empty()) return 0;
+        if (matrix.empty()) return 0;
         vector<int> heights(matrix[0].size(), 0);
         int maxArea = 0;
         for (int i = 0; i < matrix.size(); i++) {
