@@ -72,11 +72,20 @@ ll BigMod(ll B, ll P, ll M) {
     return R;
 }
 
-void printVec(vector<char> vec) {
+void printVec(vector<char> &vec) {
     for (int i = 0; i < vec.size(); i++) {
         cout << vec[i] << " ";
     }
     cout << endl;
+}
+
+void printMatrix(vector<vector<int>> &vec) {
+    for (int i = 0; i < vec.size(); i++) {
+        for (int j = 0; j < vec[i].size(); j++) {
+            cout << vec[i][j] << " ";
+        }
+        cout << endl;
+    }
 }
 
 ll Set(ll N, ll pos) {
