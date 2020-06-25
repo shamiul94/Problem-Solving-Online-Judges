@@ -52,17 +52,16 @@ public:
 
 // DP solution
 
-
 // stack based
 class Solution {
 public:
     int largestRectangleArea(vector<int> &heights) {
-        if (heights.empty()) return 0;
+        if (heights.empty())
+            return 0;
         int n = heights.size();
 
         vector<int> left(n);
         left[0] = -1;
-
 
         for (int i = 1; i < n; i++) {
             // cout << "hi" << endl;
@@ -72,15 +71,16 @@ public:
             if (heights[curr] <= heights[prev]) {
                 while (true) {
                     prev = left[prev];
-                    if (prev == -1) break;
-                    if (heights[curr] > heights[prev]) break;
+                    if (prev == -1)
+                        break;
+                    if (heights[curr] > heights[prev])
+                        break;
                 }
                 left[curr] = prev;
             } else {
                 left[curr] = prev;
             }
         }
-
 
         vector<int> right(n);
         right[n - 1] = n;
@@ -91,7 +91,8 @@ public:
             if (heights[curr] <= heights[next]) {
                 while (true) {
                     next = right[next];
-                    if (next == n) break;
+                    if (next == n)
+                        break;
                     if (heights[curr] > heights[next]) {
                         break;
                     }
@@ -102,14 +103,14 @@ public:
             }
         }
 
-//        for (int i = 0; i < n; i++) {
-//            cout << left[i] << " ";
-//        }
-//        cout << endl;
-//        for (int i = 0; i < n; i++) {
-//            cout << right[i] << " ";
-//        }
-//        cout << endl;
+        //        for (int i = 0; i < n; i++) {
+        //            cout << left[i] << " ";
+        //        }
+        //        cout << endl;
+        //        for (int i = 0; i < n; i++) {
+        //            cout << right[i] << " ";
+        //        }
+        //        cout << endl;
 
         int maxArea = 0;
         for (int i = 0; i < n; i++) {
@@ -121,8 +122,8 @@ public:
 };
 
 int main() {
-    vector<int> v{2,1,5,6,2,3};
+    vector<int> v{2, 1, 5, 6, 2, 3};
     Solution s;
-    cout <<  s.largestRectangleArea(v) << endl;
+    cout << s.largestRectangleArea(v) << endl;
     return 0;
 }
