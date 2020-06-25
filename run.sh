@@ -1,8 +1,8 @@
 rm -rf running.o
 # file="Codechef/Impressing Chefina.cpp"
-file="LeetCode/84. Largest Rectangle in Histogram.cpp"
-g++ -W -Wall -pedantic -o running.o -p "$file"
-# g++ -o running.o "$file"
+file="LeetCode/279. Perfect Squares.cpp"
+# g++ -W -Wall -pedantic -o running.o -p "$file"
+g++ -o running.o "$file"
 ./running.o
 # rm -rf running.o
 
