@@ -1,6 +1,6 @@
 rm -rf running.o
 # file="Codechef/Impressing Chefina.cpp"
-file="LeetCode/75. Sort Colors.cpp"
+file="LeetCode/79. Word Search.cpp"
 # g++ -W -Wall -pedantic -o running.o -p "$file"
 g++ -o running.o "$file"
 ./running.o
