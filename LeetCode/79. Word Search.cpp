@@ -15,6 +15,7 @@ public:
 
         if (i < 0 || i >= n || j < 0 || j >= m) return false;
 
+        // I am using this matrix itself to keep track of the visited cells to avoid using extra space.
         if (board[i][j] == '#') return false;
 
         if (board[i][j] != word[idx]) return false;
