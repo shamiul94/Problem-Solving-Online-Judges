@@ -11,8 +11,7 @@ struct ListNode {
 // Time: O(n*m), Space: O(u)
 
 class Solution {
-
-    int vectorIdx;
+    int vectorIdx;      // which unique element we are checking now
     int currentCounter; // how many of the current unique number has been covered till now.
     // Space: O(u)
     vector<pair<int, int>> v;
@@ -99,6 +98,6 @@ public:
             return tem.first;
         }
 
-        // currentCounter > tem.second is not possible as currentcounter is set to 0 once it equals to the count value. 
+        // currentCounter > tem.second is not possible as currentcounter is set to 0 once it equals to the count value.
     }
 };
