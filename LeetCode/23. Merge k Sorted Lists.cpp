@@ -37,7 +37,7 @@ public:
         // Space: O(u)
         vector<pair<int, int>> v;
 
-        // O(u) : u = unique element aong all lists.
+        // O(u) : u = unique element among all lists.
         for (it = um.begin(); it != um.end(); it++) {
             v.push_back(make_pair(it->first, it->second));
         }
