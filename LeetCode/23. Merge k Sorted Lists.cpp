@@ -8,11 +8,61 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
+////////////////////// Merge Sort Based //////////////////////////////
+
+
+class Solution {
+public:
+    ListNode *mergeKLists(vector<ListNode *> &lists) {
+        
+    }
+};
+
+
+
+
+/////////////////////// Priority Queue based - not too good either. (25%, 25%)///////////////////////
+
+struct compare {
+    bool operator()(const ListNode *l1, const ListNode *l2) {
+        return l1->val > l2->val;
+    }
+};
+
+class Solution3 {
+public:
+    ListNode *mergeKLists(vector<ListNode *> &lists) {
+        priority_queue<ListNode *, vector<ListNode *>, compare> pq;
+
+        for (int i = 0; i < lists.size(); i++) {
+            if (lists[i]) {
+                pq.push(lists[i]);
+            }
+        }
+
+        ListNode *ans = new ListNode(0);
+        ListNode *ret = ans;
+        while (!pq.empty()) {
+            ListNode *top = pq.top();
+            pq.pop();
+            cout << top->val << endl;
+            ans->next = new ListNode(top->val);
+            ans = ans->next;
+            // cout << ans->val << endl;
+            if (top->next) {
+                pq.push(top->next);
+            }
+        }
+
+        return ret->next;
+    }
+};
+
 //////////////////// Map based - Time 67%, Memory 9% //////////////////////////
 
 // Time: O(n*m), Space: O(u)
 
-class Solution {
+class Solution2 {
 public:
     ListNode *mergeKLists(vector<ListNode *> &lists) {
         // space: O(u): u = unique numbers
