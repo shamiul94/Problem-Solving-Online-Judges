@@ -10,16 +10,47 @@ struct ListNode {
 
 ////////////////////// Merge Sort Based //////////////////////////////
 
+/*
+
+1-2-3-4
+2-3-4
+
+1-6
+1-5-9
+
+*/
 
 class Solution {
 public:
+    ListNode *merge2lists(ListNode *l1, ListNode *l2) {
+        if (l1 == NULL) return l2;
+        if (l2 == NULL) return l1;
+
+        if (l1->val <= l2->val) {
+            l1->next = merge2lists(l1->next, l2);
+            return l1;
+        } else {
+            l2->next = merge2lists(l1, l2->next);
+            return l2;
+        }
+    }
+
+    ListNode *mergeSort(vector<ListNode *> &lists, int l, int r) {
+
+        if (l == r) return lists[l];
+        if (l > r) return NULL;
+
+        int mid = l + (r - l) / 2;
+        ListNode *left = mergeSort(lists, l, mid);
+        ListNode *right = mergeSort(lists, mid + 1, r);
+
+        return merge2lists(left, right);
+    }
+
     ListNode *mergeKLists(vector<ListNode *> &lists) {
-        
+        return mergeSort(lists, 0, lists.size() - 1);
     }
 };
-
-
-
 
 /////////////////////// Priority Queue based - not too good either. (25%, 25%)///////////////////////
 
