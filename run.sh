@@ -1,6 +1,6 @@
 rm -rf running.o
 # file="Codechef/Impressing Chefina.cpp"
-file="Rohan/Basic.c"
+file="Rohan/prefix-postfix.c"
 # g++ -W -Wall -pedantic -o running.o -p "$file"
 # g++ -o running.o "$file"
 gcc -o running.o "$file"
