@@ -20,7 +20,7 @@ vector<int> findDuplicates(const vector<int> &arr1, const vector<int> &arr2) {
 
     //
     //
-    // space - O(commonNums)
+    // space - O(commonNums) - O(min(M,N))
     // O(max(M,N))
     while (i <= M - 1 && j <= N - 1) {
         if (arr1[i] < arr2[j]) {
