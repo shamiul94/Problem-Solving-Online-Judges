@@ -8,8 +8,24 @@ using namespace std;
 
 class Solution {
 public:
+    bool canJump(vector<int>& nums) {
+        int farthestReach = 0; 
+        for(int i = 0 ; i < nums.size(); i++){
+            if(i > farthestReach) {
+                return false; 
+            }
+            farthestReach = max(farthestReach, i + nums[i]); 
+        }
+        return true; 
+    }
+};
+
+
+// TLE
+class Solution1 {
+public:
     bool solve(vector<int> &nums, vector<int> &dp, int idx) {
-        if (idx >= nums.size() - 1) {
+        if (idx >= (nums.size() - 1)) {
             return true;
         }
         if (dp[idx] != -1) return dp[idx];

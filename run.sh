@@ -1,9 +1,9 @@
 rm -rf running.o
-# file="Codechef/Impressing Chefina.cpp"
-file="Rohan/prefix-postfix.c"
-# g++ -W -Wall -pedantic -o running.o -p "$file"
+file="LeetCode/55. Jump Game.cpp"
+# file="Rohan/prefix-postfix.c"
+g++ -W -Wall -pedantic -o running.o -p "$file"
 # g++ -o running.o "$file"
-gcc -o running.o "$file"
+# gcc -o running.o "$file"
 ./running.o
 # rm -rf running.o
 
