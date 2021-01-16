@@ -2,6 +2,17 @@
 
 using namespace std;
 
+/*
+ *
+1. First, you have to know how you can format it into a DP problem. This playlist helped me understand 'PARTITION IN SUBSETS HAVING GIVEN DIFFERENCE'
+2. Once you understand this, this becomes  simple knapsack. I was very familiar with recursive dp. I also implemented here the iterative one. LOOK VERY CAREFULLY IN THE ITERTATIVE SOLUTION.
+3. DRAW THE DP TABLE AND UNDERSTAND Memory can be optimized from O(m*n) to O(2*n) to O(1*n).
+ This space reduction is explained very well in this comment -
+ https://leetcode.com/problems/partition-equal-subset-sum/discuss/1018225/Reducing-Memory-Space-Order-in-DP .
+ I have also explanied it here - https://leetcode.com/problems/partition-equal-subset-sum/discuss/1018225/reducing-memory-space-order-in-dp .
+ */
+
+
 // memory further optimized - O(1*n) dp memory
 class Solution {
 public:
