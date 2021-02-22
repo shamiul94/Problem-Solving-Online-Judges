@@ -125,6 +125,10 @@ public:
             So, it doesn't matter actually if it's negative or not because you are either calculating s1 or s2. 
         */
 
+        // this line is needed because the sum is bound to be within 1000 as specified in the description
+        // array sum can't be less than the difference of 2 subsets for non-negative integers.  
+        // so, you will get tle if diff = 100000000000000 but sum <= 1000.
+         
         if (S > sum)
             return 0;
 
