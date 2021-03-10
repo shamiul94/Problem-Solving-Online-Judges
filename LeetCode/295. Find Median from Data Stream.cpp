@@ -1,6 +1,45 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+
+// 90%, 90% 
+
+class MedianFinder {
+public:
+    /** initialize your data structure here. */
+    priority_queue<int> smaller_half; // max heap     
+    priority_queue<int, vector<int>, greater<int>> larger_half; // min heap  
+
+    MedianFinder() {
+        
+    }
+    
+    void addNum(int num) {
+        smaller_half.push(num); 
+        larger_half.push(smaller_half.top()); 
+        smaller_half.pop(); 
+        
+        if(smaller_half.size() < larger_half.size()){
+            smaller_half.push(larger_half.top()); 
+            larger_half.pop(); 
+        }
+    }
+    
+    double findMedian() {
+        double ans; 
+        if((larger_half.size() + smaller_half.size()) % 2 == 0){
+            ans = (larger_half.top() + smaller_half.top()) / 2.0; 
+        } else {
+            ans = smaller_half.top(); 
+        }
+        return ans; 
+    }
+};
+
+
+
+// 5%, 8% 
 class MedianFinder {
     multiset<double> ms;
 public:
