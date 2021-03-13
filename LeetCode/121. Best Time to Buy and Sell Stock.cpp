@@ -23,6 +23,19 @@ public:
 ////////////////////
 
 // kadane's algorithm
+
+/*
+b3 = a3 - a2
+b4 = a4 - a3
+b5 = a5 - a4
+b6 = a6 - a5
+
+b3 + b4 + b5 + b6 = a6 - a2
+
+a6 - a2 is the required solution.
+so we need to find the largest sub array sum to get the most profit
+
+*/
 class Solution2
 {
 public:
