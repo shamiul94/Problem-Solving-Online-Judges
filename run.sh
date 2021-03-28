@@ -1,5 +1,6 @@
 rm -rf running.o
-file="LeetCode/55. Jump Game.cpp"
+file="Bkash Interview/problem1.cpp"
+
 # file="Rohan/prefix-postfix.c"
 g++ -W -Wall -pedantic -o running.o -p "$file"
 # g++ -o running.o "$file"
