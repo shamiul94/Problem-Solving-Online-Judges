@@ -1,3 +1,29 @@
+// without long 
+
+// gives warning as there is an overflow
+class Solution {
+public:
+    int reverse(int x) {
+        int ans = 0 ; 
+
+        while(x){
+            int tem = ans * 10 + x % 10; 
+            
+            if(tem / 10 != ans) return 0; 
+            
+            ans = tem; 
+            x = x / 10; 
+        }
+
+        // cout << ans << endl; 
+        return ans; 
+    }
+};
+
+
+//// with long 
+
+
 class Solution {
 public:
     int reverse(int x) {
