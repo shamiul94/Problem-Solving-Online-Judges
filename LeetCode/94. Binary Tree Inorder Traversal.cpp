@@ -15,7 +15,32 @@
 
 using namespace std;
 
+
 class Solution {
+public:
+    
+    void getInOrderTraversal(TreeNode* root, vector<int> &inOrderNodeList){
+        if(root == NULL) return; 
+        
+        getInOrderTraversal(root -> left, inOrderNodeList);
+        inOrderNodeList.push_back(root->val); 
+        getInOrderTraversal(root -> right, inOrderNodeList); 
+    }
+    
+    
+    vector<int> inorderTraversal(TreeNode* root) {
+        vector<int> inOrderNodeList; 
+        
+        getInOrderTraversal(root, inOrderNodeList);
+        
+        return inOrderNodeList;
+    }
+};
+
+///////////
+
+
+class Solution2 {
 public:
     vector<int> inorderTraversalRecursive(TreeNode *root) {
         vector<int> ret;
