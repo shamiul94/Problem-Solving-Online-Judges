@@ -45,3 +45,42 @@ public:
         return nums[k - 1];
     }
 };
+
+
+class Solution2 {
+public:
+    
+    int partitionAndGetPivotIndex(vector<int>& nums, int lo, int hi) {
+        
+        int pivot = nums[hi];
+        
+        int i = lo; 
+        
+        for (int j = lo; j <= hi - 1 ; j++) {
+            if(nums[j] > pivot) {
+                swap(nums[i], nums[j]);
+                i++;
+            }
+        }
+        
+        swap(nums[i], nums[hi]);
+        return i;
+        
+    }
+    
+    int quickSelect(vector<int>& nums, int k, int lo, int hi) {
+        if(lo == hi) return nums[hi];
+        int pivot = partitionAndGetPivotIndex(nums, lo, hi);
+        
+        if(pivot == k) return nums[k];
+        
+        if(k < pivot) return quickSelect(nums, k, lo, pivot-1);
+        else return quickSelect(nums, k, pivot+1, hi);
+    }
+    
+    int findKthLargest(vector<int>& nums, int k) {
+        int x = quickSelect(nums, k-1, 0, nums.size()-1);
+        return x; 
+    }
+};
+
