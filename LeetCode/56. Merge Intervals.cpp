@@ -62,3 +62,115 @@ public:
         return ans;
     }
 };
+
+
+// class Comparator{
+//     public: 
+//         bool operator() (vector<int> &v1, vector<int> &v2) {
+//             return v1[1] < v2[1]; // max heap 
+//         }  
+// };
+
+
+class VectorComparator {
+    public: 
+    bool operator() (vector<int> &v1, vector<int> &v2) {
+        return v1[0] < v2[0]; // ascending sort - 1,2,3,4...
+    }  
+};
+
+
+class Solution {
+public:
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        if(intervals.size() == 0) return vector<vector<int>> (); 
+                
+        sort(intervals.begin(), intervals.end(), VectorComparator()); 
+        
+        
+        vector<vector<int>> result; 
+        vector<int> mergedInterval(2); 
+        
+        vector<int> prevInterval = intervals[0];
+        
+        for(int i = 1; i < intervals.size(); i++) {
+            vector<int> currInterval = intervals[i]; 
+            
+            
+            if(prevInterval[1] > currInterval[1]) {
+                mergedInterval[0] = prevInterval[0]; 
+                mergedInterval[1] = prevInterval[1]; 
+                
+                prevInterval = mergedInterval;
+                
+                continue; 
+            } else if(prevInterval[1] <= currInterval[1] && prevInterval[1] >= currInterval[0]) {
+                mergedInterval[0] = prevInterval[0]; 
+                mergedInterval[1] = currInterval[1]; 
+                
+                prevInterval = mergedInterval;
+                
+                continue; 
+            }
+            
+            result.push_back(prevInterval);
+            prevInterval = currInterval; 
+        }
+        
+        result.push_back(prevInterval);
+        
+        
+        return result; 
+    }
+};
+
+
+
+class Solution2 {
+public:
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        if(intervals.size() == 0) return vector<vector<int>> (); 
+        
+        priority_queue<vector<int>, vector<vector<int>>> pq; 
+        
+        sort(intervals.begin(), intervals.end(), VectorComparator()); 
+        
+        pq.push(intervals[0]); 
+        
+        for(int i = 1; i < intervals.size(); i++) {
+            vector<int> currInterval = intervals[i]; 
+            
+            vector<int> currTop = pq.top(); 
+            
+            vector<int> mergedInterval(2); 
+            
+            if(currTop[1] > currInterval[1]) {
+                mergedInterval[0] = currTop[0]; 
+                mergedInterval[1] = currTop[1]; 
+                pq.pop(); 
+                pq.push(mergedInterval); 
+                
+                continue; 
+            } else if(currTop[1] <= currInterval[1] && currTop[1] >= currInterval[0]) {
+                mergedInterval[0] = currTop[0]; 
+                mergedInterval[1] = currInterval[1]; 
+                pq.pop(); 
+                pq.push(mergedInterval); 
+                
+                continue; 
+            }
+            
+            
+            pq.push(currInterval); 
+        }
+        
+        vector<vector<int>> result; 
+        
+        while(!pq.empty()) {
+            result.push_back(pq.top()); 
+            pq.pop(); 
+        }
+        
+        return result; 
+    }
+};
