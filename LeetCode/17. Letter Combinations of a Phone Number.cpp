@@ -1,5 +1,49 @@
 class Solution {
 public:
+    
+    void backtrack(string &digits, int idx, vector<string> &letters, string &currStr, vector<string> &result) {
+        if(idx == digits.size()) {
+            // cout << "hi" << endl;
+            result.push_back(currStr);
+            return;
+        }
+        
+        int currDigit = digits[idx] - '0'; 
+        
+        string currentNumberLetters = letters[currDigit]; 
+        
+        // cout << currDigit << " " << currentNumberLetters << endl; 
+        
+        for(int i = 0; i < currentNumberLetters.size(); i++) {
+            currStr += currentNumberLetters[i]; 
+            // cout << currStr << " " << idx << endl; 
+            backtrack(digits, idx+1, letters, currStr, result); 
+            currStr.pop_back(); 
+        }
+    }
+    
+    vector<string> letterCombinations(string digits) {
+        
+        if(digits.size() == 0) return vector<string> ();
+        
+        vector<string> letters = {"#", "#","abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+        
+        vector<string> result; 
+        
+        
+        
+        string currStr = "";
+        
+        backtrack(digits, 0, letters, currStr, result);
+        
+        return result;
+    }
+};
+
+
+
+class Solution2 {
+public:
 
     void solve(vector <string> &ans, vector <string> &map, string &digits, string &curr, int idx) {
         if (idx >= digits.length()) {
