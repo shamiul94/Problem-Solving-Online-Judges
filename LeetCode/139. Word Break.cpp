@@ -1,3 +1,30 @@
+class Solution {
+public:
+    
+    int solve(string s, unordered_set<string> &wordSet, int idx, vector<int> &dp) {
+        
+        if(idx == s.length()) return 1; 
+        
+        if(dp[idx] != -1) return dp[idx];
+        
+        for(int i = idx; i < s.length(); i++) {
+            string subStr = s.substr(idx, i - idx + 1); 
+            
+            if(wordSet.find(subStr) != wordSet.end() && solve(s, wordSet, i + 1, dp)) {
+                return dp[idx] = 1;
+            }
+        }
+        return dp[idx] = 0;
+    }
+    
+    bool wordBreak(string s, vector<string>& wordDict) {
+        unordered_set<string> wordSet(wordDict.begin(), wordDict.end()); 
+        vector<int> dp(s.length(), -1);
+        
+        return solve(s, wordSet, 0, dp);  
+    }
+};
+
 
 class Solution {
 public:
